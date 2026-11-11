@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Local script output (regenerated, never committed)
+tools/cache/
+tools/dist/
+reports/
+
+# Full-size original images (only the resized WebP versions are committed)
+images/originals/
+
+# Editor and OS leftovers
+.idea/
+Thumbs.db
