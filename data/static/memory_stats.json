@@ -1,0 +1,2837 @@
+{
+  "Caleb: Borrowed Promise": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Burnline": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Chasing Summer": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Clearday Return": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Clearwind Glide": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Critical Strike": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Caleb: Deceptive Solitude": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Distant Dreams": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Duskshard Dreams": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Caleb: Duskshard Lotus": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Caleb: Endless Summer": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Exclusive Aftertaste": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Farewell Dreamscape": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Caleb: Farewell Intimacy": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Caleb: Farspace Bloomfall": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Caleb: Farspace Deprivation": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Caleb: Floating Floraletter": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Held Orchard": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Hidden Waves": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: His Gravity": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Imperial Thronesong": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Indulgent Scheme": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Intertwined Gold": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Literary Immersion": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Loneroad Together": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Caleb: Loneroad Unreturned": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Caleb: Longtime Moments": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Caleb: Longtime Yesterday": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Caleb: Lotus Bond": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Maximum Energy": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Nether Parting": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Caleb: Nether Yearning": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Caleb: No-Return Night": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Painful Signal": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Passionate Overload": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Perfect Apple": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Caleb: Skyline": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Spotlit Gaze": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Stage Observer": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Stay In Touch": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Summer's Echo": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Tainted Cuts": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: The Termination": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Up Close": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Verdant Wetlands": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Verified Rumor": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Vinesurge Instinct": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Wayward Wonderland": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Yearly Nostalgia": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Afternoon Arclight": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Backlight": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Banquet Ablaze": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Before Sunrise": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Bloom Gaze": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1.0",
+    "baseCritDamage": ""
+  },
+  "Rafayel: Blossoms": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Boundless Seas": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Carved Gemheart": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Cherished Moment": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Come With Me": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Rafayel: Dangerously Close": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Dawn's Melody": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Daybreak's Touch": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Deep Sea Promise": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Rafayel: Deep Sea Riches": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Rafayel: Destined Dawntide": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Distant Prayer": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Do Not Disturb": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Duskbright Steps": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Entwined": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Eventide Recitative": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Extreme Dose": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Fiery Undercurrents": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Fires of Devotion": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Fireworks Vow": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Floral Promise": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Flowery Words": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Fragrant Dream": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Gem Affection": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Glistening Hearts": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Heartfelt Game": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Heartfelt Moment": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Hearty Knock": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Heatwave Torrent": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Hidden Shadow": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Homecoming Sonata": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Ignited Echoes": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: In Your Eyes": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Inspiration Search": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Rafayel: Intertidal Zone": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Into The Canvas": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Invitation": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Rafayel: Ivory Nightfall": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Journey Seeker": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Lame Party": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Rafayel: Left On Read": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Lost In Your Eyes": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Love's Silhouette": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Mistsea Descent": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Rafayel: Mistsea Lament": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Rafayel: Myths": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Not Angry": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Rafayel: Ocean At Night": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Oceanic Nightfall": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Oceanside Exchange": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Omnipotent Perception": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Perfect Smile": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Rafayel: Private Trip": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Promised Wildfire": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Quick Sketch": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Radiant Halo": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Radiant Heart": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Rainbow Strokes": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Rippling Blossoms": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Rising Tides": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Sapphire Dream": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Sapphire Scar": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Scarlet Invitation": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Scorching Rain": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Secret": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Seething Flames": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Social Occasion": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Sparkling Traces": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Sunlit Raindrops": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Sunset on Canvas": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Sweet Overdrive": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Swimming Hearts": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Tailwag Moment": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Take Care Of Me": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Temple's Promise": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Rafayel: Temple's Sunset": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Rafayel: Thinking": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Tidefall Allure": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Tidefall Waves": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Tipsy": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Tipsy Invitation": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Transparent Ocean": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Troubled": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Trueheart Flip": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Trump Card": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Unforgettable Adventure": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Vesperine Glimmer": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Whalefall Lament": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Whatcha Doing": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: When Light Falls": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Whispers": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Wish Granted": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Wisteria Waltz": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Your Fragrance": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Abyssal Blossom": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Sylus: Abyssal Mark": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Sylus: Alternative Darkborne": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Approaching Dusk": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Awaiting": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Bloodnight Blaze": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Sylus: Bloodnight Drift": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Sylus: Captivating Flavor": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Sylus: Captivating Lesson": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Sylus: Chaotic Velocity": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Composed": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Continuous Symphony": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Crimson Departure": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Sylus: Crimson Rapture": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Sylus: Darkbound Souls": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Dry Ace": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Finale Undone": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Freefall Gambit": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Gifted Arrival": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Goodcat Code": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Grasped Dominion": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Grassland Romance": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Greedy Heart": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Gusty Rush": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Immobilized": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Improvised Flow": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: In Charge": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Sylus: Innocent Birdcage": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Ivory Prudence": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Sylus: Ivory Thirst": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Sylus: Just Encounter": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Sylus: Kitten Included": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Lost Oasis": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Lovespeed Ride": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Magnum Opus": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Melodic Weave": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: My Decision": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Night Of Secrecy": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Nightglow": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Nightplumes": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: No Defense Zone": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: No Way Out": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Ordinary Traces": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Passionate Appraisal": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Primordial Chaos": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Radiant Brilliance": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Rainlit Night": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Razor's Dance": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Sylus: Razor's Grip": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Sylus: Reckless Living": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Rosy Hues": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Satiated": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Searing Touch": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Shared Bliss": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Shared Lanterns": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Shoo-In": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Taking Control": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Tender Curve": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Valleydream Bloom": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Where Hearts Live": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Wild Gaze": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Within Reach": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: 21 Days": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: A Break": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Xavier: A Captured Moment": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: A Day Of Snow": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: About To Hit The Ball": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: An Appointment": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Apple Of My Eye": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Xavier: Ardent Threads": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Bad Idea": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Between Stars": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Blade": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Xavier: Blades with Blossoms": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Calls": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Celestial Message": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Celestial Yearn": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Close Feelings": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Combat Ready": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Coolsplash Soak": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Dawn To Dusk": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Deluded Fiction": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Dreaming": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Dreams Within Reach": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Energy Drink": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Enlightenment": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Eulogy of Light": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Faint Sensation": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Feverish Attempts": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Firelit Embrace": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Floof Attack": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Floral Blessing": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Fluffy Trap": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Fragment Of Time": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Galactic Harmony": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Garden Of Secrets": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Gaze": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Xavier: Gilded Dreams": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Gilded Mirage": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Good Morning": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Xavier: Guardian": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Heart-to-Heart": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Xavier: Heartfelt Code": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Heartfelt Guide": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Heartstring Symphony": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Holding Hands": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Horizon's Pulse": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Inflorescence Imprints": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Kind Words": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Lightseeking Obsession": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Xavier: Lightseeking Shadowrend": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Xavier: Listen": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Lost Signal": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Love Syndrome": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Midnight Rainfall": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Xavier: Midnight Whispers": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Xavier: Misty Silhouette": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Moment's Respite": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Moments Refined": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Nestle": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Nightvow Mooncurse": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Xavier: Nightvow Requiem": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Xavier: No Restraint": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Nocturnal Hunt": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Offbeat Track": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Outcast's Voyage": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Perfect Sunset": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Planned Crush": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Precious Bonfire": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Precious Moment": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Real Look": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Recall": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Reflection": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Romantic Afternoon": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Runaway Hearts": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Seeker Of Light": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Shimmering Sunlight": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Shining Light": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Shining Traces": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Silent Swipe": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Silvery Polyphony": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Spring Letter": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Starfall Sanctuary": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Starry Sound": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Starry Stroll": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Starry Witness": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Succumb": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Sunken Glow": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Sweetness Pursuit": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Tender Night": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: The Rain": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Tranquil Moments": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Twofold Heartbeat": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Unfading Wish": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Unique Aftertaste": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Unreturned Traveler": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Veiled Guardian": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Veiled Starlight": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Xavier: Warm Wishes": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Winter's Sun": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: 5th Intercostal Space": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: A Long Night": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Absolute Zeal": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Aeon's Canon": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Aromatic": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Auscultation": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Zayne: Beginning": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Blooming Hour": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Business Trip": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Chasing Silhouettes": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Checkup": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Zayne: Cherished Longing": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Chilling Crescendo": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Clean-Up": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Cozy Afternoon": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Crystal World": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Dawn and Devotion": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Dawn's Shadows": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Dawnbreak Promise": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Delicacy": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Demeanor": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Destiny": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Diviner's Hymn": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Zayne: Diviner's Stillness": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Zayne: Doctor's Orders": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Doomsday": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Dream Revisited": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Drunken Intimacy": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: End Of Depths": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Engraved Affection": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Entwined Kites": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Eternal Attachment": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Everlasting Snowdrop": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Everlasting Wish": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Exclusive Tutorial": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Fated Reunion": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Finale's Ache": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Finale's Perpetuity": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Fleeting Sweetness": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Fluffy Treatment": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Forest's Breeze": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Forest's Slumber": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Forever Sealed": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Zayne: Fragmented Dreams": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Fragrant Possession": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Frost Salvation": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Frozen Nightfall": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Gaze From Afar": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Gentle Twilight": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Glasses": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Glittering Lights": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Heart Within Reach": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Heartfelt Encounter": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Heartfelt Paradise": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Heartstring Healer": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Heartstring Notes": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Hidden Motive": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Holding Autumn": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Iceborn Warmth": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Immediate Disorder": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Injection Therapy": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Lingering Warmth": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Little World": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Zayne: Lost In Thought": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Medical Rescue": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Moonlit Dream": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Morning Drift": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Neon Night": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: No": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Zayne: Playing Around": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Zayne: Precious Treasure": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Promise Everlasting": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Zayne: Ramblings Come True": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Runaway Waves": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Secret Fairytale": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Secret's Kiss": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Secrets Of Fate": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Shining Blessing": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Silent Poem": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Silent Underflow": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Snowfall Embrace": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Zayne: Snowfall Encounter": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Zayne: Snowy Serenity": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Spring Remnants": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Stacked Pulses": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Starry Nocturne": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Steamy Proximity": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Surprise Encounter": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Sweet Burden": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Sweet Conspiracy": {
+    "baseHp": "1768",
+    "baseAtk": "80",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Thoughtful Words": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Thoughts": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "0",
+    "baseCritDamage": "2.1"
+  },
+  "Zayne: Tranquil Heart": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Tranquil Moment": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Zayne: Treasure In Palm": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Waiting": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Work Plan": {
+    "baseHp": "1008",
+    "baseAtk": "50",
+    "baseDef": "27",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  }
+}
