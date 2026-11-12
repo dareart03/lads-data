@@ -1,0 +1,233 @@
+{
+  "Caleb: Glistening Intent": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Oneiric Protocol": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Skyward Flair": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Spoils of Night": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Summer Surge": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Trajectory Astray": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Vivid Strokes": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Caleb: Your Skyblue": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Alluring Hues": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Autumn Caress": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Masked Dissolution": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Rafayel: Masked Radiance": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "0",
+    "baseCritDamage": "5.2"
+  },
+  "Rafayel: Nightly Overflow": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Skyflame Expanse": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Skyflame Reach": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "0",
+    "baseCritDamage": "3.4"
+  },
+  "Rafayel: Sunny Swing": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Rafayel: Synced Drowning": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Autumn Eyes": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Nightly Duet": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Paradox Vector": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Sylus: Tipping Point": {
+    "baseHp": "1608",
+    "baseAtk": "80",
+    "baseDef": "44",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Beachside Victory": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Bound by Starlight": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Favored Exception": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Light Chaser": {
+    "baseHp": "1108",
+    "baseAtk": "50",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Lingering Light": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Xavier: Program Fallacy": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Framed Dusk": {
+    "baseHp": "2640",
+    "baseAtk": "120",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Onward Now": {
+    "baseHp": "1008",
+    "baseAtk": "55",
+    "baseDef": "25",
+    "baseCritRate": "1",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Past Midnight": {
+    "baseHp": "2400",
+    "baseAtk": "120",
+    "baseDef": "66",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Shattered Simulacrum": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: When Embers Rise": {
+    "baseHp": "2400",
+    "baseAtk": "132",
+    "baseDef": "60",
+    "baseCritRate": "2.6",
+    "baseCritDamage": "0"
+  },
+  "Zayne: Your Voice": {
+    "baseHp": "1608",
+    "baseAtk": "88",
+    "baseDef": "40",
+    "baseCritRate": "1.7",
+    "baseCritDamage": "0"
+  }
+}
