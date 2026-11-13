@@ -1,61 +1,74 @@
-# Manual data
+# Ручные данные
 
-Files in this folder are edited by hand (or through pull requests).
-The scripts never change them. They only report entries that are no longer
-needed. JSON has no comments, so the formats are explained here.
+Файлы в этой папке редактируются вручную (или через pull request).
+Скрипты их никогда не меняют — они только сообщают, какие записи больше
+не нужны. В JSON нет комментариев, поэтому форматы описаны здесь.
 
-Keys are the **exact** names used on the wiki (`Character: Title` for cards).
+Ключи — **точные** названия с вики (для карт — `Персонаж: Название`).
 
 ## memories_overrides.json
-Corrections to a card the wiki already has. Any field listed here replaces the
-wiki value.
+Правки к карте, которая уже есть на вики. Любое поле здесь заменяет
+вики-значение.
 
     { "Caleb: His Gravity": { "stellactrumType": "Amber" } }
 
 ## memories_additions.json
-Cards the wiki does not have yet. `featuredCharacter` is required, everything
-else can be filled in later. Base stats go in `data/static/memory_stats.json`.
+Карты, которых на вики ещё нет. Обязателен только `featuredCharacter`,
+остальное можно дописать позже. Базовые статы — в `data/static/memory_stats.json`.
 
     { "Xavier: New Card": { "featuredCharacter": "Xavier", "rarity": "5" } }
 
-When the wiki gets the card, the merge report asks you to delete the entry.
+Когда вики догонит, merge-отчёт попросит удалить запись.
 
 ## banners_overrides.json
-Corrections to a banner the wiki already has, for example a missing list of
-featured cards.
+Правки к баннеру, который уже есть на вики, например недостающий список
+карт.
 
     { "Some Banner Rerun (2025)": { "featuredMemories": ["Xavier: Some Card"] } }
 
-## banners_additions.json (optional)
-Announced banners the wiki does not have yet. They get `"status": "announced"`.
+## banners_additions.json (необязательно)
+Анонсированные баннеры, которых на вики ещё нет. Получают
+`"status": "announced"`.
 
     { "Future Banner": { "kind": "limited", "startDate": "2026-12-01 05:00:00",
       "endDate": "2026-12-15 04:59:00", "featuredMemories": ["Xavier: Some Card"] } }
 
-## banner_aliases.json (optional)
-Older names of a banner, so saved pull records still find it.
+## banner_aliases.json (необязательно)
+Старые названия баннера, чтобы сохранённые записи pulls его находили.
 
     { "Destined Reunion Rerun (2025)": ["Destined Reunion Rerun"] }
 
+## events_additions.json (необязательно)
+События, которых на вики ещё нет (анонсированные). Получают
+`"status": "announced"`.
+
+    { "Future Event": { "kind": "login", "startDate": "2026-12-01 05:00:00",
+      "endDate": "2026-12-07 04:59:00" } }
+
+## events_overrides.json (необязательно)
+Правки к событию (применяются ко всем периодам повторяющегося события).
+
+    { "Hunting Season (Core Hunt)": { "tags": ["farm"] } }
+
 ## achievements_additions.json
-Achievements the wiki page does not list (yet). The key is the exact title.
-`category` is one of Progress, Training, Home, Spare Time, Kitty Cards, Plushies.
-Rewards can be written as a text `reward` ("Diamond|20, Title: Lucky Paw") or,
-like the wiki data, as a `rewards` list.
+Достижения, которых страница вики не показывает (пока). Ключ — точный
+текст достижения. `category` — одна из: Progress, Training, Home,
+Spare Time, Kitty Cards, Plushies. Награды можно записать текстом в `reward`
+("Diamond|20, Title: Lucky Paw") или, как в данных вики, списком `rewards`.
 
     { "Some Achievement": { "description": "Do something.", "category": "Spare Time",
       "hidden": false, "reward": "Diamond|20" } }
 
-When the wiki gets the achievement, the merge report asks you to delete the entry.
+Когда вики догонит, merge-отчёт попросит удалить запись.
 
 ## achievements_overrides.json
-Corrections to an achievement the wiki already lists. A field here replaces the
-wiki value. The title itself cannot be changed here; use an alias.
+Правки к достижению, которое вики уже показывает. Поле здесь заменяет
+вики-значение. Сам текст достижения так не изменить — используй алиасы.
 
     { "Some Achievement": { "description": "Corrected text." } }
 
 ## achievement_aliases.json
-Older titles of an achievement. Achievement ids are made from the title, so the
-app recomputes the old ids from these and keeps completed achievements.
+Старые тексты достижений. Id достижений строится от текста, поэтому
+приложение пересчитает старые id и сохранит уже выполненные достижения.
 
     { "Main Story Clear VIII": ["Under Deepspace Clear VIII / Clear VIII"] }
