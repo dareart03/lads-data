@@ -1,0 +1,67 @@
+name: Publish data API
+
+# Rebuilds tools/dist/ from the wiki and serves it as a static API
+# (see README.md, "Published format"). Pages must be enabled in the repo
+# settings (Build and deployment -> Source: GitHub Actions).
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23 5 * * *"   # every day at 05:23 UTC, after the wiki's daily update
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # The full pipeline (see README). Any step that finds a problem
+      # exits non-zero and stops the publish.
+      - name: Fetch and build data
+        run: |
+          python tools/fetch_raw.py
+          python tools/update_memories.py
+          python tools/update_banners.py
+          python tools/update_events.py
+          python tools/update_stats.py
+          python tools/update_achievements.py
+          python tools/merge.py
+          python tools/validate.py
+
+      - name: Download and pack images
+        run: |
+          python tools/update_images.py
+          python tools/pack_images.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: tools/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
