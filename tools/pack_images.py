@@ -1,9 +1,10 @@
 """Step 7: pack the WebP images and write the publish manifests.
 
-Scans images/cards/ and images/portraits/ and builds, in tools/dist/:
-    images.zip        all images, with cards/ and portraits/ folders
-    cards/, portraits/  the same images as loose files, so external apps
-                    can fetch one image by URL without unpacking the zip
+Scans images/cards/, images/portraits/ and images/events/ and builds, in
+tools/dist/:
+    images.zip        all images, with cards/, portraits/ and events/ folders
+    cards/, portraits/, events/  the same images as loose files, so external
+                    apps can fetch one image by URL without unpacking the zip
     images_meta.json  version, date and a size+hash list of every file
     index.json        version, date and record/file counts for everything,
                       so the app can tell whether an update is available
@@ -11,8 +12,10 @@ Scans images/cards/ and images/portraits/ and builds, in tools/dist/:
 Every memory in dist/data/memories.json must have its iconArt in the pack
 (under cards/) and its portraitArt under portraits/; the script exits with
 an error when a referenced file is missing, so a broken pack is never
-published silently. Files on disk that no memory uses (e.g. after a wiki
-rename) are kept in the pack and only reported.
+published silently. Events reference their banner through the "image"
+field, which is filled here: the file name when the pack has the banner,
+"" when the wiki has none. Files on disk that no record uses (e.g. after
+a wiki rename) are kept in the pack and only reported.
 
 Usage (from the repo root, after merge.py and update_images.py):
     python tools/pack_images.py
@@ -24,12 +27,13 @@ import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
-from common import REPO_ROOT, load_json, save_json
+from common import REPO_ROOT, event_banner_base, load_json, save_json
 
 IMAGES_DIR = REPO_ROOT / "images"
 DIST_DIR = REPO_ROOT / "tools" / "dist"
 DATA_DIR = DIST_DIR / "data"
-FOLDERS = {"cards": IMAGES_DIR / "cards", "portraits": IMAGES_DIR / "portraits"}
+FOLDERS = {"cards": IMAGES_DIR / "cards", "portraits": IMAGES_DIR / "portraits",
+           "events": IMAGES_DIR / "events"}
 
 MAX_REPORT = 20
 
@@ -72,16 +76,38 @@ def missing_art(found):
 
 
 def unused_art(found):
-    """Files on disk that no memory uses (usually a card renamed on the
+    """Files on disk that no record uses (usually a card renamed on the
     wiki). They stay on disk and in the pack; the pack would only grow
     stale, never broken. Listed so the rename can be checked."""
     memories = load_json(DATA_DIR / "memories.json", default=[])
+    events = load_json(DATA_DIR / "events.json", default=[])
     used_icons = {m.get("iconArt") for m in memories}
     used_portraits = {m.get("portraitArt") for m in memories}
+    used_banners = {e.get("image") for e in events}
     unused = [f"cards/{f}" for f in found["cards"] if f not in used_icons]
     unused += [f"portraits/{f}" for f in found["portraits"]
                if f not in used_portraits]
+    unused += [f"events/{f}" for f in found["events"]
+               if f not in used_banners]
     return sorted(unused)
+
+
+def fill_event_images(found):
+    """Set the 'image' field of every event in dist: the banner file name
+    when the pack has one, "" when the wiki has no banner (pack_images
+    runs after update_images, so disk state is the source of truth)."""
+    events_file = DATA_DIR / "events.json"
+    events = load_json(events_file, default=[])
+    with_banner = 0
+    for event in events:
+        name = event.get("image") or f"{event_banner_base(event.get('name', ''))}_banner.webp"
+        if name in found["events"]:
+            event["image"] = name
+            with_banner += 1
+        else:
+            event["image"] = ""
+    save_json(events_file, events)
+    print(f"events: {with_banner} of {len(events)} have a banner")
 
 
 def build_zip(found):
@@ -106,12 +132,14 @@ def copy_loose(found):
             target = target_dir / name
             if not target.exists() or target.stat().st_size != path.stat().st_size:
                 target.write_bytes(path.read_bytes())
+    print("copied loose images to dist/" + ", dist/".join(found) + "/")
 
 
 def main():
     now = datetime.now(timezone.utc)
     version = now.date().isoformat()
     found = collect_files()
+    fill_event_images(found)
 
     missing = missing_art(found)
     if missing:
@@ -134,7 +162,6 @@ def main():
     zip_path = build_zip(found)
     print(f"wrote {zip_path} ({zip_path.stat().st_size / 1024 / 1024:.1f} MB)")
     copy_loose(found)
-    print("copied loose images to dist/cards/ and dist/portraits/")
 
     file_entries = []
     for folder, files in found.items():
@@ -162,7 +189,8 @@ def main():
         "file": "images.zip",
         "meta": "images_meta.json",
         "count": len(file_entries),
-        "folders": {"cards": "cards/", "portraits": "portraits/"},
+        "folders": {"cards": "cards/", "portraits": "portraits/",
+                    "events": "events/"},
     }
     save_json(DIST_DIR / "index.json", index)
     print(f"wrote index.json (version {version}) and "

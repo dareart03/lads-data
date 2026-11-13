@@ -114,6 +114,13 @@ def split_list(value):
     return [part for part in parts if part]
 
 
+def event_banner_base(name):
+    """Base name of an event's banner file on the wiki: colons dropped,
+    spaces as underscores, e.g. '10 Days With You (Caleb: Chasing Summer)'
+    -> '10_Days_With_You_(Caleb_Chasing_Summer)_banner'."""
+    return name.replace(":", "").replace(" ", "_")
+
+
 def name_changes(old_records, new_records, key):
     """Key values that appeared or vanished between the previous run and this
     one. A vanished name means the wiki removed or renamed the entry; the

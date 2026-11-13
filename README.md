@@ -27,7 +27,7 @@ python tools/update_stats.py              # 4. base stats scraped from card page
 python tools/update_achievements.py       # 5. data/generated/achievements.json
 python tools/merge.py                     # 6. manual files + stats + schemas of the app
 python tools/validate.py                  #    check dist/data against the schemas
-python tools/update_images.py             # 7. images/cards + images/portraits (WebP)
+python tools/update_images.py             # 7. images/cards + portraits + event banners (WebP)
 python tools/pack_images.py               # 8. images.zip + manifests (fails on missing art)
 ```
 
@@ -54,10 +54,12 @@ visible in the log.
   pool (login, promise, sale, mini events, ...), same shape as banners.
   Recurring events (Hunting Season, Illusio, ...) appear once per period,
   so several rows can share a name — match them by `startDate` too.
-  Together with `banners.json` it is the dataset for "what is active now /
-  what starts next" screens with countdown timers. `startDate`, `endDate`
-  and `timeReference` (`UTC+8` / `Server Time`) let the app compute the
-  remaining time; `status: "announced"` marks entries without dates yet.
+  `image` is the event's banner file name under `events/` ("" when the
+  wiki has no banner for it). Together with `banners.json` it is the
+  dataset for "what is active now / what starts next" screens with
+  countdown timers. `startDate`, `endDate` and `timeReference` (`UTC+8` /
+  `Server Time`) let the app compute the remaining time; `status:
+  "announced"` marks entries without dates yet.
 - `data/rotations.json` — the weekly farm rotations (which characters'
   Orbit stages and which protocore colors in Core Hunt are open each day).
   Hand-maintained in `data/static/` — the wiki has no machine-readable

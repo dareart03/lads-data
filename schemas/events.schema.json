@@ -4,7 +4,7 @@
   "description": "One non-wish-pool event in events.json (the merged, published file).",
   "type": "object",
   "additionalProperties": false,
-  "required": ["page", "name", "kind", "startDate", "endDate", "featured", "status"],
+  "required": ["page", "name", "kind", "startDate", "endDate", "featured", "image", "status"],
   "properties": {
     "page": { "type": "string", "minLength": 1 },
     "name": { "type": "string", "minLength": 1 },
@@ -13,6 +13,7 @@
     "tags": { "type": "array", "items": { "type": "string" } },
     "series": { "type": "string" },
     "featured": { "type": "boolean" },
+    "image": { "type": "string", "description": "File name in images.zip under events/, empty when the wiki has no banner" },
     "startDate": { "$ref": "#/$defs/dateOrEmpty" },
     "endDate": { "$ref": "#/$defs/dateOrEmpty" },
     "timeReference": { "type": "string" },

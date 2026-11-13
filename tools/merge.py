@@ -194,7 +194,7 @@ def merge_banners(report, memory_names):
 # ------------------------------------------------------------------- events
 def new_event(name, fields):
     event = {"page": name, "name": name, "kind": "", "wikiType": "",
-             "tags": [], "series": "", "featured": False,
+             "tags": [], "series": "", "featured": False, "image": "",
              "startDate": "", "endDate": "", "timeReference": "",
              "relatedCharacters": [], "relatedMemories": []}
     event.update(fields)
@@ -233,6 +233,7 @@ def merge_events(report, memory_names):
                     event[field] = value
 
     for event in events:
+        event.setdefault("image", "")
         event.setdefault("status", "confirmed")
         for memory in event["relatedMemories"]:
             if memory not in memory_names:

@@ -1,22 +1,22 @@
-"""Step 6: download card icons and portraits from wiki.gg and save them as WebP.
+"""Step 6: download card icons, card portraits and event banners as WebP.
 
-For every memory with icon base B (memory['icon'] with spaces -> underscores)
-the wiki has two files:
-    File:{B}_icon.png     the 256x256 square icon
-    File:{B}_middle.png   the 248x456 card portrait
-They become:
-    images/cards/{B}_icon.webp
-    images/portraits/{B}_portrait.webp
+Cards (from data/generated/memories.json, icon base B = memory['icon'] with
+spaces -> underscores):
+    File:{B}_icon.png     the 256x256 square icon  -> images/cards/{B}_icon.webp
+    File:{B}_middle.png   the 248x456 card portrait -> images/portraits/{B}_portrait.webp
+
+Events (from data/generated/events.json, base = event_banner_base(name)):
+    File:{base}_banner.png  the 826x280 banner    -> images/events/{base}_banner.webp
 
 The wiki renders resized versions on demand (iiurlwidth/iiurlheight), so we
 ask for exactly the size we want; the download is converted to WebP locally.
 
-Existing files are skipped unless --refresh is given. At the end the script
-lists every card whose wiki file is missing (check for typos in 'icon' or
-art that has not been uploaded yet).
+Existing files are skipped unless --refresh is given. Missing card art is
+fatal (the app cannot live without it); a missing event banner is not —
+those events simply publish with an empty "image" field.
 
-Input : data/generated/memories.json
-Output: images/cards/*.webp, images/portraits/*.webp
+Input : data/generated/memories.json, data/generated/events.json
+Output: images/cards/*.webp, images/portraits/*.webp, images/events/*.webp
 
 Usage (from the repo root):
     python tools/update_images.py
@@ -30,16 +30,20 @@ from pathlib import Path
 import requests
 from PIL import Image
 
-from common import API_URL, HEADERS, REPO_ROOT, REQUEST_DELAY, _get, load_json
+from common import (API_URL, HEADERS, REPO_ROOT, REQUEST_DELAY, _get,
+                    event_banner_base, load_json)
 
 MEMORIES_FILE = REPO_ROOT / "data" / "generated" / "memories.json"
+EVENTS_FILE = REPO_ROOT / "data" / "generated" / "events.json"
 CARDS_DIR = REPO_ROOT / "images" / "cards"
 PORTRAITS_DIR = REPO_ROOT / "images" / "portraits"
+EVENTS_DIR = REPO_ROOT / "images" / "events"
 
-# kind -> (wiki file suffix, target size, output dir, output suffix)
+# kind -> (wiki file suffix, target size, output dir, output suffix, source)
 KINDS = {
-    "icon": ("_icon.png", (256, 256), CARDS_DIR, "_icon.webp"),
-    "portrait": ("_middle.png", (248, 456), PORTRAITS_DIR, "_portrait.webp"),
+    "icon": ("_icon.png", (256, 256), CARDS_DIR, "_icon.webp", "memories"),
+    "portrait": ("_middle.png", (248, 456), PORTRAITS_DIR, "_portrait.webp", "memories"),
+    "event": ("_banner.png", (826, 280), EVENTS_DIR, "_banner.webp", "events"),
 }
 
 BATCH = 50   # titles per imageinfo request
@@ -80,26 +84,44 @@ def save_webp(content, target):
     image.save(target, "WEBP", quality=90, method=6)
 
 
+def base_of(source, record):
+    if source == "memories":
+        return (record.get("icon") or "").replace(" ", "_")
+    return event_banner_base(record.get("name", ""))
+
+
+def wanted_files():
+    """{kind: [(wiki title, base name)]} for every image the sources name."""
+    wanted = {}
+    for kind, (suffix, _size, _out_dir, _out_suffix, source) in KINDS.items():
+        source_file = MEMORIES_FILE if source == "memories" else EVENTS_FILE
+        records = load_json(source_file, default=[]) or []
+        seen, items = set(), []
+        for record in records:
+            base = base_of(source, record)
+            if not base or base in seen:
+                continue                      # recurring events share a banner
+            seen.add(base)
+            items.append((f"File:{base}{suffix}", base))
+        wanted[kind] = items
+    return wanted
+
+
 def main():
     refresh = "--refresh" in sys.argv
-    memories = load_json(MEMORIES_FILE)
-    if memories is None:
-        raise SystemExit("data/generated/memories.json not found. "
-                         "Run update_memories.py first.")
-    bases = list(dict.fromkeys(
-        (m.get("icon") or "").replace(" ", "_") for m in memories if m.get("icon")))
+    wanted = wanted_files()
 
-    problems, done, skipped = [], 0, 0
+    fatal, soft, done, skipped = [], [], 0, 0
     with requests.Session() as session:
-        for kind, (wiki_suffix, (width, height), out_dir, out_suffix) in KINDS.items():
-            titles = {f"File:{base}{wiki_suffix}": base for base in bases}
-            todo = {t: b for t, b in titles.items()
-                    if refresh or not (out_dir / f"{b}{out_suffix}").exists()}
+        for kind, (suffix, (width, height), out_dir, out_suffix, _src) in KINDS.items():
+            titles = wanted[kind]
+            todo = [(t, b) for t, b in titles
+                    if refresh or not (out_dir / f"{b}{out_suffix}").exists()]
             skipped += len(titles) - len(todo)
             print(f"{kind}: {len(todo)} to download "
                   f"({len(titles) - len(todo)} already exist)")
 
-            items = sorted(todo.items())
+            items = sorted(todo)
             for offset in range(0, len(items), BATCH):
                 batch = items[offset:offset + BATCH]
                 found = image_info(session, [t for t, _ in batch], width, height)
@@ -107,7 +129,8 @@ def main():
                 for title, base in batch:
                     info = found.get(title)
                     if info is None:
-                        problems.append(f"{base}: {title} not on the wiki")
+                        line = f"{base}: {title} not on the wiki"
+                        (soft if kind == "event" else fatal).append(line)
                         continue
                     url, _mime = info
                     try:
@@ -116,17 +139,25 @@ def main():
                         save_webp(response.content, out_dir / f"{base}{out_suffix}")
                         done += 1
                     except Exception as error:  # network or PIL failure
-                        problems.append(f"{base}: {error}")
+                        (soft if kind == "event" else fatal).append(
+                            f"{base}: {error}")
                 print(f"  {kind}: {min(offset + BATCH, len(items))}/{len(items)}")
 
     print(f"\nDownloaded {done}, skipped {skipped} existing, "
-          f"{len(problems)} problem(s)")
-    if problems:
-        print("Missing or failed:")
-        for line in problems[:30]:
+          f"{len(fatal)} fatal problem(s), {len(soft)} without event banner")
+    if soft:
+        print(f"{len(soft)} event banner(s) not on the wiki "
+              f"(those events publish with an empty 'image'):")
+        for line in soft[:20]:
             print("  -", line)
-        if len(problems) > 30:
-            print(f"  ... and {len(problems) - 30} more")
+        if len(soft) > 20:
+            print(f"  ... and {len(soft) - 20} more")
+    if fatal:
+        print("Missing or failed card art:")
+        for line in fatal[:30]:
+            print("  -", line)
+        if len(fatal) > 30:
+            print(f"  ... and {len(fatal) - 30} more")
         sys.exit(1)
 
 
