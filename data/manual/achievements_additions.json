@@ -1,0 +1,806 @@
+{
+  "Addicted": {
+    "description": "[[Rafayel]] spends 3 tokens to gain more attempts in a session.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Advanced: Absolute Advantage": {
+    "description": "Make your opponent's score end with 0 points.",
+    "category": "Kitty Cards",
+    "hidden": true,
+    "reward": "Diamond|30, Title: Ruthless"
+  },
+  "Advanced: Angy Kitty": {
+    "description": "Make your opponent lose 18+ points in a single round.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|50"
+  },
+  "Advanced: Bankrupt": {
+    "description": "Use Kitty Pow! to discard more than 5 of your opponent's number cards.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Advanced: Bullied": {
+    "description": "Your opponent uses Skip and Freeze on you in a single round.",
+    "category": "Kitty Cards",
+    "hidden": true,
+    "reward": "Diamond|30"
+  },
+  "Advanced: Demeow-lition": {
+    "description": "Demolish your opponent's kitties in a round 2 times.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Advanced: Expellinumber": {
+    "description": "Use Purrceive to discard your opponent's number card 6.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|50"
+  },
+  "Advanced: Fall Short": {
+    "description": "Use Purrator to turn your opponent's cup into a white one.",
+    "category": "Kitty Cards",
+    "hidden": true,
+    "reward": "Diamond|20"
+  },
+  "Advanced: Lucky Kitty": {
+    "description": "Use Meowster in a single round to get a Cat-ching!",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Advanced: Many Negatives": {
+    "description": "Play 4 Meow This! in a row with your opponent in a single round.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|50"
+  },
+  "Advanced: Meowdgment": {
+    "description": "Use 5 Meow This! in a single round",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30, Title: Impeccable"
+  },
+  "Advanced: Meowmination": {
+    "description": "Stop your opponent from playing cards for a round.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Advanced: Miscalculated": {
+    "description": "Use Purrator to give points to your opponent.",
+    "category": "Kitty Cards",
+    "hidden": true,
+    "reward": "Diamond|50"
+  },
+  "Advanced: Perfect Risk": {
+    "description": "Use Kitty Pow! when you don't have any number cards.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Advanced: Surrender": {
+    "description": "Use Purrceive to discard your opponent's Meow This!",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|50"
+  },
+  "Advanced: The More The Merrier": {
+    "description": "Use 3 Cat-ching! in a single round.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|50, Title: Wealthy"
+  },
+  "Advanced: Trickster": {
+    "description": "Use Meowster in a single round to get two Kitty Plot.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|50"
+  },
+  "Ain't No Harm Touching": {
+    "description": "Pat him 10 times in Interaction Mode",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "All-Night Company": {
+    "description": "Spend your Quality Time with [[Sylus]] for 15 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Humming Melody, Diamond|20"
+  },
+  "Always on My Mind": {
+    "description": "Spend your Quality Time with [[Caleb]] for 15 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Order Up, Diamond|20"
+  },
+  "Balance: Good Start": {
+    "description": "Get 1 plushie in the first round.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Balance: Infinite Resets": {
+    "description": "Reset 2 times in a row in a session.",
+    "category": "Plushies",
+    "hidden": true,
+    "reward": "Diamond|30"
+  },
+  "Body Is Weapon": {
+    "description": "Work out with [[Sylus]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Can't Wake": {
+    "description": "Sleep ofor 10 hours or more with him in a single sleep session.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Casual Riding": {
+    "description": "Work out with [[Xavier]] for 60 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Medal: Cycling Star|1, Diamond|50"
+  },
+  "Celestial Voice": {
+    "description": "Own 10 [[List of BGM Items|BGMs]].",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Colorful Styles": {
+    "description": "Collect 50 Outfits",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Me: Looking Around, General: Back Display"
+  },
+  "Come Cuddle": {
+    "description": "Interact with him 10 times in Close-up Mode",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Cozy Nights": {
+    "description": "Sleep with [[Xavier]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Cringe": {
+    "description": "Take a [[Photo Studio|Snapshot]] without getting your Pose right.",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|20"
+  },
+  "Cup Master": {
+    "description": "Secure 6+ cups in a single round.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30, Title: My"
+  },
+  "Daylight Dreams": {
+    "description": "Sleep with [[Caleb]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Diligent Spirit": {
+    "description": "Create Journal entries for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Tape Box: Graphic, Diamond|30"
+  },
+  "Disconnected": {
+    "description": "Talk to Rafayel while he's playing on his phone in the [[Destiny Café|café]] 10 times.",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|30, Title: Disconnected"
+  },
+  "Do It At Will / Do As You Wish": {
+    "description": "Change your Phone [[List of Avatars|Avatar]] 10 times.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30, Title: Free"
+  },
+  "Easy Outfits": {
+    "description": "Collect 25 Outfits",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Me: Side Profile, General: Cuff Check"
+  },
+  "Energy Support": {
+    "description": "Cheer for [[Sylus]] until the progress bar is full 5 times in a game.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Exercise For Better Sleep": {
+    "description": "Work out with [[Xavier]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Fifty-Day Journal": {
+    "description": "Create Journal entries for 50 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Sticker Box: Fond, Title: Inspiration Hunter"
+  },
+  "First Journal": {
+    "description": "Create your first Journal.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Title: Fresh"
+  },
+  "Flame's Helper": {
+    "description": "Cheer for [[Rafayel]] until the progress bar is full 5 times in a game.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Flight in Progress": {
+    "description": "Work out with [[Caleb]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Fly That Plushie": {
+    "description": "[[Caleb]] launches 2 plushies in a game.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Follow My Lead": {
+    "description": "Talk to Caleb while he's using the virtual display in the [[Destiny Café|café]] 10 times.",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|30, Title: Dutiful"
+  },
+  "Fun Wheel: Good Start": {
+    "description": "Get 1 plushie in the first round.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Gravity Support": {
+    "description": "Cheer for [[Caleb]] until the progress bar is full 5 times in a game.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Great Harvest": {
+    "description": "Get 3+ plushies in a session.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30, Title: Hunting"
+  },
+  "Guiding Light": {
+    "description": "[[Xavier]] uses a skill 2 times in a session.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Hardworking Slacker": {
+    "description": "Work or study with [[Rafayel]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Heart of Beauty: Accessory": {
+    "description": "Own 8 pieces of [[List of Outfit Items|My Accessories]].",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Heart of Beauty: Outfit": {
+    "description": "Own 6 sets of [[Outfits#MC's_Outfits|My Outfits]].",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Heartfelt Pages": {
+    "description": "Own 5 Journals.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Decor"
+  },
+  "High Efficacy": {
+    "description": "[[Zayne]] freezes 2 plushies in a session.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Hobby Pioneer": {
+    "description": "Work or study with [[Caleb]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Hundred-Day Journal": {
+    "description": "Create Journal entries for 100 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Kitty, Title: Life Explorer"
+  },
+  "I Never Miss": {
+    "description": "Get a plushie in at least 5 rounds of a game.",
+    "category": "Plushies",
+    "hidden": true,
+    "reward": "Diamond|50, Title: Skilled"
+  },
+  "It Takes Two": {
+    "description": "Get 10 unique [[List of Poses|Couple Poses]].",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "It Was An Accident! / Not On Purpose!": {
+    "description": "Accidentally \"touch\" 99 times on the home screen.",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|50, Title: Slippery"
+  },
+  "Jinxed Paw": {
+    "description": "Get 3 cards in a row that have value less than 4 in 2 rounds.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30, Title: Jinxed Paw"
+  },
+  "Journal Beginner": {
+    "description": "Create 3 Journal Entries.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Journal Box: Mellow"
+  },
+  "Journal Expert": {
+    "description": "Create 5 Journal Entries.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Journal Box: Pop Art, Diamond|10"
+  },
+  "Journal Newbie": {
+    "description": "Create 2 Journal entries.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Title: Life Editor"
+  },
+  "Kinda Unlucky / Bad Luck": {
+    "description": "Miss 5 times in a row in a session.",
+    "category": "Plushies",
+    "hidden": true,
+    "reward": "Diamond|30, Title: Unlucky"
+  },
+  "Let Me Heal You": {
+    "description": "Successfully blow once in Interaction Mode",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Let Me Massage You": {
+    "description": "Hold anywhere 10 times in Interaction Mode",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Listen To The Doctor": {
+    "description": "Work out with [[Zayne]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Loving Journals": {
+    "description": "Own 10 Journals.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Daily, Diamond|30"
+  },
+  "Lucky Paw": {
+    "description": "Get 3 cards in a row with a 4+ value in 2 rounds.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|30, Title: Lucky Paw"
+  },
+  "Monthly Journal": {
+    "description": "Create Journal entries for 30 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Sticker Box: Expectant, Diamond|30"
+  },
+  "Mood Master I": {
+    "description": "Take 5 photos with SFX",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect: Dawn Prism (SFX)|1, Diamond|10"
+  },
+  "Mood Master II": {
+    "description": "Take 10 photos with SFX",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect: White Petal Rain (SFX)|1, Diamond|10"
+  },
+  "Mood Master III": {
+    "description": "Take 15 photos with SFX",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect: Night Prism (SFX)|1, Diamond|10"
+  },
+  "Mood Master IV": {
+    "description": "Take 20 photos with SFX",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect: Azure Petal Rain(SFX)|1, Diamond|10"
+  },
+  "Mood Master V": {
+    "description": "Take 25 photos with SFX",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect: Prismatic Ribbons (SFX)|1, Diamond|10"
+  },
+  "No Escape": {
+    "description": "[[Sylus]] gets the marked plushie in a game.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "No Overtime Allowed": {
+    "description": "Talk to [[Zayne]] while he's working in the [[Destiny Café|café]] 10 times",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|30, Title: Not-Working"
+  },
+  "Normal: Cute Kitty": {
+    "description": "Swap hands with [[Zayne]] in a game once.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Normal: Fair Meowket": {
+    "description": "Trade cards with [[Sylus]] in a round 1 time.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Normal: Kitty's Gaze": {
+    "description": "Catch [[Rafayel]] swapping cards in a game once.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Normal: Sleight of Hand": {
+    "description": "Swap cards without getting caught by [[Xavier]] in a game once.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Normal: Sneaky Meow": {
+    "description": "Play tricks without getting caught by [[Caleb]] in a game 1 time.",
+    "category": "Kitty Cards",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Ocean Cradle": {
+    "description": "Sleep with [[Rafayel]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "One Shot I": {
+    "description": "Record 5 videos in Glint Photobooth",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect: Raven Plume (SFX)|1, Diamond|10"
+  },
+  "One Shot II": {
+    "description": "Record 10 videos in Glint Photobooth",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect: Crimson Petal Rain (SFX)|1, Diamond|10"
+  },
+  "One Shot III": {
+    "description": "Record 15 videos in Glint Photobooth",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect: Gentle Rain (SFX)|1, Diamond|10"
+  },
+  "Overlapping Heartbeats": {
+    "description": "Listen to his heartbeats 3 times for one day.",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|30"
+  },
+  "Photographer": {
+    "description": "Take 100 [[Photo Studio|Snapshots]].",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|50, Title: Beauty Capturer"
+  },
+  "Plushie Fam": {
+    "description": "Get 5 plushies.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Powerful Punch": {
+    "description": "Work out with [[Sylus]] for 60 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Medal: Decisive Moment|1, Diamond|50"
+  },
+  "Pressure Destroyer": {
+    "description": "Work or study with [[Sylus]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Procrastination Crusher": {
+    "description": "Work or study with [[Zayne]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Push To The End": {
+    "description": "Work out with [[Caleb]] for 60 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Medal: Steadfast Habits|1, Diamond|50"
+  },
+  "Record Keeper I": {
+    "description": "Use 5 materials in Journals in total.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Weekday"
+  },
+  "Record Keeper II": {
+    "description": "Use 10 materials in Journals in total.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Weather, Diamond|10"
+  },
+  "Record Keeper III": {
+    "description": "Use 15 materials in Journals in total.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect Box I, Diamond|10"
+  },
+  "Run, Run, Run!": {
+    "description": "Work out with [[Rafayel]] for 60 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Medal: Joyful Run|1, Diamond|50"
+  },
+  "SWIMM I N G": {
+    "description": "Work out with [[Rafayel]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Serene Slumber": {
+    "description": "Sleep with [[Sylus]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Shining Deepspace / Shining in Deepspace!": {
+    "description": "Change his suit 10 times on [[Destiny Café|home screen]].",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30, Title: Shining"
+  },
+  "Sleep Battle": {
+    "description": "Work or study with [[Xavier]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Sleep Routine": {
+    "description": "Sleep with [[Zayne]] for 3 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Snap Around I": {
+    "description": "Take 10 Snapshots.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Background Pack: Encounter"
+  },
+  "Snap Around II": {
+    "description": "Take 25 Snapshots.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Background Pack: Leisure"
+  },
+  "Snap Around III": {
+    "description": "Take 50 Snapshots.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Background Pack: Holiday"
+  },
+  "Snow's Helper": {
+    "description": "Cheer for [[Zayne]] until the progress bar is full 5 times in a game.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Stamina Champion": {
+    "description": "Work out with [[Zayne]] for 60 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Medal: Power of the Heart|1, Diamond|50"
+  },
+  "Stamp Hero": {
+    "description": "Use 15 seals on the same page.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Pop Art, Diamond|10"
+  },
+  "Standard: Good Start": {
+    "description": "Get 1 plushie in the first round.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Starlight's Helper": {
+    "description": "Cheer for [[Xavier]] until the progress bar is full 5 times in a game.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Starry Nights": {
+    "description": "Spend your Quality Time with [[Xavier]] for 15 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Little Wake-up Time, Diamond|30"
+  },
+  "Starter": {
+    "description": "Own general 3 [[Titles]].",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Steadfast": {
+    "description": "Create Journal entries for 5 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Effect Box II, Title: Linguistic"
+  },
+  "Stick Around": {
+    "description": "Use 5 stickers on the same page.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Sticker Box: Mellow"
+  },
+  "Sticker Tycoon": {
+    "description": "Use 15 stickers on the same page.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Sticker Box: Pop Art, Diamond|10"
+  },
+  "Styling Expert": {
+    "description": "Collect 80 Outfits",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Me: Crossed Standing, General: Wrist Massage"
+  },
+  "Tactical Substitution": {
+    "description": "Switch 4 times in a session.",
+    "category": "Plushies",
+    "hidden": false,
+    "reward": "Diamond|20"
+  },
+  "Tape Buddy": {
+    "description": "Use 5 pieces of tape on the same page.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Tape Box: Mellow"
+  },
+  "Tape Master": {
+    "description": "Use 15 pieces of tape on the same page.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Tape Box: Pop Art, Diamond|10"
+  },
+  "The Life Of A Fish": {
+    "description": "Spend your Quality Time with [[Rafayel]] for 15 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Fish-Only Option, Diamond|30"
+  },
+  "Three-Day Journal": {
+    "description": "Create Journal entries for 3 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Sticker Box: Gazing"
+  },
+  "Top Comments": {
+    "description": "Leave 20 [[Moment Posts|Moments]] comments.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30, Title: Interweb Master"
+  },
+  "Two-Week Journal": {
+    "description": "Create Journal entries for 15 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Sticker Box: Happy, Diamond|30"
+  },
+  "Ultra-long Standby": {
+    "description": "Spend Quality Time with [[Caleb]] for 5 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Apple of Wishes, Diamond|30"
+  },
+  "Unwavering": {
+    "description": "Create Journal entries for 10 consecutive weeks.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Plushie, Title: Earnest"
+  },
+  "Wake Up, Xavier": {
+    "description": "Talk to [[Xavier]] while he's sleeping on a table in the [[Destiny Café|café]] 10 times.",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|30, Title: Sleepy"
+  },
+  "Weekend Companion": {
+    "description": "Spend Quality Time together on weekends for the first time.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|10"
+  },
+  "Weekend Workout Plan": {
+    "description": "Spend 3 days working out with him on weekends.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Diamond|30"
+  },
+  "Weekend Workout Star": {
+    "description": "Work out with [[Caleb]] 7 times during weekends.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Folded Sentiments"
+  },
+  "Weekly Journal": {
+    "description": "Create Journal entries for 7 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Sticker Box: Sleepy, Diamond|10"
+  },
+  "Well Organized": {
+    "description": "Use 5 seals on the same page.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Mellow"
+  },
+  "What's On Your Mind": {
+    "description": "Talk to Sylus while he's pondering in the [[Destiny Café|café]] 10 times.",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|30, Title: Focused"
+  },
+  "Whatever": {
+    "description": "Ask what he wants to eat and refuse all his suggestions.",
+    "category": "Spare Time",
+    "hidden": true,
+    "reward": "Diamond|30, Title: Miss"
+  },
+  "Word Wizard": {
+    "description": "Use 10 text boxes on the same page.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Stamp Box: Border"
+  },
+  "You Know Me": {
+    "description": "Spend your Quality Time with [[Zayne]] for 15 days.",
+    "category": "Spare Time",
+    "hidden": false,
+    "reward": "Deep Learning, Diamond|20"
+  }
+}

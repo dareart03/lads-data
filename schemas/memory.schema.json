@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Memory",
+  "description": "One card in memories.json (the merged, published file).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["page", "name", "featuredCharacter", "stellactrumType", "rarity",
+               "slotType", "talent", "releaseDate", "baseHp", "baseAtk", "baseDef",
+               "baseCritRate", "baseCritDamage"],
+  "properties": {
+    "page": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "pattern": "^[^:]+: .+$", "description": "Character: Title" },
+    "featuredCharacter": { "type": "string", "minLength": 1 },
+    "icon": { "type": "string", "description": "Wiki icon base name, e.g. 'Zayne Shattered Simulacrum'" },
+    "iconArt": { "type": "string", "description": "File name in images.zip under cards/" },
+    "portraitArt": { "type": "string", "description": "File name in images.zip under portraits/" },
+    "rarity": { "enum": ["3", "4", "5"] },
+    "stellactrumType": { "enum": ["Amber", "Emerald", "Pearl", "Ruby", "Sapphire", "Violet"] },
+    "slotType": { "enum": ["Lunar", "Solar"] },
+    "talent": { "enum": ["ATK", "DEF", "HP"] },
+    "releaseDate": { "type": "string", "pattern": "^\\d{4}-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d$" },
+    "timeReference": { "type": "string" },
+    "baseHp": { "$ref": "#/$defs/stat" },
+    "baseAtk": { "$ref": "#/$defs/stat" },
+    "baseDef": { "$ref": "#/$defs/stat" },
+    "baseCritRate": { "$ref": "#/$defs/stat" },
+    "baseCritDamage": { "$ref": "#/$defs/stat" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "sourcePages": { "type": "array", "items": { "type": "string" } },
+    "names": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "zh-Hans": { "type": "string" }, "zh-Hant": { "type": "string" },
+        "ja": { "type": "string" }, "ko": { "type": "string" }
+      }
+    },
+    "memoryPair": { "type": "string" },
+    "description": { "type": "string" }
+  },
+  "$defs": {
+    "stat": {
+      "description": "A number written as text, or empty when unknown.",
+      "type": "string",
+      "pattern": "^(\\d+(\\.\\d+)?)?$"
+    }
+  }
+}

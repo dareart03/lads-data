@@ -13,7 +13,8 @@ Usage:
 import re
 from urllib.parse import unquote
 
-from common import REPO_ROOT, RAW_DIR, clean, load_json, save_json, split_list
+from common import (REPO_ROOT, RAW_DIR, clean, load_json, name_changes,
+                    report_changes, save_json, split_list)
 
 RAW_FILE = RAW_DIR / "Memories.json"
 OUTPUT_FILE = REPO_ROOT / "data" / "generated" / "memories.json"
@@ -127,6 +128,9 @@ def main():
         entries.append(entry)
 
     entries.sort(key=sort_key, reverse=True)
+    previous = load_json(OUTPUT_FILE, default=[]) or []
+    added, vanished = name_changes(previous, entries, "name")
+    report_changes(added, vanished, "memories")
     save_json(OUTPUT_FILE, entries)
 
     print(f"Wrote {len(entries)} memories to {OUTPUT_FILE}")

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rotations",
+  "description": "Weekly farm rotations in rotations.json. Hand-maintained in data/static/ (the wiki has no machine-readable source); check against the game when a new love interest is released.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["timeReference", "orbit", "coreHunt"],
+  "properties": {
+    "timeReference": { "enum": ["UTC+8", "Server Time"], "description": "Timezone the weekday is counted in" },
+    "orbit": { "$ref": "#/$defs/characterSchedule" },
+    "coreHunt": { "$ref": "#/$defs/colorSchedule" }
+  },
+  "$defs": {
+    "characterSchedule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+      "properties": {
+        "monday": { "$ref": "#/$defs/characters" },
+        "tuesday": { "$ref": "#/$defs/characters" },
+        "wednesday": { "$ref": "#/$defs/characters" },
+        "thursday": { "$ref": "#/$defs/characters" },
+        "friday": { "$ref": "#/$defs/characters" },
+        "saturday": { "$ref": "#/$defs/characters" },
+        "sunday": { "$ref": "#/$defs/characters" }
+      }
+    },
+    "colorSchedule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+      "properties": {
+        "monday": { "$ref": "#/$defs/colors" },
+        "tuesday": { "$ref": "#/$defs/colors" },
+        "wednesday": { "$ref": "#/$defs/colors" },
+        "thursday": { "$ref": "#/$defs/colors" },
+        "friday": { "$ref": "#/$defs/colors" },
+        "saturday": { "$ref": "#/$defs/colors" },
+        "sunday": { "$ref": "#/$defs/colors" }
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": { "enum": ["Caleb", "Rafayel", "Sylus", "Xavier", "Zayne"] },
+      "uniqueItems": true
+    },
+    "colors": {
+      "type": "array",
+      "items": { "enum": ["Amber", "Emerald", "Pearl", "Ruby", "Sapphire", "Violet"] },
+      "uniqueItems": true
+    }
+  }
+}

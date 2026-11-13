@@ -1,0 +1,21 @@
+{
+  "timeReference": "UTC+8",
+  "orbit": {
+    "monday": ["Xavier"],
+    "tuesday": ["Zayne", "Sylus"],
+    "wednesday": ["Rafayel", "Caleb"],
+    "thursday": ["Xavier", "Sylus"],
+    "friday": ["Zayne", "Rafayel", "Caleb"],
+    "saturday": ["Xavier", "Zayne", "Rafayel", "Sylus", "Caleb"],
+    "sunday": ["Xavier", "Zayne", "Rafayel", "Sylus", "Caleb"]
+  },
+  "coreHunt": {
+    "monday": ["Emerald", "Ruby"],
+    "tuesday": ["Sapphire", "Pearl"],
+    "wednesday": ["Violet", "Amber"],
+    "thursday": ["Emerald", "Ruby"],
+    "friday": ["Sapphire", "Pearl"],
+    "saturday": ["Violet", "Amber"],
+    "sunday": ["Amber", "Emerald", "Pearl", "Ruby", "Sapphire", "Violet"]
+  }
+}

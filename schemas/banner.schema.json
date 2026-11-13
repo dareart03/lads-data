@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Banner",
+  "description": "One wish pool in banners.json (the merged, published file).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["page", "name", "kind", "startDate", "endDate", "featuredMemories", "status"],
+  "properties": {
+    "page": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "kind": { "enum": ["limited", "rerun", "permanent", "special"] },
+    "wikiType": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "startDate": { "$ref": "#/$defs/dateOrEmpty" },
+    "endDate": { "$ref": "#/$defs/dateOrEmpty" },
+    "timeReference": { "type": "string" },
+    "featuredMemories": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "status": { "enum": ["announced", "confirmed"] },
+    "aliases": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+  },
+  "$defs": {
+    "dateOrEmpty": {
+      "type": "string",
+      "pattern": "^(\\d{4}-\\d\\d-\\d\\d \\d\\d:\\d\\d:\\d\\d)?$"
+    }
+  }
+}

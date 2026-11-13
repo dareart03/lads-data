@@ -1,0 +1,4473 @@
+[
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Bounty Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-11-23 05:00:00",
+    "endDate": "2026-11-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Bounty Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Beyond Form",
+    "name": "Beyond Form",
+    "kind": "special-sale",
+    "wikiType": "Special Sale Event",
+    "startDate": "2026-11-06 05:00:00",
+    "endDate": "2026-11-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Beyond Form",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Classic Grace",
+    "name": "Classic Grace",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2026-11-06 05:00:00",
+    "endDate": "2026-11-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Classic Grace",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Era of Form",
+    "name": "Era of Form",
+    "kind": "special-sale",
+    "wikiType": "Special Sale Event",
+    "startDate": "2026-11-06 05:00:00",
+    "endDate": "2026-11-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Era of Form",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Glitchtopia",
+    "name": "Glitchtopia",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2026-11-06 05:00:00",
+    "endDate": "2026-11-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Glitchtopia",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heart Wave Promise",
+    "name": "Heart Wave Promise",
+    "kind": "date-promise",
+    "wikiType": "Date Promise Event",
+    "startDate": "2026-11-06 05:00:00",
+    "endDate": "2026-11-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heart Wave Promise",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-11-06 05:00:00",
+    "endDate": "2026-11-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Rebooting Dreams",
+    "name": "Memory Growth Bonus Event (Rebooting Dreams)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2026-11-06 05:00:00",
+    "endDate": "2026-11-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Rebooting Dreams)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Program Fallacy",
+      "Zayne: Shattered Simulacrum",
+      "Rafayel: Synced Drowning",
+      "Sylus: Paradox Vector",
+      "Caleb: Oneiric Protocol"
+    ]
+  },
+  {
+    "page": "Sensory Splendor",
+    "name": "Sensory Splendor",
+    "kind": "spending",
+    "wikiType": "Spending Event",
+    "startDate": "2026-11-06 05:00:00",
+    "endDate": "2026-11-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Sensory Splendor",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Plush Rush",
+    "name": "Plush Rush",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2026-10-27 05:00:00",
+    "endDate": "2026-11-05 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Plush Rush",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Nightly Overflow"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-10-26 05:00:00",
+    "endDate": "2026-11-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Red Bean Shark Drop Rate Up",
+    "name": "Red Bean Shark Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-10-26 05:00:00",
+    "endDate": "2026-11-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Red Bean Shark Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Xavier: Favored Exception, Caleb: Glistening Intent)",
+    "name": "Promise (Xavier: Favored Exception, Caleb: Glistening Intent)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2026-10-21 05:00:00",
+    "endDate": "2026-12-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Xavier: Favored Exception, Caleb: Glistening Intent)",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Favored Exception",
+      "Caleb: Glistening Intent"
+    ]
+  },
+  {
+    "page": "Misty Invasion",
+    "name": "Memory Growth Bonus Event Rerun (Misty Invasion)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2026-10-19 05:00:00",
+    "endDate": "2026-10-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event Rerun (Misty Invasion)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Xavier: No Restraint",
+      "Zayne: Hidden Motive",
+      "Rafayel: Omnipotent Perception",
+      "Sylus: Lost Oasis"
+    ]
+  },
+  {
+    "page": "Rendered Real",
+    "name": "Rendered Real",
+    "kind": "reward",
+    "wikiType": "Reward Event",
+    "startDate": "2026-10-19 05:00:00",
+    "endDate": "2026-11-05 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Rendered Real",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Flicker of Wishes",
+    "name": "Flicker of Wishes",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2026-10-11 05:00:00",
+    "endDate": "2026-10-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Flicker of Wishes",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Lingering Light",
+      "Xavier: Starry Stroll",
+      "Xavier: Light Chaser"
+    ]
+  },
+  {
+    "page": "10 Days With You (Sylus: Autumn Eyes)",
+    "name": "10 Days With You (Sylus: Autumn Eyes)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2026-09-28 05:00:00",
+    "endDate": "2026-10-16 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Sylus: Autumn Eyes)",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Autumn Eyes"
+    ]
+  },
+  {
+    "page": "Meow Badge: Sleepwear Series Available",
+    "name": "Meow Badge: Sleepwear Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2026-09-28 05:00:00",
+    "endDate": "2026-10-19 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Sleepwear Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Sweet Pancake Drop Rate Up",
+    "name": "Sweet Pancake Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-09-28 05:00:00",
+    "endDate": "2026-10-12 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Sweet Pancake Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "A Night That Never Ends",
+    "name": "Memory Growth Bonus Event (A Night That Never Ends)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2026-09-22 05:00:00",
+    "endDate": "2026-10-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (A Night That Never Ends)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Bound by Starlight",
+      "Zayne: Past Midnight",
+      "Rafayel: Alluring Hues",
+      "Sylus: Nightly Duet",
+      "Caleb: Spoils of Night"
+    ]
+  },
+  {
+    "page": "Gracious Treasure",
+    "name": "Gracious Treasure",
+    "kind": "spending",
+    "wikiType": "Spending Event",
+    "startDate": "2026-09-22 05:00:00",
+    "endDate": "2026-10-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Gracious Treasure",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-09-22 05:00:00",
+    "endDate": "2026-10-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Moonlit Reserve",
+    "name": "Moonlit Reserve",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2026-09-22 05:00:00",
+    "endDate": "2026-10-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Moonlit Reserve",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Refined Revelry",
+    "name": "Refined Revelry",
+    "kind": "spending",
+    "wikiType": "Spending Event",
+    "startDate": "2026-09-22 05:00:00",
+    "endDate": "2026-10-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Refined Revelry",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Bounty Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-09-21 05:00:00",
+    "endDate": "2026-09-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Bounty Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "A Call From Him",
+    "name": "Devoted Banquet",
+    "kind": "a-call-from-him",
+    "wikiType": "A Call From Him Event",
+    "startDate": "2026-09-17 11:00:00",
+    "endDate": "2026-09-23 23:59:00",
+    "timeReference": "UTC+8",
+    "tags": [],
+    "series": "Devoted Banquet",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Blooming Osmanthus",
+    "name": "Blooming Osmanthus",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2026-09-17 05:00:00",
+    "endDate": "2026-10-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Blooming Osmanthus",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Fragrant Sachets",
+    "name": "Fragrant Sachets",
+    "kind": "mini",
+    "wikiType": "Mini Event",
+    "startDate": "2026-09-17 05:00:00",
+    "endDate": "2026-10-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Fragrant Sachets",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Voyage Anew",
+    "name": "Voyage Anew",
+    "kind": "main-story-branch",
+    "wikiType": "Main Story Branch Event",
+    "startDate": "2026-09-17 05:00:00",
+    "endDate": "2026-09-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Voyage Anew",
+    "featured": true,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Trajectory Astray"
+    ]
+  },
+  {
+    "page": "Shared Bloom",
+    "name": "Shared Bloom",
+    "kind": "mini",
+    "wikiType": "Mini Event",
+    "startDate": "2026-09-08 05:00:00",
+    "endDate": "2026-09-17 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Shared Bloom",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Sylus: Silverwing Fiend Rehearsal",
+    "name": "Companion Rehearsal Rerun (Sylus: Silverwing Fiend)",
+    "kind": "companion-rehearsal-rerun",
+    "wikiType": "Companion Rehearsal Rerun",
+    "startDate": "2026-09-08 05:00:00",
+    "endDate": "2026-09-15 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal Rerun (Sylus: Silverwing Fiend)",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Crimson Rapture",
+      "Sylus: Crimson Departure"
+    ]
+  },
+  {
+    "page": "Dawnlit Path",
+    "name": "Dawnlit Path",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2026-08-31 05:00:00",
+    "endDate": "2026-09-07 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Dawnlit Path",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: When Embers Rise",
+      "Zayne: Onward Now",
+      "Zayne: Crystal World"
+    ]
+  },
+  {
+    "page": "Stylish Corn Drop Rate Up",
+    "name": "Stylish Corn Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-08-31 05:00:00",
+    "endDate": "2026-09-13 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Stylish Corn Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Caleb: Vivid Strokes)",
+    "name": "10 Days With You (Caleb: Vivid Strokes)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2026-08-24 05:00:00",
+    "endDate": "2026-09-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Caleb: Vivid Strokes)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Vivid Strokes"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-08-24 05:00:00",
+    "endDate": "2026-08-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Rafayel: Sunny Swing, Sylus: Tipping Point)",
+    "name": "Promise (Rafayel: Sunny Swing, Sylus: Tipping Point)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2026-08-24 05:00:00",
+    "endDate": "2026-10-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Rafayel: Sunny Swing, Sylus: Tipping Point)",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Rafayel: Sunny Swing",
+      "Sylus: Tipping Point"
+    ]
+  },
+  {
+    "page": "Radiant Horizons",
+    "name": "Radiant Horizons",
+    "kind": "special-sale",
+    "wikiType": "Special Sale Event",
+    "startDate": "2026-08-17 05:00:00",
+    "endDate": "2026-08-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Radiant Horizons",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Rafayel: Vermilion Martial God Rehearsal",
+    "name": "Companion Rehearsal (Rafayel: Vermilion Martial God)",
+    "kind": "companion-rehearsal",
+    "wikiType": "Companion Rehearsal Event",
+    "startDate": "2026-08-17 05:00:00",
+    "endDate": "2026-08-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal (Rafayel: Vermilion Martial God)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Masked Radiance",
+      "Rafayel: Masked Dissolution"
+    ]
+  },
+  {
+    "page": "Skyvault Afar",
+    "name": "Skyvault Afar",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2026-08-17 05:00:00",
+    "endDate": "2026-08-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Skyvault Afar",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Masked Radiance",
+      "Rafayel: Masked Dissolution",
+      "Rafayel: Skyflame Expanse",
+      "Rafayel: Skyflame Reach",
+      "Rafayel: Autumn Caress"
+    ]
+  },
+  {
+    "page": "Cuddly Factory",
+    "name": "Cuddly Factory",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2026-08-05 05:00:00",
+    "endDate": "2026-08-14 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Cuddly Factory",
+    "featured": true,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Summer Surge"
+    ]
+  },
+  {
+    "page": "Wobble Berry Drop Rate Up",
+    "name": "Wobble Berry Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-08-03 05:00:00",
+    "endDate": "2026-08-17 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Wobble Berry Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Meow Badge: Sport Series Available",
+    "name": "Meow Badge: Sport Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2026-07-27 05:00:00",
+    "endDate": "2026-08-17 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Sport Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Bounty Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-07-20 05:00:00",
+    "endDate": "2026-07-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Bounty Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heartfelt Gift (Zayne: Framed Dusk)",
+    "name": "Heartfelt Gift (Zayne: Framed Dusk)",
+    "kind": "heartfelt-gift",
+    "wikiType": "Heartfelt Gift Event",
+    "startDate": "2026-07-18 05:00:00",
+    "endDate": "2026-08-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartfelt Gift (Zayne: Framed Dusk)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Framed Dusk"
+    ]
+  },
+  {
+    "page": "Promise",
+    "name": "Promise Rerun (Xavier: Love Syndrome, Zayne: Steamy Proximity, Rafayel: Scarlet Invitation, Sylus: Searing Touch)",
+    "kind": "promise-event-rerun",
+    "wikiType": "Promise Event Rerun",
+    "startDate": "2026-07-18 05:00:00",
+    "endDate": "2026-08-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise Rerun (Xavier: Love Syndrome, Zayne: Steamy Proximity, Rafayel: Scarlet Invitation, Sylus: Searing Touch)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Xavier: Love Syndrome",
+      "Zayne: Steamy Proximity",
+      "Rafayel: Scarlet Invitation",
+      "Sylus: Searing Touch"
+    ]
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-07-09 05:00:00",
+    "endDate": "2026-07-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Limited-Time Myths Unlock",
+    "name": "Limited-Time Myths Unlock",
+    "kind": "contextual",
+    "wikiType": "Contextual Event",
+    "startDate": "2026-07-09 05:00:00",
+    "endDate": "2026-07-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Limited-Time Myths Unlock",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Wander In Wonder",
+    "name": "Memory Growth Bonus Event Rerun (Wander In Wonder)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2026-07-09 05:00:00",
+    "endDate": "2026-07-17 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event Rerun (Wander In Wonder)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Xavier: Floral Blessing",
+      "Zayne: Moonlit Dream",
+      "Rafayel: Gem Affection",
+      "Sylus: Grassland Romance"
+    ]
+  },
+  {
+    "page": "Crunchy Raccoon Drop Rate Up",
+    "name": "Crunchy Raccoon Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-07-06 05:00:00",
+    "endDate": "2026-07-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Crunchy Raccoon Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Cozy Summer",
+    "name": "Cozy Summer",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2026-07-02 05:00:00",
+    "endDate": "2026-07-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Cozy Summer",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Zayne: God of Annihilation Rehearsal",
+    "name": "Companion Rehearsal Rerun (Zayne: God of Annihilation)",
+    "kind": "companion-rehearsal-rerun",
+    "wikiType": "Companion Rehearsal Rerun",
+    "startDate": "2026-07-02 05:00:00",
+    "endDate": "2026-07-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal Rerun (Zayne: God of Annihilation)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Diviner's Hymn",
+      "Zayne: Diviner's Stillness"
+    ]
+  },
+  {
+    "page": "Promise (Xavier: Beachside Victory, Zayne: Your Voice)",
+    "name": "Promise (Xavier: Beachside Victory, Zayne: Your Voice)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2026-06-27 05:00:00",
+    "endDate": "2026-08-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Xavier: Beachside Victory, Zayne: Your Voice)",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Xavier: Beachside Victory",
+      "Zayne: Your Voice"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-06-22 05:00:00",
+    "endDate": "2026-06-29 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Love On Screen",
+    "name": "Love On Screen",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2026-06-17 05:00:00",
+    "endDate": "2026-07-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Love On Screen",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Once Upon a Frame",
+    "name": "Memory Growth Bonus Event (Once Upon a Frame)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2026-06-17 05:00:00",
+    "endDate": "2026-07-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Once Upon a Frame)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Runaway Hearts",
+      "Zayne: Dawn and Devotion",
+      "Rafayel: Sunset on Canvas",
+      "Sylus: Finale Undone",
+      "Caleb: Up Close"
+    ]
+  },
+  {
+    "page": "Picture Perfect Pack",
+    "name": "Picture Perfect Pack",
+    "kind": "pack",
+    "wikiType": "Pack Event",
+    "startDate": "2026-06-17 05:00:00",
+    "endDate": "2026-07-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Picture Perfect Pack",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Spirited Fashion",
+    "name": "Spirited Fashion",
+    "kind": "special-sale",
+    "wikiType": "Special Sale Event",
+    "startDate": "2026-06-17 05:00:00",
+    "endDate": "2026-07-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Spirited Fashion",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Broccoo Bird Drop Rate Up",
+    "name": "Broccoo Bird Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-06-08 05:00:00",
+    "endDate": "2026-06-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Broccoo Bird Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Clearsky Daydrift",
+    "name": "Clearsky Daydrift",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2026-06-08 05:00:00",
+    "endDate": "2026-06-15 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Clearsky Daydrift",
+    "featured": true,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Your Skyblue",
+      "Caleb: Skyward Flair",
+      "Caleb: His Gravity"
+    ]
+  },
+  {
+    "page": "As Promised",
+    "name": "As Promised",
+    "kind": "contextual",
+    "wikiType": "Contextual Event",
+    "startDate": "2026-06-07 05:00:00",
+    "endDate": "",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "As Promised",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Xavier: Moments Refined)",
+    "name": "10 Days With You (Xavier: Moments Refined)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2026-05-31 05:00:00",
+    "endDate": "2026-06-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Xavier: Moments Refined)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Moments Refined"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Bounty Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-05-25 05:00:00",
+    "endDate": "2026-06-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Bounty Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Meow Badge: Adventure Series Available",
+    "name": "Meow Badge: Adventure Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2026-05-25 05:00:00",
+    "endDate": "2026-06-15 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Adventure Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Fluff Realm",
+    "name": "Fluff Realm",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2026-05-22 05:00:00",
+    "endDate": "2026-05-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Fluff Realm",
+    "featured": true,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Kitten Included"
+    ]
+  },
+  {
+    "page": "Vibrant Prelude",
+    "name": "Vibrant Prelude",
+    "kind": "special-sale",
+    "wikiType": "Special Sale Event",
+    "startDate": "2026-05-15 05:00:00",
+    "endDate": "2026-05-22 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Vibrant Prelude",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Toast Express Drop Rate Up",
+    "name": "Toast Express Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-05-11 05:00:00",
+    "endDate": "2026-05-25 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Toast Express Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Zayne: Blooming Hour)",
+    "name": "10 Days With You (Zayne: Blooming Hour)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2026-05-10 05:00:00",
+    "endDate": "2026-05-28 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Zayne: Blooming Hour)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Blooming Hour"
+    ]
+  },
+  {
+    "page": "Lingering Lust",
+    "name": "Memory Growth Bonus Event (Lingering Lust)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2026-04-30 05:00:00",
+    "endDate": "2026-05-15 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Lingering Lust)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Sunken Glow",
+      "Zayne: Silent Underflow",
+      "Rafayel: Rippling Blossoms",
+      "Sylus: Darkbound Souls",
+      "Caleb: Vinesurge Instinct"
+    ]
+  },
+  {
+    "page": "Misty Promise",
+    "name": "Misty Promise",
+    "kind": "date-promise",
+    "wikiType": "Date Promise Event",
+    "startDate": "2026-04-30 05:00:00",
+    "endDate": "2026-05-15 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Misty Promise",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Rafayel: Trueheart Flip, Caleb: Spotlit Gaze)",
+    "name": "Promise (Rafayel: Trueheart Flip, Caleb: Spotlit Gaze)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2026-04-30 05:00:00",
+    "endDate": "2026-06-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Rafayel: Trueheart Flip, Caleb: Spotlit Gaze)",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Rafayel: Trueheart Flip",
+      "Caleb: Spotlit Gaze"
+    ]
+  },
+  {
+    "page": "Steam Veil",
+    "name": "Steam Veil",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2026-04-30 05:00:00",
+    "endDate": "2026-05-15 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Steam Veil",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Rafayel: Lemurian Sea God Rehearsal",
+    "name": "Companion Rehearsal Rerun (Rafayel: Lemurian Sea God)",
+    "kind": "companion-rehearsal-rerun",
+    "wikiType": "Companion Rehearsal Rerun",
+    "startDate": "2026-04-21 05:00:00",
+    "endDate": "2026-04-28 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal Rerun (Rafayel: Lemurian Sea God)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Mistsea Descent",
+      "Rafayel: Mistsea Lament"
+    ]
+  },
+  {
+    "page": "Tiptop Hop",
+    "name": "Tiptop Hop",
+    "kind": "mini",
+    "wikiType": "Mini Event",
+    "startDate": "2026-04-21 05:00:00",
+    "endDate": "2026-04-29 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Tiptop Hop",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Xavier: King of Darknight Rehearsal",
+    "name": "Companion Rehearsal Rerun (Xavier: King of Darknight)",
+    "kind": "companion-rehearsal-rerun",
+    "wikiType": "Companion Rehearsal Rerun",
+    "startDate": "2026-04-21 05:00:00",
+    "endDate": "2026-04-28 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal Rerun (Xavier: King of Darknight)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Nightvow Mooncurse",
+      "Xavier: Nightvow Requiem"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-04-20 05:00:00",
+    "endDate": "2026-04-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Cotton Sheep Drop Rate Up",
+    "name": "Cotton Sheep Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-04-13 05:00:00",
+    "endDate": "2026-04-26 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Cotton Sheep Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Rain Noctis",
+    "name": "Rain Noctis",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2026-04-13 05:00:00",
+    "endDate": "2026-04-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Rain Noctis",
+    "featured": true,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Rainlit Night",
+      "Sylus: Gusty Rush",
+      "Sylus: Gifted Arrival"
+    ]
+  },
+  {
+    "page": "Caleb: Netherlord Rehearsal",
+    "name": "Companion Rehearsal (Caleb: Netherlord)",
+    "kind": "companion-rehearsal",
+    "wikiType": "Companion Rehearsal Event",
+    "startDate": "2026-03-28 05:00:00",
+    "endDate": "2026-04-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal (Caleb: Netherlord)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Nether Parting",
+      "Caleb: Nether Yearning"
+    ]
+  },
+  {
+    "page": "Lost Souls",
+    "name": "Lost Souls",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2026-03-28 05:00:00",
+    "endDate": "2026-04-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Lost Souls",
+    "featured": true,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Nether Yearning",
+      "Caleb: Nether Parting",
+      "Caleb: Duskshard Dreams",
+      "Caleb: Duskshard Lotus",
+      "Caleb: Lotus Bond"
+    ]
+  },
+  {
+    "page": "Meow Badge: Classical Series Available",
+    "name": "Meow Badge: Classical Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2026-03-23 05:00:00",
+    "endDate": "2026-04-13 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Classical Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heartfelt Gift (Rafayel: Rising Tides)",
+    "name": "Heartfelt Gift (Rafayel: Rising Tides)",
+    "kind": "heartfelt-gift",
+    "wikiType": "Heartfelt Gift Event",
+    "startDate": "2026-03-19 05:00:00",
+    "endDate": "2026-04-03 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartfelt Gift (Rafayel: Rising Tides)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Rising Tides"
+    ]
+  },
+  {
+    "page": "Promise",
+    "name": "Promise Rerun (Xavier: Winter's Sun, Zayne: Dream Revisited, Rafayel: Tipsy, Sylus: No Way Out)",
+    "kind": "promise-event-rerun",
+    "wikiType": "Promise Event Rerun",
+    "startDate": "2026-03-19 05:00:00",
+    "endDate": "2026-04-03 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise Rerun (Xavier: Winter's Sun, Zayne: Dream Revisited, Rafayel: Tipsy, Sylus: No Way Out)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Xavier: Winter's Sun",
+      "Zayne: Dream Revisited",
+      "Rafayel: Tipsy",
+      "Sylus: No Way Out"
+    ]
+  },
+  {
+    "page": "Puff Squad Drop Rate Up",
+    "name": "Puff Squad Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-03-16 05:00:00",
+    "endDate": "2026-03-29 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Puff Squad Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Warming Solace",
+    "name": "Warming Solace",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2026-03-09 05:00:00",
+    "endDate": "2026-03-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Warming Solace",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Tranquil Moments"
+    ]
+  },
+  {
+    "page": "Each Step To You",
+    "name": "Each Step To You",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2026-03-01 05:00:00",
+    "endDate": "2026-03-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Each Step To You",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Duskbright Steps",
+      "Rafayel: Bloom Gaze",
+      "Rafayel: Swimming Hearts"
+    ]
+  },
+  {
+    "page": "Promise (Zayne: Chasing Silhouettes, Sylus: Rosy Hues)",
+    "name": "Promise (Zayne: Chasing Silhouettes, Sylus: Rosy Hues)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2026-03-01 05:00:00",
+    "endDate": "2026-04-28 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Zayne: Chasing Silhouettes, Sylus: Rosy Hues)",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Zayne: Chasing Silhouettes",
+      "Sylus: Rosy Hues"
+    ]
+  },
+  {
+    "page": "Golden Moment",
+    "name": "Golden Moment",
+    "kind": "special-sale",
+    "wikiType": "Special Sale Event",
+    "startDate": "2026-02-23 05:00:00",
+    "endDate": "2026-03-05 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Golden Moment",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-02-23 05:00:00",
+    "endDate": "2026-03-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Lanternet Joy",
+    "name": "Lanternet Joy",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2026-02-23 05:00:00",
+    "endDate": "2026-03-05 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Lanternet Joy",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Kiwi Curio Drop Rate Up",
+    "name": "Kiwi Curio Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-02-16 05:00:00",
+    "endDate": "2026-03-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Kiwi Curio Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "A Call From Him",
+    "name": "Yearturn Cadences",
+    "kind": "a-call-from-him",
+    "wikiType": "A Call From Him Event",
+    "startDate": "2026-02-11 11:00:00",
+    "endDate": "2026-02-17 23:59:00",
+    "timeReference": "UTC+8",
+    "tags": [],
+    "series": "Yearturn Cadences",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Felicity Abode",
+    "name": "Felicity Abode",
+    "kind": "special-sale",
+    "wikiType": "Special Sale Event",
+    "startDate": "2026-02-10 05:00:00",
+    "endDate": "2026-02-22 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Felicity Abode",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Festive Cheer Pack",
+    "name": "Festive Cheer Pack",
+    "kind": "pack",
+    "wikiType": "Pack Event",
+    "startDate": "2026-02-10 05:00:00",
+    "endDate": "2026-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Festive Cheer Pack",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Flowing Wealth",
+    "name": "Flowing Wealth",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2026-02-10 05:00:00",
+    "endDate": "2026-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Flowing Wealth",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Golden Fortune",
+    "name": "Golden Fortune",
+    "kind": "mini",
+    "wikiType": "Mini Event",
+    "startDate": "2026-02-10 05:00:00",
+    "endDate": "2026-02-22 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Golden Fortune",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2026-02-10 05:00:00",
+    "endDate": "2026-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Mortality's Tenderness",
+    "name": "Memory Growth Bonus Event (Mortality's Tenderness)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2026-02-10 05:00:00",
+    "endDate": "2026-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Mortality's Tenderness)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Blades with Blossoms",
+      "Zayne: Entwined Kites",
+      "Rafayel: Carved Gemheart",
+      "Sylus: Shared Lanterns",
+      "Caleb: Clearday Return"
+    ]
+  },
+  {
+    "page": "Time's Banquet",
+    "name": "Time's Banquet",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2026-02-10 05:00:00",
+    "endDate": "2026-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Time's Banquet",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Treasure Pages Season 2: To Golden Days",
+    "name": "Treasure Pages Season 2: To Golden Days",
+    "kind": "treasure-pages",
+    "wikiType": "Treasure Pages Event",
+    "startDate": "2026-02-10 05:00:00",
+    "endDate": "2026-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Treasure Pages Season 2: To Golden Days",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Rafayel: Vesperine Glimmer)",
+    "name": "10 Days With You (Rafayel: Vesperine Glimmer)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2026-02-02 05:00:00",
+    "endDate": "2026-02-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Rafayel: Vesperine Glimmer)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Vesperine Glimmer"
+    ]
+  },
+  {
+    "page": "Caleb: Ultimate Weapon X-02 Rehearsal",
+    "name": "Companion Rehearsal Rerun (Caleb: Ultimate Weapon X-02)",
+    "kind": "companion-rehearsal-rerun",
+    "wikiType": "Companion Rehearsal Rerun",
+    "startDate": "2026-02-02 05:00:00",
+    "endDate": "2026-02-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal Rerun (Caleb: Ultimate Weapon X-02)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Loneroad Unreturned",
+      "Caleb: Loneroad Together"
+    ]
+  },
+  {
+    "page": "Cuteness Charge",
+    "name": "Cuteness Charge",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2026-01-23 05:00:00",
+    "endDate": "2026-02-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Cuteness Charge",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Secret's Kiss"
+    ]
+  },
+  {
+    "page": "Bashful Roll Drop Rate Up",
+    "name": "Bashful Roll Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2026-01-19 05:00:00",
+    "endDate": "2026-02-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Bashful Roll Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Meow Badge: Garden Series Available",
+    "name": "Meow Badge: Garden Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2026-01-19 05:00:00",
+    "endDate": "2026-02-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Garden Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Timelock Key (To Our Yesterday)",
+    "name": "Timelock Key (To Our Yesterday)",
+    "kind": "timelock-key",
+    "wikiType": "Timelock Key Event",
+    "startDate": "2026-01-02 05:00:00",
+    "endDate": "2026-01-12 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Timelock Key (To Our Yesterday)",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Rafayel"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Anniversary Offer (2026)",
+    "name": "Anniversary Offer (2026)",
+    "kind": "anniversary",
+    "wikiType": "Anniversary Event",
+    "startDate": "2025-12-31 05:00:00",
+    "endDate": "2026-01-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Anniversary Offer (2026)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heart's Archive",
+    "name": "Heart's Archive",
+    "kind": "anniversary",
+    "wikiType": "Anniversary Event",
+    "startDate": "2025-12-31 05:00:00",
+    "endDate": "2026-01-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heart's Archive",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Illusia Locus",
+    "name": "Illusia Locus",
+    "kind": "anniversary",
+    "wikiType": "Anniversary Event",
+    "startDate": "2025-12-31 05:00:00",
+    "endDate": "2026-01-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusia Locus",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Celestial Yearn",
+      "Zayne: Frost Salvation",
+      "Rafayel: Eventide Recitative",
+      "Sylus: Grasped Dominion",
+      "Caleb: Verdant Wetlands"
+    ]
+  },
+  {
+    "page": "Lemonette's Trove",
+    "name": "Lemonette's Trove",
+    "kind": "permanent",
+    "wikiType": "Permanent Event",
+    "startDate": "2025-12-31 05:00:00",
+    "endDate": "",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Lemonette's Trove",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Poetic Figures",
+    "name": "Poetic Figures",
+    "kind": "mini",
+    "wikiType": "Mini Event",
+    "startDate": "2025-12-31 05:00:00",
+    "endDate": "2026-01-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Poetic Figures",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Xavier: Firelit Embrace, Caleb: Held Orchard)",
+    "name": "Promise (Xavier: Firelit Embrace, Caleb: Held Orchard)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2025-12-31 05:00:00",
+    "endDate": "2026-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Xavier: Firelit Embrace, Caleb: Held Orchard)",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Firelit Embrace",
+      "Caleb: Held Orchard"
+    ]
+  },
+  {
+    "page": "Royal Masque",
+    "name": "Royal Masque",
+    "kind": "anniversary-multi",
+    "wikiType": "Anniversary Multi Event",
+    "startDate": "2025-12-31 05:00:00",
+    "endDate": "2026-01-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Royal Masque",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Throne of Eros",
+    "name": "Memory Growth Bonus Event (Throne of Eros)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2025-12-31 05:00:00",
+    "endDate": "2026-01-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Throne of Eros)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Eulogy of Light",
+      "Zayne: Aeon's Canon",
+      "Rafayel: Fires of Devotion",
+      "Sylus: Primordial Chaos",
+      "Caleb: Imperial Thronesong"
+    ]
+  },
+  {
+    "page": "Royal Masque Presale",
+    "name": "Royal Masque Presale",
+    "kind": "anniversary",
+    "wikiType": "Anniversary Event",
+    "startDate": "2025-12-28 05:00:00",
+    "endDate": "2025-12-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Royal Masque Presale",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-12-22 05:00:00",
+    "endDate": "2025-12-29 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Floofy Party",
+    "name": "Floofy Party",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2025-12-18 05:00:00",
+    "endDate": "2025-12-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Floofy Party",
+    "featured": true,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Indulgent Scheme"
+    ]
+  },
+  {
+    "page": "Heartfelt Gift (Xavier: Precious Moment)",
+    "name": "Heartfelt Gift (Xavier: Precious Moment)",
+    "kind": "heartfelt-gift",
+    "wikiType": "Heartfelt Gift Event",
+    "startDate": "2025-12-18 05:00:00",
+    "endDate": "2026-01-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartfelt Gift (Xavier: Precious Moment)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Precious Moment"
+    ]
+  },
+  {
+    "page": "Crimson Feast",
+    "name": "Crimson Feast",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2025-12-02 05:00:00",
+    "endDate": "2025-12-16 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Crimson Feast",
+    "featured": true,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Crimson Departure",
+      "Sylus: Crimson Rapture",
+      "Sylus: Ivory Prudence",
+      "Sylus: Ivory Thirst",
+      "Sylus: Satiated"
+    ]
+  },
+  {
+    "page": "Sylus: Silverwing Fiend Rehearsal",
+    "name": "Companion Rehearsal (Sylus: Silverwing Fiend)",
+    "kind": "companion-rehearsal",
+    "wikiType": "Companion Rehearsal Event",
+    "startDate": "2025-12-02 05:00:00",
+    "endDate": "2025-12-16 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal (Sylus: Silverwing Fiend)",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Crimson Rapture",
+      "Sylus: Crimson Departure"
+    ]
+  },
+  {
+    "page": "Curious Chase",
+    "name": "Curious Chase",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2025-11-21 05:00:00",
+    "endDate": "2025-11-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Curious Chase",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Sweet Overdrive"
+    ]
+  },
+  {
+    "page": "Evernit Meloride",
+    "name": "Evernit Meloride",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2025-10-29 05:00:00",
+    "endDate": "2025-11-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Evernit Meloride",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heartbeats Ablaze",
+    "name": "Memory Growth Bonus Event (Heartbeats Ablaze)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2025-10-29 05:00:00",
+    "endDate": "2025-11-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Heartbeats Ablaze)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Offbeat Track",
+      "Zayne: Chilling Crescendo",
+      "Rafayel: Ignited Echoes",
+      "Sylus: Improvised Flow",
+      "Caleb: Passionate Overload"
+    ]
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-10-29 05:00:00",
+    "endDate": "2025-11-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Zayne: Holding Autumn, Rafayel: Sunlit Raindrops)",
+    "name": "Promise (Zayne: Holding Autumn, Rafayel: Sunlit Raindrops)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2025-10-29 05:00:00",
+    "endDate": "2025-12-26 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Zayne: Holding Autumn, Rafayel: Sunlit Raindrops)",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne",
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Zayne: Holding Autumn",
+      "Rafayel: Sunlit Raindrops"
+    ]
+  },
+  {
+    "page": "10 Days With You (Sylus: Nightglow)",
+    "name": "10 Days With You (Sylus: Nightglow)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2025-10-23 05:00:00",
+    "endDate": "2025-11-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Sylus: Nightglow)",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Nightglow"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-10-20 05:00:00",
+    "endDate": "2025-10-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Trace the Stars",
+    "name": "Trace the Stars",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2025-10-11 05:00:00",
+    "endDate": "2025-10-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Trace the Stars",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Between Stars",
+      "Xavier: Starry Stroll",
+      "Xavier: Unfading Wish"
+    ]
+  },
+  {
+    "page": "Moonbloom Date",
+    "name": "Moonbloom Date",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2025-10-01 05:00:00",
+    "endDate": "2025-10-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Moonbloom Date",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Born To Dazzle",
+    "name": "Born To Dazzle",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2025-09-25 05:00:00",
+    "endDate": "2025-10-05 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Born To Dazzle",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Golden Verdict",
+    "name": "Golden Verdict",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2025-09-25 05:00:00",
+    "endDate": "2025-10-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Golden Verdict",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Diviner's Hymn",
+      "Zayne: Diviner's Stillness",
+      "Zayne: Finale's Perpetuity",
+      "Zayne: Finale's Ache",
+      "Zayne: Fated Reunion"
+    ]
+  },
+  {
+    "page": "Zayne: God of Annihilation Rehearsal",
+    "name": "Companion Rehearsal (Zayne: God of Annihilation)",
+    "kind": "companion-rehearsal",
+    "wikiType": "Companion Rehearsal Event",
+    "startDate": "2025-09-25 05:00:00",
+    "endDate": "2025-10-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal (Zayne: God of Annihilation)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Diviner's Hymn",
+      "Zayne: Diviner's Stillness"
+    ]
+  },
+  {
+    "page": "Meow Badge: Autumn Series Available",
+    "name": "Meow Badge: Autumn Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2025-09-15 05:00:00",
+    "endDate": "2025-10-05 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Autumn Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Wonder Trove",
+    "name": "Wonder Trove",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2025-09-09 05:00:00",
+    "endDate": "2025-09-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Wonder Trove",
+    "featured": true,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Passionate Appraisal"
+    ]
+  },
+  {
+    "page": "Promise (Sylus: Shared Bliss, Caleb: Burnline)",
+    "name": "Promise (Sylus: Shared Bliss, Caleb: Burnline)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2025-08-31 05:00:00",
+    "endDate": "2025-10-28 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Sylus: Shared Bliss, Caleb: Burnline)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Caleb: Burnline",
+      "Sylus: Shared Bliss"
+    ]
+  },
+  {
+    "page": "Sunset Finale",
+    "name": "Sunset Finale",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2025-08-31 05:00:00",
+    "endDate": "2025-09-07 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Sunset Finale",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-08-25 05:00:00",
+    "endDate": "2025-09-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Caleb: Chasing Summer)",
+    "name": "10 Days With You (Caleb: Chasing Summer)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2025-08-13 05:00:00",
+    "endDate": "2025-10-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Caleb: Chasing Summer)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Chasing Summer"
+    ]
+  },
+  {
+    "page": "Estival Splash",
+    "name": "Estival Splash",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2025-08-12 05:00:00",
+    "endDate": "2025-08-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Estival Splash",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise",
+    "name": "Promise Rerun (Xavier: Succumb, Zayne: Heartstring Healer, Rafayel: Homecoming Sonata)",
+    "kind": "promise-event-rerun",
+    "wikiType": "Promise Event Rerun",
+    "startDate": "2025-08-12 05:00:00",
+    "endDate": "2025-08-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise Rerun (Xavier: Succumb, Zayne: Heartstring Healer, Rafayel: Homecoming Sonata)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Xavier: Succumb",
+      "Zayne: Heartstring Healer",
+      "Rafayel: Homecoming Sonata"
+    ]
+  },
+  {
+    "page": "Summery Promise",
+    "name": "Summery Promise",
+    "kind": "date-promise",
+    "wikiType": "Date Promise Event",
+    "startDate": "2025-08-12 05:00:00",
+    "endDate": "2025-08-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Summery Promise",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "You And Midsummer",
+    "name": "Memory Growth Bonus Event (You And Midsummer)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2025-08-12 05:00:00",
+    "endDate": "2025-08-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (You And Midsummer)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Coolsplash Soak",
+      "Zayne: Runaway Waves",
+      "Rafayel: Heatwave Torrent",
+      "Sylus: Lovespeed Ride",
+      "Caleb: Clearwind Glide"
+    ]
+  },
+  {
+    "page": "10 Days With You (Rafayel: Transparent Ocean)",
+    "name": "10 Days With You (Rafayel: Transparent Ocean)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2025-08-05 05:00:00",
+    "endDate": "2025-08-23 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Rafayel: Transparent Ocean)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Transparent Ocean"
+    ]
+  },
+  {
+    "page": "Cycle Unbound",
+    "name": "Cycle Unbound",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2025-07-25 05:00:00",
+    "endDate": "2025-08-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Cycle Unbound",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Nightvow Mooncurse",
+      "Xavier: Nightvow Requiem",
+      "Xavier: Gilded Mirage",
+      "Xavier: Gilded Dreams",
+      "Xavier: Silent Swipe"
+    ]
+  },
+  {
+    "page": "Xavier: King of Darknight Rehearsal",
+    "name": "Companion Rehearsal (Xavier: King of Darknight)",
+    "kind": "companion-rehearsal",
+    "wikiType": "Companion Rehearsal Event",
+    "startDate": "2025-07-25 05:00:00",
+    "endDate": "2025-08-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal (Xavier: King of Darknight)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Nightvow Mooncurse",
+      "Xavier: Nightvow Requiem"
+    ]
+  },
+  {
+    "page": "Meow Badge: Ceremony Series Available",
+    "name": "Meow Badge: Ceremony Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2025-07-14 05:00:00",
+    "endDate": "2025-08-04 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Ceremony Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heartfelt Gift (Caleb: Yearly Nostalgia)",
+    "name": "Heartfelt Gift (Caleb: Yearly Nostalgia)",
+    "kind": "heartfelt-gift",
+    "wikiType": "Heartfelt Gift Event",
+    "startDate": "2025-07-12 05:00:00",
+    "endDate": "2025-07-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartfelt Gift (Caleb: Yearly Nostalgia)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Yearly Nostalgia"
+    ]
+  },
+  {
+    "page": "Before Sunset, After Vows",
+    "name": "Before Sunset, After Vows",
+    "kind": "version-multi",
+    "wikiType": "Version Multi Event",
+    "startDate": "2025-07-03 05:00:00",
+    "endDate": "2025-07-22 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Before Sunset, After Vows",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-07-03 05:00:00",
+    "endDate": "2025-07-22 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Xavier: Nocturnal Hunt, Zayne: Morning Drift)",
+    "name": "Promise (Xavier: Nocturnal Hunt, Zayne: Morning Drift)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2025-07-03 05:00:00",
+    "endDate": "2025-08-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Xavier: Nocturnal Hunt, Zayne: Morning Drift)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne",
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Zayne: Morning Drift",
+      "Xavier: Nocturnal Hunt"
+    ]
+  },
+  {
+    "page": "Witnessed By Deepspace",
+    "name": "Memory Growth Bonus Event (Witnessed By Deepspace)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2025-07-03 05:00:00",
+    "endDate": "2025-07-22 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Witnessed By Deepspace)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Starfall Sanctuary",
+      "Zayne: Iceborn Warmth",
+      "Rafayel: Destined Dawntide",
+      "Sylus: Alternative Darkborne",
+      "Caleb: Wayward Wonderland"
+    ]
+  },
+  {
+    "page": "A Call From Him",
+    "name": "Evermore Vows",
+    "kind": "a-call-from-him",
+    "wikiType": "A Call From Him Event",
+    "startDate": "2025-06-28 11:00:00",
+    "endDate": "2025-07-04 23:59:00",
+    "timeReference": "UTC+8",
+    "tags": [],
+    "series": "Evermore Vows",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Zayne: 5th Intercostal Space)",
+    "name": "10 Days With You (Zayne: 5th Intercostal Space)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2025-06-24 05:00:00",
+    "endDate": "2025-07-12 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Zayne: 5th Intercostal Space)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: 5th Intercostal Space"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-06-23 05:00:00",
+    "endDate": "2025-06-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Merling Oath",
+    "name": "Merling Oath",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2025-06-17 05:00:00",
+    "endDate": "2025-07-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Merling Oath",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Mistsea Descent",
+      "Rafayel: Mistsea Lament",
+      "Rafayel: Tidefall Waves",
+      "Rafayel: Tidefall Allure",
+      "Rafayel: Distant Prayer"
+    ]
+  },
+  {
+    "page": "Rafayel: Lemurian Sea God Rehearsal",
+    "name": "Companion Rehearsal (Rafayel: Lemurian Sea God)",
+    "kind": "companion-rehearsal",
+    "wikiType": "Companion Rehearsal Event",
+    "startDate": "2025-06-17 05:00:00",
+    "endDate": "2025-07-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal (Rafayel: Lemurian Sea God)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Mistsea Descent",
+      "Rafayel: Mistsea Lament"
+    ]
+  },
+  {
+    "page": "Summer Daydream",
+    "name": "Summer Daydream",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2025-06-08 05:00:00",
+    "endDate": "2025-06-15 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Summer Daydream",
+    "featured": true,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Wild Wander",
+    "name": "Wild Wander",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2025-05-29 05:00:00",
+    "endDate": "2025-06-07 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Wild Wander",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Feverish Attempts"
+    ]
+  },
+  {
+    "page": "Meow Badge: Summer Series Available",
+    "name": "Meow Badge: Summer Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2025-05-12 05:00:00",
+    "endDate": "2025-06-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Summer Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Xavier: Horizon's Pulse)",
+    "name": "10 Days With You (Xavier: Horizon's Pulse)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2025-05-06 05:00:00",
+    "endDate": "2025-05-24 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Xavier: Horizon's Pulse)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Horizon's Pulse"
+    ]
+  },
+  {
+    "page": "Promise (Rafayel: Banquet Ablaze, Sylus: Freefall Gambit)",
+    "name": "Promise (Rafayel: Banquet Ablaze, Sylus: Freefall Gambit)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2025-05-06 05:00:00",
+    "endDate": "2025-07-03 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Rafayel: Banquet Ablaze, Sylus: Freefall Gambit)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Rafayel: Banquet Ablaze",
+      "Sylus: Freefall Gambit"
+    ]
+  },
+  {
+    "page": "Blooming Promise",
+    "name": "Blooming Promise",
+    "kind": "date-promise",
+    "wikiType": "Date Promise Event",
+    "startDate": "2025-04-30 05:00:00",
+    "endDate": "2025-05-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Blooming Promise",
+    "featured": true,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Blossom Escape",
+    "name": "Blossom Escape",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2025-04-30 05:00:00",
+    "endDate": "2025-05-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Blossom Escape",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Spring and Flowers",
+    "name": "Memory Growth Bonus Event (Spring and Flowers)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2025-04-30 05:00:00",
+    "endDate": "2025-05-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Spring and Flowers)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Inflorescence Imprints",
+      "Zayne: Fragrant Possession",
+      "Rafayel: Wisteria Waltz",
+      "Sylus: Valleydream Bloom",
+      "Caleb: Floating Floraletter"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-04-21 05:00:00",
+    "endDate": "2025-04-28 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Spring Arrives",
+    "name": "Spring Arrives",
+    "kind": "mini",
+    "wikiType": "Mini Event",
+    "startDate": "2025-04-21 05:00:00",
+    "endDate": "2025-04-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Spring Arrives",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Night Whisper",
+    "name": "Night Whisper",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2025-04-13 05:00:00",
+    "endDate": "2025-04-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Night Whisper",
+    "featured": true,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Sylus: Chaotic Velocity)",
+    "name": "10 Days With You (Sylus: Chaotic Velocity)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2025-04-03 05:00:00",
+    "endDate": "2025-04-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Sylus: Chaotic Velocity)",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Chaotic Velocity"
+    ]
+  },
+  {
+    "page": "Caleb: Ultimate Weapon X-02 Rehearsal",
+    "name": "Companion Rehearsal (Caleb: Ultimate Weapon X-02)",
+    "kind": "companion-rehearsal",
+    "wikiType": "Companion Rehearsal Event",
+    "startDate": "2025-03-28 05:00:00",
+    "endDate": "2025-04-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal (Caleb: Ultimate Weapon X-02)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Loneroad Unreturned",
+      "Caleb: Loneroad Together"
+    ]
+  },
+  {
+    "page": "Gravity Calls",
+    "name": "Gravity Calls",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2025-03-28 05:00:00",
+    "endDate": "2025-04-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Gravity Calls",
+    "featured": true,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Loneroad Unreturned",
+      "Caleb: Loneroad Together",
+      "Caleb: Farewell Dreamscape",
+      "Caleb: Farewell Intimacy",
+      "Caleb: The Termination"
+    ]
+  },
+  {
+    "page": "Heartfelt Gift (Sylus: Magnum Opus)",
+    "name": "Heartfelt Gift (Sylus: Magnum Opus)",
+    "kind": "heartfelt-gift",
+    "wikiType": "Heartfelt Gift Event",
+    "startDate": "2025-03-12 05:00:00",
+    "endDate": "2025-03-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartfelt Gift (Sylus: Magnum Opus)",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Magnum Opus"
+    ]
+  },
+  {
+    "page": "Meow Badge: Fairytale Series Available",
+    "name": "Meow Badge: Fairytale Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2025-03-10 05:00:00",
+    "endDate": "2025-03-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Fairytale Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Gamers Assembly",
+    "name": "Gamers Assembly",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2025-03-09 05:00:00",
+    "endDate": "2025-03-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Gamers Assembly",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Everlasting Wish"
+    ]
+  },
+  {
+    "page": "Promise (Xavier: Sweetness Pursuit, Caleb: Deceptive Solitude)",
+    "name": "Promise (Xavier: Sweetness Pursuit, Caleb: Deceptive Solitude)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2025-03-09 05:00:00",
+    "endDate": "2025-05-06 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Xavier: Sweetness Pursuit, Caleb: Deceptive Solitude)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb",
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Caleb: Deceptive Solitude",
+      "Xavier: Sweetness Pursuit"
+    ]
+  },
+  {
+    "page": "Until Twilight",
+    "name": "Until Twilight",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2025-03-01 05:00:00",
+    "endDate": "2025-03-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Until Twilight",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-02-24 05:00:00",
+    "endDate": "2025-03-03 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Lanternet Gift",
+    "name": "Lanternet Gift",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2025-02-10 05:00:00",
+    "endDate": "2025-02-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Lanternet Gift",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Savage Overture",
+    "name": "Savage Overture",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2025-02-10 05:00:00",
+    "endDate": "2025-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Savage Overture",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Tomorrow's Catch-22",
+    "name": "Memory Growth Bonus Event (Tomorrow's Catch-22)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2025-02-10 05:00:00",
+    "endDate": "2025-02-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Tomorrow's Catch-22)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Xavier: Deluded Fiction",
+      "Zayne: Immediate Disorder",
+      "Rafayel: Extreme Dose",
+      "Sylus: Innocent Birdcage",
+      "Caleb: Tainted Cuts"
+    ]
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-02-08 05:00:00",
+    "endDate": "2025-02-22 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Caleb: Verified Rumor)",
+    "name": "10 Days With You (Caleb: Verified Rumor)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2025-01-22 05:00:00",
+    "endDate": "2025-02-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Caleb: Verified Rumor)",
+    "featured": false,
+    "relatedCharacters": [
+      "Caleb"
+    ],
+    "relatedMemories": [
+      "Caleb: Verified Rumor"
+    ]
+  },
+  {
+    "page": "Festive Blessing",
+    "name": "Festive Blessing",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2025-01-22 05:00:00",
+    "endDate": "2025-02-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Festive Blessing",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2025-01-22 05:00:00",
+    "endDate": "2025-02-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "A Call From Him",
+    "name": "Joyous Serenades",
+    "kind": "a-call-from-him",
+    "wikiType": "A Call From Him Event",
+    "startDate": "2025-01-20 05:00:00",
+    "endDate": "2025-01-29 23:59:00",
+    "timeReference": "UTC+8",
+    "tags": [],
+    "series": "Joyous Serenades",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus",
+      "Caleb"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Xavier: Love Syndrome, Zayne: Steamy Proximity)",
+    "name": "Promise (Xavier: Love Syndrome, Zayne: Steamy Proximity)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2025-01-10 05:00:00",
+    "endDate": "2025-03-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Xavier: Love Syndrome, Zayne: Steamy Proximity)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne",
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Zayne: Steamy Proximity",
+      "Xavier: Love Syndrome"
+    ]
+  },
+  {
+    "page": "Deluxe Annual Pass",
+    "name": "Deluxe Annual Pass",
+    "kind": "anniversary",
+    "wikiType": "Anniversary Event",
+    "startDate": "2024-12-31 05:00:00",
+    "endDate": "2025-01-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Deluxe Annual Pass",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Nightly Rendezvous",
+    "name": "Memory Growth Bonus Event (Nightly Rendezvous)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2024-12-31 05:00:00",
+    "endDate": "2025-01-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Nightly Rendezvous)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Xavier: Misty Silhouette",
+      "Zayne: Absolute Zeal",
+      "Rafayel: Intertidal Zone",
+      "Sylus: Night Of Secrecy"
+    ]
+  },
+  {
+    "page": "Touring In Love",
+    "name": "Touring In Love",
+    "kind": "anniversary-multi",
+    "wikiType": "Anniversary Multi Event",
+    "startDate": "2024-12-31 05:00:00",
+    "endDate": "2025-01-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Touring In Love",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Touring In Love Presale",
+    "name": "Touring In Love Presale",
+    "kind": "anniversary",
+    "wikiType": "Anniversary Event",
+    "startDate": "2024-12-28 05:00:00",
+    "endDate": "2024-12-31 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Touring In Love Presale",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heartfelt Gift (Zayne: Engraved Affection)",
+    "name": "Heartfelt Gift (Zayne: Engraved Affection)",
+    "kind": "heartfelt-gift",
+    "wikiType": "Heartfelt Gift Event",
+    "startDate": "2024-12-18 05:00:00",
+    "endDate": "2025-01-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartfelt Gift (Zayne: Engraved Affection)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Engraved Affection"
+    ]
+  },
+  {
+    "page": "Lost Petals",
+    "name": "Lost Petals",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2024-12-18 05:00:00",
+    "endDate": "2024-12-28 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Lost Petals",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Silvery Polyphony"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2024-12-16 05:00:00",
+    "endDate": "2025-12-23 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Campus Mystery",
+    "name": "Campus Mystery",
+    "kind": "main-story-branch",
+    "wikiType": "Main Story Branch Event",
+    "startDate": "2024-12-07 05:00:00",
+    "endDate": "2024-12-17 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Campus Mystery",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Outcast's Voyage"
+    ]
+  },
+  {
+    "page": "Abyssal Splendor",
+    "name": "Abyssal Splendor",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2024-12-02 05:00:00",
+    "endDate": "2024-12-16 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Abyssal Splendor",
+    "featured": true,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Abyssal Mark",
+      "Sylus: Abyssal Blossom",
+      "Sylus: Bloodnight Drift",
+      "Sylus: Bloodnight Blaze",
+      "Sylus: Reckless Living"
+    ]
+  },
+  {
+    "page": "Sylus: Abysm Sovereign Rehearsal",
+    "name": "Companion Rehearsal (Sylus: Abysm Sovereign)",
+    "kind": "companion-rehearsal",
+    "wikiType": "Companion Rehearsal Event",
+    "startDate": "2024-12-02 05:00:00",
+    "endDate": "2024-12-16 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Companion Rehearsal (Sylus: Abysm Sovereign)",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Abyssal Blossom",
+      "Sylus: Abyssal Mark"
+    ]
+  },
+  {
+    "page": "10 Days With You (Xavier: Seeker Of Light)",
+    "name": "10 Days With You (Xavier: Seeker Of Light)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2024-11-20 05:00:00",
+    "endDate": "2024-12-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Xavier: Seeker Of Light)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Seeker Of Light"
+    ]
+  },
+  {
+    "page": "Meow's Time!",
+    "name": "Meow's Time!",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2024-11-12 05:00:00",
+    "endDate": "2024-11-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow's Time!",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Rafayel: Scarlet Invitation, Sylus: Searing Touch)",
+    "name": "Promise (Rafayel: Scarlet Invitation, Sylus: Searing Touch)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2024-11-12 05:00:00",
+    "endDate": "2025-01-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Rafayel: Scarlet Invitation, Sylus: Searing Touch)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Rafayel: Scarlet Invitation",
+      "Sylus: Searing Touch"
+    ]
+  },
+  {
+    "page": "Yes, Cat Caretaker",
+    "name": "Memory Growth Bonus Event (Yes, Cat Caretaker)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2024-11-12 05:00:00",
+    "endDate": "2024-11-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Yes, Cat Caretaker)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Xavier: Floof Attack",
+      "Zayne: Fluffy Treatment",
+      "Rafayel: Tailwag Moment",
+      "Sylus: Goodcat Code"
+    ]
+  },
+  {
+    "page": "Island Secrets",
+    "name": "Island Secrets",
+    "kind": "main-story-branch",
+    "wikiType": "Main Story Branch Event",
+    "startDate": "2024-11-08 05:00:00",
+    "endDate": "2024-11-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Island Secrets",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Seething Flames"
+    ]
+  },
+  {
+    "page": "Meow Badge: Beverage Series Available",
+    "name": "Meow Badge: Beverage Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2024-11-04 05:00:00",
+    "endDate": "2024-11-25 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Beverage Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Cuteness Crush",
+    "name": "Cuteness Crush",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2024-10-31 05:00:00",
+    "endDate": "2024-11-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Cuteness Crush",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Heartstring Notes"
+    ]
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2024-10-28 05:00:00",
+    "endDate": "2025-11-04 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Waking Reverie",
+    "name": "Waking Reverie",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2024-10-20 05:00:00",
+    "endDate": "2024-10-30 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Waking Reverie",
+    "featured": true,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Radiant Brilliance"
+    ]
+  },
+  {
+    "page": "10 Days With You (Rafayel: Glistening Hearts)",
+    "name": "10 Days With You (Rafayel: Glistening Hearts)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2024-10-19 05:00:00",
+    "endDate": "2024-11-06 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Rafayel: Glistening Hearts)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Glistening Hearts"
+    ]
+  },
+  {
+    "page": "Timeless Days",
+    "name": "Timeless Days",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2024-10-11 05:00:00",
+    "endDate": "2024-10-18 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Timeless Days",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Chansia Journey",
+    "name": "Chansia Journey",
+    "kind": "main-story-branch",
+    "wikiType": "Main Story Branch Event",
+    "startDate": "2024-09-30 05:00:00",
+    "endDate": "2024-10-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Chansia Journey",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Frozen Nightfall"
+    ]
+  },
+  {
+    "page": "Mountain Journey",
+    "name": "Mountain Journey",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2024-09-23 05:00:00",
+    "endDate": "2024-10-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Mountain Journey",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Wander In Wonder",
+    "name": "Memory Growth Bonus Event (Wander In Wonder)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2024-09-23 05:00:00",
+    "endDate": "2024-10-09 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Wander In Wonder)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Xavier: Floral Blessing",
+      "Zayne: Moonlit Dream",
+      "Rafayel: Gem Affection",
+      "Sylus: Grassland Romance"
+    ]
+  },
+  {
+    "page": "Promise (Xavier: Winter's Sun, Zayne: Dream Revisited)",
+    "name": "Promise (Xavier: Winter's Sun, Zayne: Dream Revisited)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2024-09-14 05:00:00",
+    "endDate": "2024-11-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Xavier: Winter's Sun, Zayne: Dream Revisited)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Xavier: Winter's Sun",
+      "Zayne: Dream Revisited"
+    ]
+  },
+  {
+    "page": "Seremoon Gift",
+    "name": "Seremoon Gift",
+    "kind": "login",
+    "wikiType": "Login Event",
+    "startDate": "2024-09-10 05:00:00",
+    "endDate": "2024-09-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Seremoon Gift",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Twilight Comrades",
+    "name": "Twilight Comrades",
+    "kind": "solo",
+    "wikiType": "Solo Event",
+    "startDate": "2024-09-10 05:00:00",
+    "endDate": "2024-09-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Twilight Comrades",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Into The Canvas"
+    ]
+  },
+  {
+    "page": "Cuddly Llama Drop Rate Up",
+    "name": "Cuddly Llama Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2024-09-02 05:00:00",
+    "endDate": "2024-09-15 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Cuddly Llama Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Meow Badge: Campus Series Available",
+    "name": "Meow Badge: Campus Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2024-09-02 05:00:00",
+    "endDate": "2024-09-23 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Campus Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Very Moment With U",
+    "name": "Very Moment With U",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2024-08-31 05:00:00",
+    "endDate": "2024-09-07 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Very Moment With U",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2024-08-26 05:00:00",
+    "endDate": "2025-09-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Zayne: Doomsday)",
+    "name": "10 Days With You (Zayne: Doomsday)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2024-08-23 05:00:00",
+    "endDate": "2024-09-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Zayne: Doomsday)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Doomsday"
+    ]
+  },
+  {
+    "page": "Adventure Above Clouds",
+    "name": "Adventure Above Clouds",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2024-08-07 05:00:00",
+    "endDate": "2024-08-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Adventure Above Clouds",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Misty Invasion",
+    "name": "Memory Growth Bonus Event (Misty Invasion)",
+    "kind": "memory-growth-bonus",
+    "wikiType": "Memory Growth Bonus Event",
+    "startDate": "2024-08-07 05:00:00",
+    "endDate": "2024-08-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Memory Growth Bonus Event (Misty Invasion)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Xavier: No Restraint",
+      "Zayne: Hidden Motive",
+      "Rafayel: Omnipotent Perception",
+      "Sylus: Lost Oasis"
+    ]
+  },
+  {
+    "page": "Sweetie Silk",
+    "name": "Sweetie Silk",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2024-08-07 05:00:00",
+    "endDate": "2024-08-20 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Sweetie Silk",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Diving Dolphin Drop Rate Up",
+    "name": "Diving Dolphin Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2024-08-05 05:00:00",
+    "endDate": "2024-08-18 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Diving Dolphin Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heartfelt Gift (Rafayel: Sparkling Traces)",
+    "name": "Heartfelt Gift (Rafayel: Sparkling Traces)",
+    "kind": "heartfelt-gift",
+    "wikiType": "Heartfelt Gift Event",
+    "startDate": "2024-07-29 05:00:00",
+    "endDate": "2024-08-13 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartfelt Gift (Rafayel: Sparkling Traces)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Sparkling Traces"
+    ]
+  },
+  {
+    "page": "A Call From Him",
+    "name": "Radiant Ripples",
+    "kind": "a-call-from-him",
+    "wikiType": "A Call From Him Event",
+    "startDate": "2024-07-26 14:00:00",
+    "endDate": "2024-08-10 23:59:00",
+    "timeReference": "UTC+8",
+    "tags": [],
+    "series": "Radiant Ripples",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Sylus: Wild Gaze)",
+    "name": "10 Days With You (Sylus: Wild Gaze)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2024-07-15 05:00:00",
+    "endDate": "2024-08-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Sylus: Wild Gaze)",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Sylus: Wild Gaze"
+    ]
+  },
+  {
+    "page": "Illusio",
+    "name": "Illusio",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2024-07-15 05:00:00",
+    "endDate": "2024-08-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Illusio",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Rafayel: Tipsy, Sylus: No Way Out)",
+    "name": "Promise (Rafayel: Tipsy, Sylus: No Way Out)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2024-07-15 05:00:00",
+    "endDate": "2024-09-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Rafayel: Tipsy, Sylus: No Way Out)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel",
+      "Sylus"
+    ],
+    "relatedMemories": [
+      "Rafayel: Tipsy",
+      "Sylus: No Way Out"
+    ]
+  },
+  {
+    "page": "Secret Investigation",
+    "name": "Secret Investigation",
+    "kind": "reward",
+    "wikiType": "Reward Event",
+    "startDate": "2024-07-15 05:00:00",
+    "endDate": "2024-08-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Secret Investigation",
+    "featured": false,
+    "relatedCharacters": [
+      "Sylus"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Tippy Banana Drop Rate Up",
+    "name": "Tippy Banana Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2024-07-08 05:00:00",
+    "endDate": "2024-07-21 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Tippy Banana Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Partner Go Go",
+    "name": "Partner Go Go",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2024-06-25 05:00:00",
+    "endDate": "2024-07-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Partner Go Go",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Xavier: Lost Signal)",
+    "name": "10 Days With You (Xavier: Lost Signal)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2024-06-13 05:00:00",
+    "endDate": "2024-07-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Xavier: Lost Signal)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Lost Signal"
+    ]
+  },
+  {
+    "page": "Puffy Penguin Drop Rate Up",
+    "name": "Puffy Penguin Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2024-06-10 05:00:00",
+    "endDate": "2024-06-23 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Puffy Penguin Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Yunshan's Charm",
+    "name": "Yunshan's Charm",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2024-06-07 05:00:00",
+    "endDate": "2024-06-21 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Yunshan's Charm",
+    "featured": true,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Snowfall Embrace",
+      "Zayne: Snowfall Encounter",
+      "Zayne: Forest's Breeze",
+      "Zayne: Forest's Slumber",
+      "Zayne: Secrets Of Fate"
+    ]
+  },
+  {
+    "page": "Meow Badge: Kittycat Series Available",
+    "name": "Meow Badge: Kittycat Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2024-05-27 05:00:00",
+    "endDate": "2024-06-17 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Kittycat Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Zayne: Heartstring Healer)",
+    "name": "Promise (Zayne: Heartstring Healer)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2024-05-14 05:00:00",
+    "endDate": "2024-07-11 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Zayne: Heartstring Healer)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Heartstring Healer"
+    ]
+  },
+  {
+    "page": "Another Dawnbreak",
+    "name": "Another Dawnbreak",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2024-05-13 05:00:00",
+    "endDate": "2024-05-27 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Another Dawnbreak",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Midnight Rainfall",
+      "Xavier: Midnight Whispers",
+      "Xavier: Veiled Guardian",
+      "Xavier: Veiled Starlight",
+      "Xavier: Real Look"
+    ]
+  },
+  {
+    "page": "Fluffy Doggie Drop Rate Up",
+    "name": "Fluffy Doggie Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2024-05-13 05:00:00",
+    "endDate": "2024-05-26 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Fluffy Doggie Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2024-04-30 05:00:00",
+    "endDate": "2025-05-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heartwork Routine",
+    "name": "Heartwork Routine",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2024-04-26 05:00:00",
+    "endDate": "2024-05-10 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartwork Routine",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Rafayel: Lost In Your Eyes)",
+    "name": "10 Days With You (Rafayel: Lost In Your Eyes)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2024-04-19 05:00:00",
+    "endDate": "2024-05-07 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Rafayel: Lost In Your Eyes)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Lost In Your Eyes"
+    ]
+  },
+  {
+    "page": "Fairymare Drop Rate Up",
+    "name": "Fairymare Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2024-04-15 05:00:00",
+    "endDate": "2024-04-28 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Fairymare Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Sea Breeze Echo",
+    "name": "Sea Breeze Echo",
+    "kind": "myth",
+    "wikiType": "Myth Event",
+    "startDate": "2024-04-03 05:00:00",
+    "endDate": "2024-04-17 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Sea Breeze Echo",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Temple's Sunset",
+      "Rafayel: Temple's Promise",
+      "Rafayel: Sapphire Dream",
+      "Rafayel: Sapphire Scar",
+      "Rafayel: Dawn's Melody"
+    ]
+  },
+  {
+    "page": "Meow Badge: Superkitty Series Available",
+    "name": "Meow Badge: Superkitty Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2024-04-01 05:00:00",
+    "endDate": "2024-05-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Superkitty Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Hunting Season",
+    "name": "Hunting Season (Core Hunt)",
+    "kind": "recurring",
+    "wikiType": "Recurring Event",
+    "startDate": "2024-03-25 05:00:00",
+    "endDate": "2025-04-02 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Hunting Season (Core Hunt)",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Heartfelt Gift (Xavier: Unique Aftertaste)",
+    "name": "Heartfelt Gift (Xavier: Unique Aftertaste)",
+    "kind": "heartfelt-gift",
+    "wikiType": "Heartfelt Gift Event",
+    "startDate": "2024-03-20 00:00:00",
+    "endDate": "2024-04-03 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Heartfelt Gift (Xavier: Unique Aftertaste)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Unique Aftertaste"
+    ]
+  },
+  {
+    "page": "Banana Boat Drop Rate Up",
+    "name": "Banana Boat Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2024-03-18 05:00:00",
+    "endDate": "2024-04-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Banana Boat Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Xavier: Succumb)",
+    "name": "Promise (Xavier: Succumb)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2024-03-17 05:00:00",
+    "endDate": "2024-05-14 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Promise (Xavier: Succumb)",
+    "featured": false,
+    "relatedCharacters": [
+      "Xavier"
+    ],
+    "relatedMemories": [
+      "Xavier: Succumb"
+    ]
+  },
+  {
+    "page": "Time Tour",
+    "name": "Time Tour",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2024-03-11 05:00:00",
+    "endDate": "2024-03-23 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Time Tour",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Meow Badge: Meowstar Series Available",
+    "name": "Meow Badge: Meowstar Series Available",
+    "kind": "meow-badge",
+    "wikiType": "Meow Badge Event",
+    "startDate": "2024-03-01 05:00:00",
+    "endDate": "2024-04-01 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Meow Badge: Meowstar Series Available",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "Miracle Voyage",
+    "name": "Miracle Voyage",
+    "kind": "birthday",
+    "wikiType": "Birthday Event",
+    "startDate": "2024-03-01 05:00:00",
+    "endDate": "2024-03-08 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Miracle Voyage",
+    "featured": true,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Golden Throat Drop Rate Up",
+    "name": "Golden Throat Drop Rate Up",
+    "kind": "plushie-drop-rate-up",
+    "wikiType": "Plushie Drop Rate Up Event",
+    "startDate": "2024-02-19 05:00:00",
+    "endDate": "2024-03-03 23:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Golden Throat Drop Rate Up",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  },
+  {
+    "page": "10 Days With You (Zayne: Dawn's Shadows)",
+    "name": "10 Days With You (Zayne: Dawn's Shadows)",
+    "kind": "10-days-with-you",
+    "wikiType": "10 Days With You Event",
+    "startDate": "2024-02-05 05:00:00",
+    "endDate": "2024-02-23 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "10 Days With You (Zayne: Dawn's Shadows)",
+    "featured": false,
+    "relatedCharacters": [
+      "Zayne"
+    ],
+    "relatedMemories": [
+      "Zayne: Dawn's Shadows"
+    ]
+  },
+  {
+    "page": "Kindled Reveries",
+    "name": "Kindled Reveries",
+    "kind": "multi",
+    "wikiType": "Multi Event",
+    "startDate": "2024-02-05 05:00:00",
+    "endDate": "2024-02-19 04:59:00",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Kindled Reveries",
+    "featured": true,
+    "relatedCharacters": [
+      "Xavier",
+      "Zayne",
+      "Rafayel"
+    ],
+    "relatedMemories": []
+  },
+  {
+    "page": "Promise (Rafayel: Homecoming Sonata)",
+    "name": "Promise (Rafayel: Homecoming Sonata)",
+    "kind": "promise",
+    "wikiType": "Promise Event",
+    "startDate": "2024-01-18 09:00:00",
+    "endDate": "2024-03-16 04:59:00",
+    "timeReference": "UTC+8",
+    "tags": [],
+    "series": "Promise (Rafayel: Homecoming Sonata)",
+    "featured": false,
+    "relatedCharacters": [
+      "Rafayel"
+    ],
+    "relatedMemories": [
+      "Rafayel: Homecoming Sonata"
+    ]
+  },
+  {
+    "page": "Limited-Time Myths Unlock",
+    "name": "Limited-Time Myths Unlock",
+    "kind": "contextual",
+    "wikiType": "Contextual Event",
+    "startDate": "",
+    "endDate": "",
+    "timeReference": "Server Time",
+    "tags": [],
+    "series": "Limited-Time Myths Unlock",
+    "featured": false,
+    "relatedCharacters": [],
+    "relatedMemories": []
+  }
+]

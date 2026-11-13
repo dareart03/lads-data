@@ -37,6 +37,25 @@ Older names of a banner, so saved pull records still find it.
 
     { "Destined Reunion Rerun (2025)": ["Destined Reunion Rerun"] }
 
+## achievements_additions.json
+Achievements the wiki page does not list (yet). The key is the exact title.
+`category` is one of Progress, Training, Home, Spare Time, Kitty Cards, Plushies.
+Rewards can be written as a text `reward` ("Diamond|20, Title: Lucky Paw") or,
+like the wiki data, as a `rewards` list.
+
+    { "Some Achievement": { "description": "Do something.", "category": "Spare Time",
+      "hidden": false, "reward": "Diamond|20" } }
+
+When the wiki gets the achievement, the merge report asks you to delete the entry.
+
 ## achievements_overrides.json
-Fixes for achievements. Key is the achievement `title`. A field replaces the
-wiki value, and `prevTitle` names the previous achievement in a chain.
+Corrections to an achievement the wiki already lists. A field here replaces the
+wiki value. The title itself cannot be changed here; use an alias.
+
+    { "Some Achievement": { "description": "Corrected text." } }
+
+## achievement_aliases.json
+Older titles of an achievement. Achievement ids are made from the title, so the
+app recomputes the old ids from these and keeps completed achievements.
+
+    { "Main Story Clear VIII": ["Under Deepspace Clear VIII / Clear VIII"] }

@@ -114,6 +114,30 @@ def split_list(value):
     return [part for part in parts if part]
 
 
+def name_changes(old_records, new_records, key):
+    """Key values that appeared or vanished between the previous run and this
+    one. A vanished name means the wiki removed or renamed the entry; the
+    update scripts print it so nothing disappears silently."""
+    old = {r.get(key, "") for r in old_records}
+    new = {r.get(key, "") for r in new_records}
+    return sorted(new - old), sorted(old - new)
+
+
+def report_changes(added, vanished, what):
+    """Print the diff between the previous and the current run."""
+    if not added and not vanished:
+        print(f"No {what} added or vanished since the last run.")
+        return
+    print(f"\nChanges since the last run: {len(added)} new, "
+          f"{len(vanished)} vanished ({what})")
+    for name in added[:20]:
+        print(f"  + {name}")
+    for name in vanished[:20]:
+        print(f"  - {name}   (removed or renamed on the wiki?)")
+    if len(added) > 20 or len(vanished) > 20:
+        print(f"  ... {len(added)} new + {len(vanished)} vanished in total")
+
+
 def save_json(path, data):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)

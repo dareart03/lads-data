@@ -13,7 +13,8 @@ Usage:
 """
 from collections import Counter
 
-from common import REPO_ROOT, RAW_DIR, clean, load_json, save_json, split_list
+from common import (REPO_ROOT, RAW_DIR, clean, load_json, name_changes,
+                    report_changes, save_json, split_list)
 
 RAW_FILE = RAW_DIR / "Events.json"
 MEMORIES_FILE = REPO_ROOT / "data" / "generated" / "memories.json"
@@ -93,6 +94,9 @@ def main():
 
     # newest first; permanent banners (no dates) go to the end
     banners.sort(key=lambda b: (b["startDate"] != "", b["startDate"]), reverse=True)
+    previous = load_json(OUTPUT_FILE, default=[]) or []
+    added, vanished = name_changes(previous, banners, "name")
+    report_changes(added, vanished, "banners")
     save_json(OUTPUT_FILE, banners)
 
     print(f"Read {len(rows)} events, kept {len(banners)} banners -> {OUTPUT_FILE}")

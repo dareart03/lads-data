@@ -2,12 +2,14 @@
 
 Order for memories:  wiki (generated)  ->  additions  ->  base stats  ->  overrides
 Order for banners:   wiki (generated)  ->  additions  ->  overrides    ->  aliases
+Order for achievements: same as banners (additions, overrides, aliases)
 
-Inputs : data/generated/memories.json, data/generated/banners.json
+Inputs : data/generated/memories.json, banners.json, achievements.json
          data/generated/memory_stats.json  (from update_stats.py)
          data/static/memory_stats.json
          data/manual/*.json   (all optional)
-Output : tools/dist/data/memories.json, tools/dist/data/banners.json
+Output : tools/dist/data/memories.json, banners.json, achievements.json,
+         events.json, rotations.json
          (tools/dist/ is not committed; the publish workflow uses it)
 
 The script never edits files in data/manual/. It only REPORTS entries that are
@@ -17,6 +19,7 @@ Usage:
     python tools/merge.py            # long lists are shortened
     python tools/merge.py --full     # print every line of every list
 """
+import hashlib
 import sys
 
 from update_memories import sort_key
@@ -122,6 +125,14 @@ def merge_memories(report):
         for field in REQUIRED_TEXT:
             if not isinstance(entry.get(field), str):
                 entry[field] = ""
+
+    # 5) the app looks its images up by these file names; update_images.py
+    # downloads exactly these files and pack_images.py ships them in images.zip
+    for entry in by_name.values():
+        base = (entry.get("icon") or "").replace(" ", "_")
+        if base:
+            entry["iconArt"] = f"{base}_icon.webp"
+            entry["portraitArt"] = f"{base}_portrait.webp"
     return sorted(by_name.values(), key=sort_key, reverse=True)
 
 
@@ -180,15 +191,146 @@ def merge_banners(report, memory_names):
                   key=lambda b: (b["startDate"] != "", b["startDate"]), reverse=True)
 
 
+# ------------------------------------------------------------------- events
+def new_event(name, fields):
+    event = {"page": name, "name": name, "kind": "", "wikiType": "",
+             "tags": [], "series": "", "featured": False,
+             "startDate": "", "endDate": "", "timeReference": "",
+             "relatedCharacters": [], "relatedMemories": []}
+    event.update(fields)
+    event["name"] = name
+    return event
+
+
+def merge_events(report, memory_names):
+    events = load_json(GENERATED / "events.json")
+    if events is None:
+        raise SystemExit("data/generated/events.json not found. "
+                         "Run update_events.py first.")
+
+    # additions: events the wiki does not list (yet)
+    wiki_names = {e["name"] for e in events}
+    for name, fields in manual("events_additions.json").items():
+        if name in wiki_names:
+            report["now_on_wiki"].append(f"events_additions.json: '{name}'")
+            continue
+        events.append(new_event(name, fields))
+        report["added"].append(f"event {name}")
+
+    # an override applies to EVERY occurrence of the name (recurring events
+    # appear once per period)
+    for name, fields in manual("events_overrides.json").items():
+        matches = [e for e in events if e["name"] == name]
+        if not matches:
+            report["problems"].append(f"events_overrides.json: no event named '{name}'")
+            continue
+        for event in matches:
+            for field, value in fields.items():
+                if event.get(field) == value:
+                    report["redundant"].append(
+                        f"events_overrides.json: '{name}'.{field} already has this value")
+                else:
+                    event[field] = value
+
+    for event in events:
+        event.setdefault("status", "confirmed")
+        for memory in event["relatedMemories"]:
+            if memory not in memory_names:
+                report["problems"].append(
+                    f"event '{event['name']}': unknown memory '{memory}'")
+    return sorted(events,
+                  key=lambda e: (e["startDate"] != "", e["startDate"]), reverse=True)
+
+
+# --------------------------------------------------------------- rotations
+def merge_rotations():
+    """The weekly farm rotations are a hand-maintained game constant
+    (data/static/rotations.json); merge only republishes them."""
+    rotations = load_json(STATIC / "rotations.json")
+    if rotations is None:
+        raise SystemExit("data/static/rotations.json not found.")
+    return rotations
+
+
+# ------------------------------------------------------------ achievements
+def achievement_id(title):
+    """Same rule the app has always used: first 8 characters of the MD5 of the title."""
+    return hashlib.md5(title.encode()).hexdigest()[:8]
+
+
+def merge_achievements(report):
+    achievements = load_json(GENERATED / "achievements.json")
+    if achievements is None:
+        raise SystemExit("data/generated/achievements.json not found. "
+                         "Run update_achievements.py first.")
+    by_title = {a["title"]: a for a in achievements}
+
+    # additions: achievements the wiki page does not list (yet)
+    added = 0
+    for title, fields in manual("achievements_additions.json").items():
+        if title in by_title:
+            report["now_on_wiki"].append(f"achievements_additions.json: '{title}'")
+            continue
+        entry = {"id": achievement_id(title), "title": title, "description": "",
+                 "category": "", "hidden": False, "characters": [], "rewards": []}
+        entry.update(fields)
+        entry["title"] = title
+        by_title[title] = entry
+        added += 1
+    if added:
+        report["added"].append(f"{added} achievements from achievements_additions.json")
+
+    for title, fields in manual("achievements_overrides.json").items():
+        entry = by_title.get(title)
+        if entry is None:
+            report["problems"].append(f"achievements_overrides.json: no achievement named '{title}'")
+            continue
+        for field, value in fields.items():
+            if field == "title":
+                report["problems"].append(
+                    f"achievements_overrides.json: '{title}' cannot change 'title' (use an alias)")
+            elif entry.get(field) == value:
+                report["redundant"].append(
+                    f"achievements_overrides.json: '{title}'.{field} already has this value")
+            else:
+                entry[field] = value
+
+    # aliases: older titles. The app computes the old ids from these (legacyIds)
+    # so achievements the player already completed are still recognised.
+    for title, old_titles in manual("achievement_aliases.json").items():
+        if title not in by_title:
+            report["problems"].append(f"achievement_aliases.json: no achievement named '{title}'")
+            continue
+        by_title[title]["aliases"] = old_titles
+        by_title[title]["legacyIds"] = [achievement_id(t) for t in old_titles]
+
+    seen = {}
+    for entry in by_title.values():
+        for key in [entry["id"]] + entry.get("legacyIds", []):
+            if key in seen and seen[key] != entry["title"]:
+                report["problems"].append(
+                    f"achievement id {key} is used by both '{seen[key]}' and '{entry['title']}'")
+            seen[key] = entry["title"]
+    return list(by_title.values())
+
+
 def main():
     report = {k: [] for k in ("added", "now_on_wiki", "redundant", "problems",
                               "no_stats", "unused_stats")}
     memories = merge_memories(report)
-    banners = merge_banners(report, {m["name"] for m in memories})
+    memory_names = {m["name"] for m in memories}
+    banners = merge_banners(report, memory_names)
+    achievements = merge_achievements(report)
+    events = merge_events(report, memory_names)
+    rotations = merge_rotations()
 
     save_json(DIST / "memories.json", memories)
     save_json(DIST / "banners.json", banners)
-    print(f"Wrote {len(memories)} memories and {len(banners)} banners to {DIST}")
+    save_json(DIST / "achievements.json", achievements)
+    save_json(DIST / "events.json", events)
+    save_json(DIST / "rotations.json", rotations)
+    print(f"Wrote {len(memories)} memories, {len(banners)} banners, "
+          f"{len(achievements)} achievements and {len(events)} events to {DIST}")
 
     report_section("Added from manual files", report["added"])
     report_section("Now on the wiki: delete these from data/manual/", report["now_on_wiki"])

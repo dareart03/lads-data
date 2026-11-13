@@ -1,0 +1,6888 @@
+[
+  {
+    "id": "609f66cd",
+    "title": "A Temporary Setback",
+    "description": "Lose a battle for the first time.",
+    "category": "Progress",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "d95e85cf",
+    "title": "A Bad Start",
+    "description": "Lose 10 times in combat.",
+    "category": "Progress",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Reversible (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6fcd780d",
+    "title": "Make This Quick",
+    "description": "Win within 10s in a battle.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Invincible (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a1f307e9",
+    "title": "Superstar",
+    "description": "Clear any battle stage with HP below 5% when fighting alongside Xavier.",
+    "category": "Progress",
+    "hidden": true,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Super Strong (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Partner (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8",
+    "tips": "An easy way to obtain this achievement is letting the player character take damage until defeat in an Endless Challenge in the Training Room."
+  },
+  {
+    "id": "cfbb5873",
+    "title": "Heart-Racing Test",
+    "description": "Clear any battle stage with HP below 5% when fighting alongside Zayne.",
+    "category": "Progress",
+    "hidden": true,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Uncontrollable (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Guardian (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8",
+    "tips": "An easy way to obtain this achievement is letting the player character take damage until defeat in an Endless Challenge in the Training Room."
+  },
+  {
+    "id": "3511c297",
+    "title": "Dancing On A Sword",
+    "description": "Clear any battle stage with HP below 5% when fighting alongside Rafayel.",
+    "category": "Progress",
+    "hidden": true,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Out-Of-Body (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Slacker Pro (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8",
+    "tips": "An easy way to obtain this achievement is letting the player character take damage until defeat in an Endless Challenge in the Training Room."
+  },
+  {
+    "id": "4b4f503c",
+    "title": "Absolute Defense",
+    "description": "Clear any battle stage with HP below 5% when fighting alongside Sylus.",
+    "category": "Progress",
+    "hidden": true,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Exceptional (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Vanguard (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8",
+    "tips": "An easy way to obtain this achievement is letting the player character take damage until defeat in an Endless Challenge in the Training Room."
+  },
+  {
+    "id": "67a6f433",
+    "title": "Victory's Edge",
+    "description": "Clear any battle stage with HP below 5% when fighting alongside Caleb.",
+    "category": "Progress",
+    "hidden": true,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Blessed (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Fortune Hero (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "An easy way to obtain this achievement is letting the player character take damage until defeat in an Endless Challenge in the Training Room."
+  },
+  {
+    "id": "7c922f3b",
+    "title": "Time Reunion",
+    "description": "Complete Main Stage [Under Deepspace] 4-13.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Destiny Café: Silver Bay (Chest)",
+        "amount": 1,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0b9b2609",
+    "title": "Deepspace Encounter I",
+    "description": "Login for 10 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Love and Deepspace (BGM)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0c661afc",
+    "title": "Deepspace Encounter II",
+    "description": "Log in for a total of 50 days to receive his message.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 100,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a32ed597",
+    "title": "Deepspace Encounter III",
+    "description": "Log in for 100 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Hundred-Day Sweetness (Avatar Frame)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "43d6fe1e",
+    "title": "Deepspace Encounter IV",
+    "description": "Log in for 150 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Opposing Visions (BGM Item)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1babc18c",
+    "title": "Deepspace Encounter V",
+    "description": "Log in for 200 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Cosmic Encounter (BGM Item)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "cf295fdb",
+    "title": "Overtime I",
+    "description": "Log in for 100 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 100,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "79689da7",
+    "title": "Overtime II",
+    "description": "Log in for 365 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 150,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "941c69a1",
+    "title": "Overtime III",
+    "description": "Log in for 1,000 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 200,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f5124abc",
+    "title": "By The Year I",
+    "description": "Log in for 365 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Eternal Moment (Avatar Frame)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3b1cd6d4",
+    "title": "By The Year II",
+    "description": "Log in for 1,000 days.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "1000 Days' Promise (Avatar Frame)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2026-10-11 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "17c4d119",
+    "title": "Daily Companion",
+    "description": "Log in for 30 days in a row.",
+    "category": "Progress",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 100,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Moments With You (Sole Title)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a7f9c4ff",
+    "title": "Wealth I",
+    "description": "Spend 100,000 Gold.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "c2233ba3",
+    "title": "Wealth II",
+    "description": "Spend 1,000,000 Gold.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "54efd4ef",
+    "title": "Wealth III",
+    "description": "Spend 10,000,000 Gold.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 100,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Wealth (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "2b163b2a",
+    "title": "Shiny I",
+    "description": "Spend 5,000 Diamonds.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "ec690dd2",
+    "title": "Shiny II",
+    "description": "Spend 10,000 Diamonds.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 80,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "2eb97780",
+    "title": "Shiny III",
+    "description": "Spend 20,000 Diamonds.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 100,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Ms. Wealth (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3dee810a",
+    "title": "Stamina I",
+    "description": "Spend 3,000 Stamina.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0e4166fe",
+    "title": "Stamina II",
+    "description": "Spend 10,000 Stamina.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f3148c48",
+    "title": "Stamina III",
+    "description": "Spend 30,000 Stamina.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 80,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Energetic (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "8a807485",
+    "title": "First Meeting",
+    "description": "Obtain a 5-Star Memory from Wishes for the first time.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f7dd5eaf",
+    "title": "Surprise Encounter",
+    "description": "Obtain two 5-Star Memories in 10 Wishes.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 80,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a340058e",
+    "title": "Providence",
+    "description": "Obtain three 5-Star Memories in 10 Wishes.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 100,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Providence (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "48b62c80",
+    "title": "My Destiny",
+    "description": "Obtain 8 Memories of the same one in 10 Wishes.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 80,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Destiny (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "d66c4232",
+    "title": "Threads of Fate",
+    "description": "Obtain a 5-Star Memory at the 70th attempt among all Wish Pools.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 100,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Yearned-for (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e3c9e1d2",
+    "title": "Memory Master I",
+    "description": "Own a 4-Star Rank 3 Memory.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4793cc09",
+    "title": "Memory Master II",
+    "description": "Own a 5-Star Rank 3 Memory.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 80,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0730fed0",
+    "title": "Wistful Thoughts I",
+    "description": "Own a Memory Pair.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "bd26aa2e",
+    "title": "Interastral Echo",
+    "description": "Own 10 different 5-Star Memories of Xavier.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Celestial Harmony (Tap Effect)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e54eaf8c",
+    "title": "Pristine Snow",
+    "description": "Own 10 different 5-Star Memories of Zayne.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Crystalline Snowfall (Tap Effect)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "dc7ba82c",
+    "title": "Tidal Flames",
+    "description": "Own 10 different 5-Star Memories of Rafayel.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Merman's Wake (Tap Effect)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "422489a9",
+    "title": "Shackled Hearts",
+    "description": "Own 10 different 5-Star Memories of Sylus.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Nightwoven Feather (Tap Effect)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "bfe973d5",
+    "title": "Summer Paradise",
+    "description": "Own 10 different 5-Star Memories of Caleb.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Midsummer Bliss (Tap Effect)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "47bd401b",
+    "title": "Oath of the Galaxy",
+    "description": "Obtain Bound Stars/Lunar Entwine, and Starclaim Epistle.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stellar Oath (Ring)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "The required items are only available through content acquired from Witnessed By Deepspace."
+  },
+  {
+    "id": "f94af4c9",
+    "title": "Oath of the Frost Jasmine",
+    "description": "Obtain Nestled Snow/Gentle Melt, and Snowrise Trace.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Eternal Lifebind (Ring)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "The required items are only available through content acquired from Witnessed By Deepspace."
+  },
+  {
+    "id": "05aa94c6",
+    "title": "Oath of the Searing Sea",
+    "description": "Obtain Ocean's Clarity/Fateful Ode, and Ripplechant Lilt.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Coiled Devotion (Ring)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "The required items are only available through content acquired from Witnessed By Deepspace."
+  },
+  {
+    "id": "cf416c32",
+    "title": "Oath of the Eternal Night",
+    "description": "Obtain Destined Touch/Heart Dominion, and Souletching Susurration.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Soul Feather (Ring)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "The required items are only available through content acquired from Witnessed By Deepspace."
+  },
+  {
+    "id": "b4efcb02",
+    "title": "Oath of the Endless Summer",
+    "description": "Obtain Dreams Fulfilled/Daybound Embrace, and Cloudborne Wish.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Homeward Crane (Ring)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "The required items are only available through content acquired from Witnessed By Deepspace."
+  },
+  {
+    "id": "bdb02da7",
+    "title": "Unexpected",
+    "description": "Obtain a 5-Star reward from Galaxy Explorer: Radiant Galaxy for the first time.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Memory (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "9fc5e0cd",
+    "title": "Interstellar Express",
+    "description": "Consume 20 Speedup Cubes in Galaxy Explorer.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Express King (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "165a2349",
+    "title": "Main Story Clear I",
+    "description": "Complete Main Story Chapter 1.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Chapter 1)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "52658322",
+    "title": "Main Story Clear II",
+    "description": "Complete Main Story Chapter 2.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Chapter 2)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0f323056",
+    "title": "Main Story Clear III",
+    "description": "Complete Main Story Chapter 3.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Chapter 3)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3d021596",
+    "title": "Main Story Clear IV",
+    "description": "Complete Main Story Chapter 4.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Chapter 4)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6678c482",
+    "title": "Main Story Clear V",
+    "description": "Complete Main Story Chapter 5.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Chapter 5)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "9e258d22",
+    "title": "Main Story Clear VI",
+    "description": "Complete Main Story Chapter 6.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Chapter 6)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "df2829d3",
+    "title": "Main Story Clear VII",
+    "description": "Complete Main Story Chapter 7.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Chapter 7)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "b356b98d",
+    "title": "Main Story Clear VIII",
+    "description": "Complete Main Story Chapter 8.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Chapter 8)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "9fbdb54f",
+    "title": "Hunter Upgrade I",
+    "description": "Hunter Level reaches Lv. 30.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Upgrade I)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "bc71f383",
+    "title": "Hunter Upgrade II",
+    "description": "Hunter Level reaches Lv. 40.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Upgrade II)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6fe154d7",
+    "title": "Hunter Upgrade III",
+    "description": "Hunter Level reaches Lv. 50.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Upgrade III)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "7a19e0c0",
+    "title": "Hunter Upgrade IV",
+    "description": "Hunter Level reaches Lv. 60.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Upgrade IV)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "51944222",
+    "title": "Hunter Upgrade V",
+    "description": "Hunter Level reaches Lv. 70.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Upgrade V)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3d9cb357",
+    "title": "Hunter Upgrade VI",
+    "description": "Hunter Level reaches Lv. 80.",
+    "category": "Progress",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Decor Set (Upgrade VI)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "154f11b0",
+    "title": "All The Way",
+    "description": "Complete 29 Main Story Battles with 3 stars.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Perfect (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "973b6d84",
+    "title": "Building Blocks I",
+    "description": "Collect 60 stars in Open Orbit: Fluctuant.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "736ef1fa",
+    "title": "Building Blocks II",
+    "description": "Collect 90 stars in Open Orbit: Fluctuant.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "d6750b11",
+    "title": "Building Blocks III",
+    "description": "Collect 120 stars in Open Orbit: Fluctuant.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e7c00e9d",
+    "title": "Building Blocks IV",
+    "description": "Collect 180 stars in Open Orbit: Fluctuant.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "067f5e7e",
+    "title": "Crushing Force I",
+    "description": "Complete Open Orbit: Fluctuant Stage 20 with 3 stars.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "2c402ffb",
+    "title": "Crushing Force II",
+    "description": "Complete Open Orbit: Fluctuant Stage 40 with 3 stars.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "bd47c740",
+    "title": "Crushing Force III",
+    "description": "Complete Open Orbit: Fluctuant Stage 60 with 3 stars.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "de26f180",
+    "title": "Open Trial I",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 030.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "08f13e3a",
+    "title": "Open Trial II",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 060.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "8eeceb18",
+    "title": "Open Trial III",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 090.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "95e96dbe",
+    "title": "Open Trial IV",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 120.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e4316d20",
+    "title": "Open Trial V",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 150.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "8eeb3739",
+    "title": "Open Trial VI",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 180.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "76a613b6",
+    "title": "Open Trial VII",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 210.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5f92d4ce",
+    "title": "Open Trial VIII",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 240.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e6ac17e0",
+    "title": "Open Trial IX",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 270.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "c4a64520",
+    "title": "Open Trial X",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 300.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 100,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f3e4d93e",
+    "title": "Trial of Light I",
+    "description": "Complete Directional Orbit: Light - Stage 30.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "12d8bb3e",
+    "title": "Trial of Light II",
+    "description": "Complete Directional Orbit: Light - Stage 60.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "fdf16bd0",
+    "title": "Trial of Light III",
+    "description": "Complete Directional Orbit: Light - Stage 90.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "146fb31c",
+    "title": "Trial of Light IV",
+    "description": "Complete Directional Orbit: Light - Stage 120.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "760611cd",
+    "title": "Trial of Light V",
+    "description": "Complete Directional Orbit: Light - Stage 150.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "cddcbaa7",
+    "title": "Trial of Light VI",
+    "description": "Complete Directional Orbit: Light - Stage 180.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-25 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "207e4acf",
+    "title": "Trial of Light VII",
+    "description": "Complete Directional Orbit: Light - Stage 210.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-25 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "5e7305cf",
+    "title": "Trial of Frost I",
+    "description": "Complete Directional Orbit: Ice - Stage 30.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "79ff2826",
+    "title": "Trial of Frost II",
+    "description": "Complete Directional Orbit: Ice - Stage 60.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a17cd409",
+    "title": "Trial of Frost III",
+    "description": "Complete Directional Orbit: Ice - Stage 90.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "35217c79",
+    "title": "Trial of Frost IV",
+    "description": "Complete Directional Orbit: Ice - Stage 120.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a7b6f1fd",
+    "title": "Trial of Frost V",
+    "description": "Complete Directional Orbit: Ice - Stage 150.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e61a59be",
+    "title": "Trial of Frost VI",
+    "description": "Complete Directional Orbit: Ice - Stage 180.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-09-25 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "1f00a603",
+    "title": "Trial of Frost VII",
+    "description": "Complete Directional Orbit: Ice - Stage 210.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-09-25 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "e73d5ec5",
+    "title": "Trial of Flame I",
+    "description": "Complete Directional Orbit: Fire - Stage 30.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "de2039b3",
+    "title": "Trial of Flame II",
+    "description": "Complete Directional Orbit: Fire - Stage 60.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5829aee1",
+    "title": "Trial of Flame III",
+    "description": "Complete Directional Orbit: Fire - Stage 90.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "10e9c0da",
+    "title": "Trial of Flame IV",
+    "description": "Complete Directional Orbit: Fire - Stage 120.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "fb82e035",
+    "title": "Trial of Flame V",
+    "description": "Complete Directional Orbit: Fire - Stage 150.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1061cc86",
+    "title": "Trial of Flame VI",
+    "description": "Complete Directional Orbit: Fire - Stage 180.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-06-17 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "cd7ecff2",
+    "title": "Trial of Flame VII",
+    "description": "Complete Directional Orbit: Fire - Stage 210.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-06-17 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "c5b70015",
+    "title": "Trial of Energy I",
+    "description": "Complete Directional Orbit: Energy - Stage 30.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "ad6051b7",
+    "title": "Trial of Energy II",
+    "description": "Complete Directional Orbit: Energy - Stage 60.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "2bd0c416",
+    "title": "Trial of Energy III",
+    "description": "Complete Directional Orbit: Energy - Stage 90.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "828c58a7",
+    "title": "Trial of Energy IV",
+    "description": "Complete Directional Orbit: Energy - Stage 120.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "58dd2ade",
+    "title": "Trial of Energy V",
+    "description": "Complete Directional Orbit: Energy - Stage 150.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-02 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "3bbbd06d",
+    "title": "Trial of Energy VI",
+    "description": "Complete Directional Orbit: Energy - Stage 180.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-02 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "fbcb7dfe",
+    "title": "Trial of Gravity I",
+    "description": "Complete Directional Orbit: Gravity - Stage 30.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "36b9f7fa",
+    "title": "Trial of Gravity II",
+    "description": "Complete Directional Orbit: Gravity - Stage 60.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e47fac17",
+    "title": "Trial of Gravity III",
+    "description": "Complete Directional Orbit: Gravity - Stage 90.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-03-28 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "a952fb17",
+    "title": "Trial of Gravity IV",
+    "description": "Complete Directional Orbit: Gravity - Stage 120.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-02 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "b82dde2d",
+    "title": "Trial of Gravity V",
+    "description": "Complete Directional Orbit: Gravity - Stage 150.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-02 05:00:00",
+    "timeReference": "Server Time"
+  },
+  {
+    "id": "68a3dfed",
+    "title": "Champion of Trials I",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 100.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Trial Badge of Honor I (Badge)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "8fe76ab0",
+    "title": "Champion of Trials II",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 150.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Trial Badge of Honor II (Badge)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "057dd89d",
+    "title": "Champion of Trials III",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 200.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Trial Badge of Honor III (Badge)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "b087ef2a",
+    "title": "Champion of Trials IV",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 250.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Trial Badge of Honor IV (Badge)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4b8ad20b",
+    "title": "Champion of Trials V",
+    "description": "Complete Deepspace Trials: Open Orbit Stage 300.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Trial Badge of Honor V (Badge)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "d0a3b9dd",
+    "title": "Graduation",
+    "description": "Complete 11 Trainings in the Training Room.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "A+ Student (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3a8f35bf",
+    "title": "Tracking Mr. Beanie I",
+    "description": "Complete Stage 5 of Bounty Hunt: Mr. Beanie",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "82b4a3b0",
+    "title": "Tracking Mr. Beanie II",
+    "description": "Complete Stage 9 of Bounty Hunt: Mr. Beanie",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Bean Peeler (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6ca53a93",
+    "title": "Tracking Heartbreaker I",
+    "description": "Complete Stage 5 of Bounty Hunt: Heartbreaker",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "993a44ba",
+    "title": "Tracking Heartbreaker II",
+    "description": "Complete Stage 9 of Bounty Hunt: Heartbreaker",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Love Letter (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "7b75dd1f",
+    "title": "Tracking Pumpkin Magus I",
+    "description": "Complete Stage 5 of Bounty Hunt: Pumpkin Magus",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f3359cd1",
+    "title": "Tracking Pumpkin Magus II",
+    "description": "Complete Stage 9 of Bounty Hunt: Pumpkin Magus",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Polite (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "2f742baa",
+    "title": "Tracking Lemonette I",
+    "description": "Complete Stage 5 of Bounty Hunt: Lemonette",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5f7af4b4",
+    "title": "Tracking Lemonette II",
+    "description": "Complete Stage 9 of Bounty Hunt: Lemonette",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Sour (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "762a93f4",
+    "title": "Tracking Snoozer I",
+    "description": "Complete Stage 5 of Bounty Hunt: Snoozer",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4f4bc731",
+    "title": "Tracking Snoozer II",
+    "description": "Complete Stage 9 of Bounty Hunt: Snoozer",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Drowsy (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "16562c3f",
+    "title": "Hunting Fusion Area I",
+    "description": "Complete Hunting Spot No. 5 of Core Hunt: Fusion Area.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "8d3a3788",
+    "title": "Hunting Fusion Area II",
+    "description": "Complete Hunting Spot No. 10 of Core Hunt: Fusion Area.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a7c7b548",
+    "title": "Hunting Dissociation Area I",
+    "description": "Complete Hunting Spot No. 5 of Core Hunt: Dissociation Area.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "afe80122",
+    "title": "Hunting Dissociation Area II",
+    "description": "Complete Hunting Spot No. 10 of Core Hunt: Dissociation Area.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6fd2a4f3",
+    "title": "Hunting Disambiguation Area I",
+    "description": "Complete Hunting Spot No. 5 of Core Hunt: Disambiguation Area.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e66df15c",
+    "title": "Hunting Disambiguation Area II",
+    "description": "Complete Hunting Spot No. 10 of Core Hunt: Disambiguation Area.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1d746bee",
+    "title": "Junior Contest",
+    "description": "Enter Junior Hunter Contest for the first time.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0cf1a966",
+    "title": "Junior Contest: Elite",
+    "description": "Obtain all medals in Junior Hunter Contest for the first time.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "ea5cc461",
+    "title": "Senior Contest",
+    "description": "Enter Senior Hunter Contest for the first time.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a6488c6b",
+    "title": "Senior Contest: Elite",
+    "description": "Obtain all medals in Senior Hunter Contest for the first time.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Elite (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5a4cbb0a",
+    "title": "Under Control",
+    "description": "Participate in the Hunter Contest with Xavier and eliminate 1000 Wanderers in total.",
+    "category": "Training",
+    "hidden": true,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Professional (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Overlord (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5b8447e5",
+    "title": "Winning Attitude",
+    "description": "Participate in the Hunter Contest with Zayne and eliminate 1000 Wanderers in total.",
+    "category": "Training",
+    "hidden": true,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Promising (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Distributor (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f2b19162",
+    "title": "Unstoppable",
+    "description": "Participate in the Hunter Contest with Rafayel and eliminate 1000 Wanderers in total.",
+    "category": "Training",
+    "hidden": true,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Impressive (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Genius (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "206eebbc",
+    "title": "Perfect Shot",
+    "description": "Participate in the Hunter Contest with Sylus and eliminate 1000 Wanderers in total.",
+    "category": "Training",
+    "hidden": true,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Walking (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Destroyer (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "56e0d1ad",
+    "title": "Unstoppable Force",
+    "description": "Participate in the Hunter Contest with Caleb and eliminate 1000 Wanderers in total.",
+    "category": "Training",
+    "hidden": true,
+    "characters": [
+      "Caleb"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Merciless (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Juggernaut (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2025-01-22 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "66acbce3",
+    "title": "Skilled Key Holder",
+    "description": "Upgrade Codes 12 times in Deductions",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "84f6d4cd",
+    "title": "First Pot of Chaos Gold",
+    "description": "Collect 6000 Chaos Keys in Deductions.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "343d68a5",
+    "title": "100% Troublemaker",
+    "description": "Experience 12 Incidents in Deductions.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "60de31d2",
+    "title": "Top 1 Chaos Newbie",
+    "description": "Eliminate 300 Wanderers in Deductions.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3b757807",
+    "title": "Special Customization",
+    "description": "Have 3 Exclusive Codes equipped at the end of a Deduction.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "668f752a",
+    "title": "Collection Master",
+    "description": "Have 6 or more items collected at the end of a Deduction.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "ae324e9f",
+    "title": "Compressed Keys",
+    "description": "Have 1000 or more Chaos Keys collected at the end of a Deduction.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "b5d2e138",
+    "title": "Born Flawless",
+    "description": "Complete a Deduction without any Reload.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "13d44238",
+    "title": "Scarily Strong!",
+    "description": "Purchase 6 Codes at once in the Abyssal Chaosshop.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Rich (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Programmer (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "9ce8a4de",
+    "title": "Insufficient Data",
+    "description": "Have 50 or fewer Chaos Keys when entering the Code Shop.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a9e85728",
+    "title": "One Step Away",
+    "description": "Lose in Find Tobias VI during a Deduction.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f980d05b",
+    "title": "Code Compiler",
+    "description": "Have 20 or more Codes equipped at the end of a Deduction.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "68e669f9",
+    "title": "The Cardking",
+    "description": "Become a Cardking in Incident: Cardking Newbie Tournament.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "7737de75",
+    "title": "Tiny Gift from Time",
+    "description": "Obtain the ultimate lucky gift in Incident: A Game For The Lucky.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "03d9b925",
+    "title": "Natural Gambler",
+    "description": "Obtain the raw gemstone seller's gift in Incident: Finding the Realm Gem.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a8451381",
+    "title": "Beetle Fighting Master",
+    "description": "Obtain the ultimate prize in Incident: Beetle Fighting Tournament.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "c52f2ba1",
+    "title": "Undisclosed Love",
+    "description": "Complete Incident: After The Movie without obtaining the DCP.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "676a4824",
+    "title": "Exclusive Viewing",
+    "description": "Obtain the director's private viewing invitation in Incident: Special Documentary: 2.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "176b2113",
+    "title": "Very Expensive Tissue",
+    "description": "Offer tissues for the crying director in Incident: Love And Drama: 2.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "140e1c6f",
+    "title": "Amateur's Lesson",
+    "description": "Act for the director with Sylus in Incident: Role-Playing: 2.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4730fc3e",
+    "title": "Unbeatable BGM",
+    "description": "Obtain both Noise Casette and Casette Speaker during a Deduction.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "c03ee4cf",
+    "title": "Unlimited Firepower",
+    "description": "Consume 32 or more Energy Charge during a single battle in Abyssal Chaos.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "89eb0183",
+    "title": "7 Times Faster Than A Cat",
+    "description": "Complete Potential Challenge: Extreme Pulse at three stars without picking up any Supply Component.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "c602e84f",
+    "title": "Human Lightning Rod",
+    "description": "Complete Potential Challenge: Frequency Disturbance without performing any Dodge.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "05be9326",
+    "title": "Mad Collector",
+    "description": "Gather all collectibles within 50s in Potential Challenge [Circuit Interruption].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "dfb50202",
+    "title": "7-Second Memory",
+    "description": "Move to the wrong position all times in Potential Challenge: Memory Recombination.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3e2ae1a6",
+    "title": "Stop Fighting!",
+    "description": "Experience 10 Dilemmas in Deductions.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0d2c92eb",
+    "title": "Key Magnate",
+    "description": "Experience 10 Key Vaults in Deductions",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f0683320",
+    "title": "Less Is More",
+    "description": "Own 3 or more Negative Items at the end of a Deduction.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1323a732",
+    "title": "Code Mastery",
+    "description": "Have 6 different Code set effects active at the end of a Deduction",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e286b95d",
+    "title": "I'll Take Everything!",
+    "description": "Purchase 3 items at once in the Chaos Shop.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3de6fd89",
+    "title": "Not a Thief",
+    "description": "Successfully snatch the black market merchant's Face-kini.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "05bd1aba",
+    "title": "The Forgotten Corner",
+    "description": "Complete the Hidden Node Deduction in [Final Farewell] with Xavier.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Xavier"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "68434044",
+    "title": "Armor in the Ruins",
+    "description": "Complete the Hidden Node Deduction in [Final Farewell] with Zayne.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Zayne"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "49d8303e",
+    "title": "Silhouette Among Ruins",
+    "description": "Complete the Hidden Node Deduction in [Final Farewell] with Rafayel.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Rafayel"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "688ac2e5",
+    "title": "Unreachable Hope",
+    "description": "Complete the Hidden Node Deduction in [Final Farewell] with Sylus.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [
+      "Sylus"
+    ],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4ff54580",
+    "title": "Wontony's Finishing Move",
+    "description": "Perform 10 Finishing Moves against Wanderers with Wontony.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1e7b52a0",
+    "title": "Armed And Dangerous",
+    "description": "Use Weapon Active Skills 18 times in a single battle in Abyssal Chaos.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "185bad6c",
+    "title": "Freeze, Don't Talk",
+    "description": "Complete Potential Challenge: Gold Rush at three stars without being caught by Mr. Beanie.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "45a3ea63",
+    "title": "Give Me Your Blessing",
+    "description": "Use Code Set Active Skills 25 times in Deductions.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0ed7ad05",
+    "title": "Nothing A Little Patch Can't Fix",
+    "description": "Debug Beta Items 10 times in Deductions.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "67fc10be",
+    "title": "Wontony's Boost",
+    "description": "Own Active Skills from 3 different Code Sets when ending Deduction.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "73b6edc3",
+    "title": "Song for My Beloved",
+    "description": "Open the Haunted Pendulum Clock with Xavier in the [Old Vending Machine - 2] Dilemma.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "69d7a4ce",
+    "title": "Erased Dreams of Youth",
+    "description": "Open the Locked Diary with Zayne in the [Old Vending Machine - 2] Dilemma",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "b5478b4b",
+    "title": "Fretwork Junction",
+    "description": "Open the Ornate Wooden Box with Rafayel in the [Old Vending Machine - 2] Dilemma",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "45337157",
+    "title": "Willing Captive",
+    "description": "Open the Mysterious Door with Sylus in the [Old Vending Machine - 2] Dilemma",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1b5cc6f8",
+    "title": "\"No Treasure Here\"",
+    "description": "Open the Mechanical Wooden Box with Caleb in the [Old Vending Machine - 2] Dilemma",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5b0483ee",
+    "title": "A Forgotten Smile",
+    "description": "Complete the Hidden Node Deduction in [Final Farewell] with Caleb.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "7127b202",
+    "title": "Into The Forest Depths",
+    "description": "Complete a Deduction in [Final Farewell] on Challenge difficulty",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "15a277a9",
+    "title": "Halftime",
+    "description": "Reach Node 10 during a Challenge difficulty Deduction in [Final Farewell]",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "296accb2",
+    "title": "Countless Farewells",
+    "description": "Reach Node 16 during a Challenge difficulty Deduction in [Final Farewell]",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6cac11ee",
+    "title": "Bring It On!",
+    "description": "Perform 10 Perfect Dodges in a single battle in Abyssal Chaos.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a5e6322c",
+    "title": "Sense Of Security",
+    "description": "Gain 600,000 Shield in a single battle in Abyssal Chaos.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4c19f816",
+    "title": "Evenly Matched",
+    "description": "Achieve exactly the same score as your companion in Potential Challenge: Gold Rush.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "bcd63452",
+    "title": "Nice Try",
+    "description": "Complete Potential Challenge: Gold Rush without falling for any of Mr. Beanie's feints.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e1471c9f",
+    "title": "7-Day Memory",
+    "description": "Make successful matches with every card flip in Potential Challenge: Heartbreak Match.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "11024157",
+    "title": "If Only My Eyes Were Cameras",
+    "description": "Have unflipped cards remaining when time runs out in Potential Challenge: Heartbreak Match.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "078bb2bd",
+    "title": "Thread of Destiny",
+    "description": "Destroy 25 saw blades using Energy Beam in Potential Challenge: Saw Blades.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0b85817e",
+    "title": "Peaceful Solution",
+    "description": "Complete Potential Challenge: Saw Blades without using Energy Beam.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "bf425934",
+    "title": "Master Codebreaker",
+    "description": "Collect at least 60 Decryption Chips in Potential Challenge: Stealthy Infiltration.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "7ab152a6",
+    "title": "Perfect Timing",
+    "description": "Complete Potential Challenge: Stealthy Infiltration without falling from any platform.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "344e7948",
+    "title": "Take a Moment",
+    "description": "Be defeated by Black Market Merchant in the [Money or Life] Dilemma",
+    "category": "Training",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2024-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "804c60cd",
+    "title": "Reaching Abyssal Chaos Summit",
+    "description": "Collect Deduction Points to reach Lv. 120 in any Abyssal Chaos commission",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Abyssal Chaos Summit Badge (Badge)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2024-07-15 12:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6e136e0a",
+    "title": "First Earnings",
+    "description": "Collect 5,000 Kahli Stones in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4d0cfa44",
+    "title": "Still fighting?",
+    "description": "Complete Crisis Waypoint 20 times in UNICORNS Operation [Echo of Kahli]",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1a8efc48",
+    "title": "Borrowed Power",
+    "description": "Use any Faction Skill 50 times in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "440e030d",
+    "title": "Playground Prodigy",
+    "description": "Win 10 times through Recreation Waypoint in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "71bda39b",
+    "title": "Scratch Fever",
+    "description": "Participate in [Kahli Scratch] 10 times in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "df4a43ec",
+    "title": "Scratch Oracle",
+    "description": "Reveal identical patterns in all grids in a single [Kahli Scratch] in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5ba69e63",
+    "title": "Gear Changes Everything",
+    "description": "Enhance Gear Sets 50 times in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "7991cd23",
+    "title": "Secure Feeling",
+    "description": "Gain 100,000 Shield in a single battle in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "dad10d7a",
+    "title": "I Want Both",
+    "description": "Get the same collection scores for both factions in a single battle in Crisis Waypoint [Blossom Convergence] in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "16ece4ef",
+    "title": "Lightning Rod PLUS",
+    "description": "Trigger electromagnetic pulses without getting hit in Crisis Waypoint [Blossom Convergence] in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "31d03f89",
+    "title": "Easy Win",
+    "description": "Defeat the Third Area Sentinel at Action Points -8 in [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "666f977f",
+    "title": "Master Specialist",
+    "description": "Activate all Mastery in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "42be8a47",
+    "title": "Restock Please!",
+    "description": "Purchase 9 items in the same shop in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e61db645",
+    "title": "Golden Flower Memory",
+    "description": "Achieve the hidden ending [Divine Gift] with Xavier in UNICORNS Operation.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "68e7722f",
+    "title": "Sweetest Fruit Slushie",
+    "description": "Achieve the hidden ending [Divine Gift] with Zayne in UNICORNS Operation.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "501a9968",
+    "title": "Rescued Colors",
+    "description": "Achieve the hidden ending [Divine Gift] with Rafayel in UNICORNS Operation.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "227f19e2",
+    "title": "Self-Made",
+    "description": "Achieve the hidden ending [Divine Gift] with Sylus in UNICORNS Operation.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "748ace80",
+    "title": "Divine Garland",
+    "description": "Achieve the hidden ending [Divine Gift] with Caleb in UNICORNS Operation.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "d5ae2ffb",
+    "title": "Triple Effect!",
+    "description": "Successfully film the documentary [Tanakahli], [Academy Daily], or [Freedom] and earn triple investment returns in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "081adaa7",
+    "title": "Lucky Accident",
+    "description": "Earn at least 300 Kahli Stones in the Gold Challenge of Crisis Waypoint [Accidental Encounter] in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "80b930b8",
+    "title": "Free Bloom",
+    "description": "Successfully clear Challenge difficulty in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "c0d84c82",
+    "title": "Essential Backup",
+    "description": "Collect 3 Gear Sets by the end of UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "281e6720",
+    "title": "Untouchable",
+    "description": "Perform 5 Perfect Dodges in a single battle in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "ed818f76",
+    "title": "Defense Expert",
+    "description": "Use Barriers from one faction 3 times in a single battle in Crisis Waypoint [Barrier Counterattack] in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "0f6d9548",
+    "title": "Redirect Force",
+    "description": "Use Barriers from three different factions in a single battle in Crisis Waypoint [Barrier Counterattack] in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a5c8ac74",
+    "title": "Breakthrough Pursuer",
+    "description": "Break a time record in a 3-star Fluctuant Orbit Trial for the first time.",
+    "category": "Training",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4c21dbcf",
+    "title": "Partner's Help",
+    "description": "Receive petals from your companion within the collection zone in Crisis Waypoint [Blossom Convergence] in [Echo of Kahli].",
+    "category": "Training",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "52dee7ce",
+    "title": "Climber's Spirit",
+    "description": "Challenge any Fluctuant Orbit Trial Stage 10 times.",
+    "category": "Training",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1cb76ae6",
+    "title": "Just Startled",
+    "description": "Be defeated by a metamorphic Virtual Pal in UNICORNS Operation [Echo of Kahli].",
+    "category": "Training",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-07-03 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a2c0c65b",
+    "title": "The Beginning of Destiny",
+    "description": "Complete Main Stage 1-1.",
+    "category": "Training",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Hunter (Suffix)",
+        "amount": 1,
+        "rarity": "R"
+      }
+    ],
+    "releaseDate": "2024-01-18 09:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "40e7d5df",
+    "title": "Homeward Heart",
+    "description": "Access Home System for 30 days.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f622fe49",
+    "title": "Soul's Respite",
+    "description": "Access Home System for 7 consecutive days.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "aa705c2a",
+    "title": "Fortune's Favor I",
+    "description": "Spend 5,000 Home Coins.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6e19936a",
+    "title": "Fortune's Favor II",
+    "description": "Spend 20,000 Home Coins.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "49f4f2c0",
+    "title": "Fortune's Favor III",
+    "description": "Spend 100,000 Home Coins.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "fd3b3f7d",
+    "title": "Fortune's Favor IV",
+    "description": "Spend 200,000 Home Coins.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "b247fd43",
+    "title": "Vitality Surge I",
+    "description": "Spend 1,000 Vitality in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e2d40473",
+    "title": "Vitality Surge II",
+    "description": "Spend 3,000 Vitality in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "09a73515",
+    "title": "Vitality Surge III",
+    "description": "Spend 10,000 Vitality in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3ad34f1e",
+    "title": "Portrait of Home I",
+    "description": "Reach Home Level 10.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f5430681",
+    "title": "Portrait of Home II",
+    "description": "Reach Home Level 20.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "16144e67",
+    "title": "Portrait of Home III",
+    "description": "Reach Home Level 25.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "fdcf072b",
+    "title": "Nesting with Him",
+    "description": "Reach \"Bound\" status with him at your home.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3b8259d5",
+    "title": "Homebody Tycoon I",
+    "description": "Customize 100 interior items in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "58446eed",
+    "title": "Homebody Tycoon II",
+    "description": "Customize 300 interior items in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "bb1848f4",
+    "title": "Homebody Tycoon III",
+    "description": "Customize 500 interior items in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "6041af8c",
+    "title": "Homebody Tycoon IV",
+    "description": "Customize 1,000 interior items in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "9c60fb88",
+    "title": "Fully Equipped I",
+    "description": "Unlock 200 interior items in the Home System (excluding Playtime Badges & Plushies).",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "339077cf",
+    "title": "Fully Equipped II",
+    "description": "Unlock 500 interior items in the Home System (excluding Playtime Badges & Plushies).",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5cc9f6d8",
+    "title": "Fully Equipped III",
+    "description": "Unlock 1,000 interior items in the Home System (excluding Playtime Badges & Plushies).",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "fca511c4",
+    "title": "Dazzling Array",
+    "description": "Place 400 furniture items or more in a single home residence.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "c183689f",
+    "title": "Decor Expert",
+    "description": "Save home interior decoration 100 times.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Interior Master (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "831a2936",
+    "title": "Lounge Anywhere",
+    "description": "Place 5 beds or more in a single home residence.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Always-lounging (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a6fe5868",
+    "title": "Daylight Bright",
+    "description": "Place 20 decorative lighting fixtures or more in a residence.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Lighting Engineer (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "242fe5e2",
+    "title": "Time's Imprint",
+    "description": "Take 10 photos with time watermarks in the Home System.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Time-capturing (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "94417fca",
+    "title": "Stargazing Buddy",
+    "description": "Watch a meteor shower with him in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "8defe59e",
+    "title": "Bloom Maestro",
+    "description": "Reach Garden Level 10 in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4d04c4a3",
+    "title": "Garden Master I",
+    "description": "Successfully cultivate 20 different varieties of blooms in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "186b7f61",
+    "title": "Garden Master II",
+    "description": "Successfully cultivate 50 different varieties of blooms in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "cf1ee984",
+    "title": "Rare Flora",
+    "description": "Complete 100 hybridizations in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "c8acbea6",
+    "title": "Perfect Ensemble",
+    "description": "Perform I Play, He Sings 20 times in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "7d879695",
+    "title": "Home Album",
+    "description": "Take photos in the Home System 10 times.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Exclusive Photographer (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f03f1d24",
+    "title": "Through My Lens",
+    "description": "Take 1 photo using \"My Phone - Rear Mode\" at home.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "My Personal (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e4cdded2",
+    "title": "Meteor Snapshot",
+    "description": "Take 1 photo during a meteor shower in the Home System.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Miracle-ready (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5ae22558",
+    "title": "Not an All-Nighter",
+    "description": "Take 1 photo between midnight and 4 A.M. in the Home System.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Night Owl (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "1c86e87d",
+    "title": "Domestic Chronicles I",
+    "description": "Collect 10 events about him in the Home Diary: Love Note.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5bb9fc50",
+    "title": "Domestic Chronicles II",
+    "description": "Collect 30 events about him in the Home Diary: Love Note.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a7a9a60c",
+    "title": "Romance in Focus",
+    "description": "Have him take 5 photos of you in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "f139f318",
+    "title": "Money Lover",
+    "description": "Trigger the \"Golden Glow\" effect 10 times in the Home System.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Show-stopping (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "The \"Golden Glow\" effect can be triggered by interacting with a fountain and selecting Wish → Instant Fortune. Each wish costs Home Coin x1 and a maximum of five wishes can be made every day."
+  },
+  {
+    "id": "84bf6e83",
+    "title": "Perfect Selfie",
+    "description": "I just realized is [sic] down to these few pieces.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "Take a photo in the Home System (Handheld → His Phone)."
+  },
+  {
+    "id": "f93b3b0c",
+    "title": "Snapshot Moment",
+    "description": "Take 1 photo of yourself moving freely on [His Phone] in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Hidden Protagonist (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ],
+    "releaseDate": "2025-12-31 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "4833832e",
+    "title": "Epic Shots",
+    "description": "Take 10 photos in [Pose Mode] in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Master Photographer (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "3c2f84ff",
+    "title": "Smile Catcher",
+    "description": "Have him take 1 photo of you while your mood is Sunny in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sunny Moment (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "42a8f9cc",
+    "title": "Artisan's Touch I",
+    "description": "Craft 10 handmade items in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "eaeec9dd",
+    "title": "Artisan's Touch II",
+    "description": "Craft 30 handmade items in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "407aaae6",
+    "title": "Artisan's Touch III",
+    "description": "Craft 50 handmade items in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "5dd41306",
+    "title": "Dish Connoisseur I",
+    "description": "Manually unlock 20 Original Dish recipes via Cook With Him or Cooking Notes.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "385159a2",
+    "title": "Dish Connoisseur II",
+    "description": "Manually unlock 50 Original Dish recipes via Cook With Him or Cooking Notes.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "68833c65",
+    "title": "Dish Connoisseur III",
+    "description": "Manually unlock 70 Original Dish recipes via Cook With Him or Cooking Notes.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "cc147673",
+    "title": "Devoted Chef",
+    "description": "Obtain 30 Dishes in Cooking.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "db55f3f5",
+    "title": "Master of Flavors",
+    "description": "Successfully developed 6 dish flavors.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "d619eb20",
+    "title": "Flawless Cook",
+    "description": "Perfectly handle unexpected events during 5 cooking sessions with him.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "70ecc382",
+    "title": "Effortless Chef",
+    "description": "Reach Cooking Level 15.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 2,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "e86a7468",
+    "title": "Timely Meals",
+    "description": "Have a total of 10 meals in Home, either alone or with him.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "ab73932f",
+    "title": "Messenger Fridge",
+    "description": "Write sticky notes 10 times in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "181b9a6b",
+    "title": "Notes of Affection",
+    "description": "Receive sticky notes from him 5 times in the Home System.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "b614a5cd",
+    "title": "Linkon Fresh VIP",
+    "description": "Use Fresh Delivery to purchase ingredients 10 times.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "364434fd",
+    "title": "Lightning-Fast Groceries",
+    "description": "Use Express Choice to purchase ingredients 30 times.",
+    "category": "Home",
+    "hidden": false,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "ac4f4615",
+    "title": "The Bravest Challenger",
+    "description": "Taste the Greatest Invention with him in the Home System.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  },
+  {
+    "id": "a37d9c32",
+    "title": "Kitchen Inventor",
+    "description": "Obtain 10 Greatest Inventions in Cooking.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8",
+    "tips": "Greatest Inventions that he cooks on his own are also counted towards this total."
+  },
+  {
+    "id": "4aad55bd",
+    "title": "Rice Enthusiast",
+    "description": "Have only White Rice when dining alone in Home.",
+    "category": "Home",
+    "hidden": true,
+    "characters": [],
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ],
+    "releaseDate": "2026-07-09 11:00:00",
+    "timeReference": "UTC+8"
+  }
+]
