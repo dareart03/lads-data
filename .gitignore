@@ -14,3 +14,6 @@ images/originals/
 # Editor and OS leftovers
 .idea/
 Thumbs.db
+
+# Local debug helper (a personal scratch tool, not part of the pipeline)
+tools/debug_page.py
