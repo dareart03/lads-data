@@ -253,6 +253,19 @@ def merge_rotations():
     return rotations
 
 
+# -------------------------------------------- hand-maintained static files
+def merge_static(name):
+    """Republish a hand-maintained game constant from data/static/.
+
+    These files are the source of truth (the wiki has no machine-readable
+    copy); merge only copies them into dist so they get versioned,
+    validated and served together with everything else."""
+    data = load_json(STATIC / name)
+    if data is None:
+        raise SystemExit(f"data/static/{name} not found.")
+    return data
+
+
 # ------------------------------------------------------------ achievements
 def achievement_id(title):
     """Same rule the app has always used: first 8 characters of the MD5 of the title."""
@@ -330,6 +343,8 @@ def main():
     save_json(DIST / "achievements.json", achievements)
     save_json(DIST / "events.json", events)
     save_json(DIST / "rotations.json", rotations)
+    save_json(DIST / "upgrade_costs.json", merge_static("upgrade_costs.json"))
+    save_json(DIST / "icons.json", merge_static("icons.json"))
     print(f"Wrote {len(memories)} memories, {len(banners)} banners, "
           f"{len(achievements)} achievements and {len(events)} events to {DIST}")
 

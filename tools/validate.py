@@ -25,6 +25,9 @@ FILES = {
     # recurring events legitimately repeat their name (one row per period)
     "events.json": ("events.schema.json", "name", False),
     "rotations.json": ("rotations.schema.json", None, False),
+    # single documents (one object, not a list of records)
+    "upgrade_costs.json": ("upgrade_costs.schema.json", None, False),
+    "icons.json": ("icons.schema.json", None, False),
 }
 MAX_ERRORS_PER_FILE = 20
 

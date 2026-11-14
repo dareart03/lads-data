@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Upgrade costs",
+  "description": "Memory leveling costs by rarity (data/upgrade_costs.json). One bracket row per ten levels: the EXP to level through the bracket and the gold/crystals paid when the card reaches the bracket end ('to') to move on. The last row is the awakening payment at level 80; its gold/crystals unlock nothing further, 'heart' is the Awakening Heart rarity ('n'/'r'/'sr' crystal fields are omitted when the cost is zero). Values follow the community ascension calculator spreadsheet.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["3", "4", "5"],
+  "properties": {
+    "3": { "$ref": "#/$defs/rarity" },
+    "4": { "$ref": "#/$defs/rarity" },
+    "5": { "$ref": "#/$defs/rarity" }
+  },
+  "$defs": {
+    "rarity": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": { "$ref": "#/$defs/bracket" }
+    },
+    "bracket": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from", "to", "exp", "gold"],
+      "properties": {
+        "from": { "type": "integer", "minimum": 1 },
+        "to": { "type": "integer", "minimum": 2 },
+        "exp": { "type": "integer", "minimum": 0 },
+        "gold": { "type": "integer", "minimum": 0 },
+        "n": { "type": "integer", "minimum": 0 },
+        "r": { "type": "integer", "minimum": 0 },
+        "sr": { "type": "integer", "minimum": 0 },
+        "heart": { "enum": ["SR", "SSR"] },
+        "note": { "const": "Awakening" }
+      }
+    }
+  }
+}

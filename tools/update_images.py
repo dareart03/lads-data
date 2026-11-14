@@ -1,4 +1,4 @@
-"""Step 6: download card icons, card portraits and event banners as WebP.
+"""Step 6: download card icons, card portraits, event banners and item icons.
 
 Cards (from data/generated/memories.json, icon base B = memory['icon'] with
 spaces -> underscores):
@@ -8,15 +8,25 @@ spaces -> underscores):
 Events (from data/generated/events.json, base = event_banner_base(name)):
     File:{base}_banner.png  the 826x280 banner    -> images/events/{base}_banner.webp
 
+Item icons (from data/static/icons.json, key -> wiki file name):
+    File:{wiki name}                                -> images/icons/{key}.webp
+    Rarity stars, position (lunar/solar), stellactrum markers, talent icons,
+    currencies, ascension crystals, EXP bottles and awakening hearts - a
+    static, hand-curated list (the wiki has no machine-readable item table
+    with icons). Originals are downloaded as-is: they are already small.
+
 The wiki renders resized versions on demand (iiurlwidth/iiurlheight), so we
 ask for exactly the size we want; the download is converted to WebP locally.
+Item icons skip the resize and take the original file.
 
-Existing files are skipped unless --refresh is given. Missing card art is
-fatal (the app cannot live without it); a missing event banner is not —
-those events simply publish with an empty "image" field.
+Existing files are skipped unless --refresh is given. Missing card art and
+missing item icons are fatal (the app cannot live without them); a missing
+event banner is not - those events simply publish with an empty "image" field.
 
-Input : data/generated/memories.json, data/generated/events.json
-Output: images/cards/*.webp, images/portraits/*.webp, images/events/*.webp
+Input : data/generated/memories.json, data/generated/events.json,
+        data/static/icons.json
+Output: images/cards/*.webp, images/portraits/*.webp, images/events/*.webp,
+        images/icons/*.webp
 
 Usage (from the repo root):
     python tools/update_images.py
@@ -35,9 +45,11 @@ from common import (API_URL, HEADERS, REPO_ROOT, REQUEST_DELAY, _get,
 
 MEMORIES_FILE = REPO_ROOT / "data" / "generated" / "memories.json"
 EVENTS_FILE = REPO_ROOT / "data" / "generated" / "events.json"
+ICONS_FILE = REPO_ROOT / "data" / "static" / "icons.json"
 CARDS_DIR = REPO_ROOT / "images" / "cards"
 PORTRAITS_DIR = REPO_ROOT / "images" / "portraits"
 EVENTS_DIR = REPO_ROOT / "images" / "events"
+ICONS_DIR = REPO_ROOT / "images" / "icons"
 
 # kind -> (wiki file suffix, target size, output dir, output suffix, source)
 KINDS = {
@@ -49,18 +61,23 @@ KINDS = {
 BATCH = 50   # titles per imageinfo request
 
 
-def image_info(session, titles, width, height):
+def image_info(session, titles, width=None, height=None):
     """imageinfo for up to BATCH titles; returns {title: (url, mime)}.
 
-    The url is the wiki-rendered thumbnail; when the wiki returns none
-    (original smaller than requested) the original file url is used.
+    The url is the wiki-rendered thumbnail; when no size is given (item
+    icons) or the wiki returns none (original smaller than requested) the
+    original file url is used.
     """
-    data = _get(session, {
+    params = {
         "action": "query", "format": "json",
         "titles": "|".join(titles),
         "prop": "imageinfo",
-        "iiprop": "url|mime", "iiurlwidth": width, "iiurlheight": height,
-    })
+        "iiprop": "url|mime",
+    }
+    if width and height:
+        params["iiurlwidth"] = width
+        params["iiurlheight"] = height
+    data = _get(session, params)
     found = {}
     for page in data.get("query", {}).get("pages", {}).values():
         info = page.get("imageinfo")
@@ -107,12 +124,53 @@ def wanted_files():
     return wanted
 
 
+def wanted_icons():
+    """[(wiki title, key)] from data/static/icons.json."""
+    icons = load_json(ICONS_FILE, default=None)
+    if icons is None:
+        raise SystemExit("data/static/icons.json not found.")
+    return [(f"File:{name}", key) for key, name in sorted(icons.items())]
+
+
+def download_icons(session, refresh):
+    """Item icons from the static manifest; missing ones are fatal."""
+    items = wanted_icons()
+    todo = [(t, k) for t, k in items
+            if refresh or not (ICONS_DIR / f"{k}.webp").exists()]
+    print(f"icons: {len(todo)} to download "
+          f"({len(items) - len(todo)} already exist)")
+    fatal, done = [], 0
+    for offset in range(0, len(todo), BATCH):
+        batch = todo[offset:offset + BATCH]
+        found = image_info(session, [t for t, _ in batch])
+        time.sleep(REQUEST_DELAY)
+        for title, key in batch:
+            info = found.get(title)
+            if info is None:
+                fatal.append(f"{key}: {title} not on the wiki")
+                continue
+            url, _mime = info
+            try:
+                response = session.get(url, headers=HEADERS, timeout=60)
+                response.raise_for_status()
+                save_webp(response.content, ICONS_DIR / f"{key}.webp")
+                done += 1
+            except Exception as error:  # network or PIL failure
+                fatal.append(f"{key}: {error}")
+        print(f"  icons: {min(offset + BATCH, len(todo))}/{len(todo)}")
+    return fatal, done
+
+
 def main():
     refresh = "--refresh" in sys.argv
     wanted = wanted_files()
 
     fatal, soft, done, skipped = [], [], 0, 0
     with requests.Session() as session:
+        icon_fatal, icon_done = download_icons(session, refresh)
+        fatal += icon_fatal
+        done += icon_done
+
         for kind, (suffix, (width, height), out_dir, out_suffix, _src) in KINDS.items():
             titles = wanted[kind]
             todo = [(t, b) for t, b in titles
@@ -153,7 +211,7 @@ def main():
         if len(soft) > 20:
             print(f"  ... and {len(soft) - 20} more")
     if fatal:
-        print("Missing or failed card art:")
+        print("Missing or failed card art / item icons:")
         for line in fatal[:30]:
             print("  -", line)
         if len(fatal) > 30:

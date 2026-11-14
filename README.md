@@ -12,8 +12,10 @@
 - `data/generated/` — собирается скриптами из вики. Руками не редактировать.
 - `data/manual/` — правки, дополнения и анонсы. Редактируй здесь (или через
   pull request); форматы описаны в `data/manual/README.md`.
-- `data/static/` — постоянные игровые константы (статсы памятей, ротации).
-- `images/` — уменьшенные WebP-картинки (иконки, портреты, баннеры событий).
+- `data/static/` — постоянные игровые константы (характеристики карт
+  мемории, ротации, затраты на апгрейд карт, манифест иконок).
+- `images/` — уменьшенные WebP-картинки (иконки карт, портреты, баннеры
+  событий, игровые иконки ресурсов).
 - `schemas/` — JSON-схемы, задающие формат каждой записи.
 - `tools/` — Python-скрипты пайплайна.
 
@@ -29,9 +31,9 @@ python tools/update_banners.py            # 3. data/generated/banners.json (ви
 python tools/update_events.py             # 3c. остальное из таблицы Events
 python tools/update_stats.py              # 4. статы первого уровня с карточных страниц
 python tools/update_achievements.py       # 5. data/generated/achievements.json
-python tools/merge.py                     # 6. ручные файлы + статсы → финальные файлы
+python tools/merge.py                     # 6. ручные файлы + характеристики → финальные файлы
 python tools/validate.py                  #    проверка dist/data по схемам
-python tools/update_images.py             # 7. images/cards + portraits + баннеры событий (WebP)
+python tools/update_images.py             # 7. images/cards + portraits + баннеры событий + icons (WebP)
 python tools/pack_images.py               # 8. images.zip + манифесты (падает при отсутствии арта карт)
 ```
 
@@ -50,8 +52,8 @@ Actions собирает его с нуля и раздаёт как data API п
   клиенты качают только настоящие обновления), `generatedAt` (время
   последнего прогона пайплайна — меняется каждый запуск, по нему удобно
   проверять, что расписание работает) и точки входа:
-  `data.memories|banners|achievements|events|rotations` (файл и число
-  записей) и `images` (zip, мета-файл, число файлов, папки).
+  `data.memories|banners|achievements|events|rotations|upgradeCosts|icons`
+  (файл и число записей) и `images` (zip, мета-файл, число файлов, папки).
 - `data/memories.json` — массив записей Memory (см. `schemas/memory.schema.json`).
   `iconArt` и `portraitArt` — имена файлов в `images.zip` (папки `cards/`
   и `portraits/`).
@@ -72,15 +74,33 @@ Actions собирает его с нуля и раздаёт как data API п
   в `data/static/` — у вики нет машиночитаемого источника; сверяй с игрой
   при выходе нового лавера. Приложение считает день недели в поясе
   `timeReference` и смотрит нужную строку.
+- `data/upgrade_costs.json` — затраты на прокачку памяти по редкостям
+  (`"3"`, `"4"`, `"5"`, см. `schemas/upgrade_costs.schema.json`): по строке
+  на десятку уровней — EXP за прохождение интервала и золото/кристаллы,
+  payable когда карта достигает конца интервала; последняя строка (71–80) —
+  пробуждение на 80 уровне (`heart` — редкость Awakening Heart). Ведётся
+  вручную в `data/static/`, значения сверены с игровым калькулятором
+  сообщества (xlsx); вики-шаблон `Memory Upgrade Cost` местами расходится
+  с игрой, поэтому источник истины — эта таблица.
+- `data/icons.json` — манифест игровых иконок: стабильный ключ → файл
+  `icons/<ключ>.webp`. Ключи: `rarity_3/4/5` (звёзды), `position_lunar/solar`,
+  `stellactrum_<цвет>` (6 шт.), `talent_atk/def/hp`, `gold`, `diamond`,
+  `stardust`, `lunar_emblem`, `title`, `crystal_<n|r|sr>_<цвет>` (18 шт.),
+  `exp_bottle_<n|r|sr|ssr>`, `awakening_heart_sr/ssr`, `memory_rank_0–3`,
+  `memory_pair_1–4/link`. Список файлов для скачивания с вики — в
+  `data/static/icons.json`.
 - `images.zip` — все картинки в папках `cards/` (иконки 256×256),
-  `portraits/` (арты карт 248×456) и `events/` (баннеры 826×280). Имена
+  `portraits/` (арты карт 248×456), `events/` (баннеры 826×280) и `icons/`
+  (игровые иконки: звёзды, слоты, стеллактрумы, таланты, валюты, кристаллы,
+  бутылки опыта, сердца — оригиналы с вики, без ресайза). Имена
   строятся от базового имени иконки вики с пробелами → подчёркивания,
   напр. `cards/Zayne_Shattered_Simulacrum_icon.webp`,
   `portraits/Zayne_Shattered_Simulacrum_portrait.webp`,
-  `events/Illusio_banner.webp`.
-- `cards/`, `portraits/`, `events/` — те же картинки отдельными файлами.
-  Приложению, которому нужно несколько картинок, проще дёргать их сразу по
-  URL (`cards/<iconArt>`, `portraits/<portraitArt>`, `events/<image>`),
+  `events/Illusio_banner.webp`, `icons/gold.webp`.
+- `cards/`, `portraits/`, `events/`, `icons/` — те же картинки отдельными
+  файлами. Приложению, которому нужно несколько картинок, проще дёргать их
+  сразу по URL (`cards/<iconArt>`, `portraits/<portraitArt>`,
+  `events/<image>`, `icons/<ключ из data/icons.json>.webp`),
   не распаковывая zip; архив — для тех, кто хочет всё одной загрузкой.
 - `images_meta.json` — `version`, `generatedAt` и список `files` с `path`,
   `bytes` и `sha256` каждого файла для проверки целостности.

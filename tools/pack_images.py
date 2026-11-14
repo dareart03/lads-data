@@ -1,10 +1,12 @@
 """Step 7: pack the WebP images and write the publish manifests.
 
-Scans images/cards/, images/portraits/ and images/events/ and builds, in
-tools/dist/:
-    images.zip        all images, with cards/, portraits/ and events/ folders
-    cards/, portraits/, events/  the same images as loose files, so external
-                    apps can fetch one image by URL without unpacking the zip
+Scans images/cards/, images/portraits/, images/events/ and images/icons/
+and builds, in tools/dist/:
+    images.zip        all images, with cards/, portraits/, events/ and
+                      icons/ folders
+    cards/, portraits/, events/, icons/  the same images as loose files, so
+                      external apps can fetch one image by URL without
+                      unpacking the zip
     images_meta.json  version, date and a size+hash list of every file
     index.json        version, date and record/file counts for everything,
                       so the app can tell whether an update is available.
@@ -13,7 +15,8 @@ tools/dist/:
                       alone moves on every run
 
 Every memory in dist/data/memories.json must have its iconArt in the pack
-(under cards/) and its portraitArt under portraits/; the script exits with
+(under cards/) and its portraitArt under portraits/; every icon key in
+dist/data/icons.json must have its file under icons/. The script exits with
 an error when a referenced file is missing, so a broken pack is never
 published silently. Events reference their banner through the "image"
 field, which is filled here: the file name when the pack has the banner,
@@ -36,8 +39,9 @@ IMAGES_DIR = REPO_ROOT / "images"
 DIST_DIR = REPO_ROOT / "tools" / "dist"
 DATA_DIR = DIST_DIR / "data"
 FOLDERS = {"cards": IMAGES_DIR / "cards", "portraits": IMAGES_DIR / "portraits",
-           "events": IMAGES_DIR / "events"}
-DATA_KINDS = ("memories", "banners", "achievements", "events", "rotations")
+           "events": IMAGES_DIR / "events", "icons": IMAGES_DIR / "icons"}
+DATA_KINDS = ("memories", "banners", "achievements", "events", "rotations",
+              "upgrade_costs", "icons")
 
 MAX_REPORT = 20
 
@@ -76,6 +80,11 @@ def missing_art(found):
             problems.append(f"{name}: {icon} not in images/cards/")
         if portrait not in found["portraits"]:
             problems.append(f"{name}: {portrait} not in images/portraits/")
+    icons = load_json(DATA_DIR / "icons.json", default=None)
+    if icons:
+        for key in icons:
+            if f"{key}.webp" not in found["icons"]:
+                problems.append(f"{key}: icons/{key}.webp not in images/icons/")
     return problems
 
 
@@ -85,14 +94,18 @@ def unused_art(found):
     stale, never broken. Listed so the rename can be checked."""
     memories = load_json(DATA_DIR / "memories.json", default=[])
     events = load_json(DATA_DIR / "events.json", default=[])
+    icons = load_json(DATA_DIR / "icons.json", default={}) or {}
     used_icons = {m.get("iconArt") for m in memories}
     used_portraits = {m.get("portraitArt") for m in memories}
     used_banners = {e.get("image") for e in events}
+    used_item_icons = {f"{key}.webp" for key in icons}
     unused = [f"cards/{f}" for f in found["cards"] if f not in used_icons]
     unused += [f"portraits/{f}" for f in found["portraits"]
                if f not in used_portraits]
     unused += [f"events/{f}" for f in found["events"]
                if f not in used_banners]
+    unused += [f"icons/{f}" for f in found["icons"]
+               if f not in used_item_icons]
     return sorted(unused)
 
 
@@ -199,16 +212,24 @@ def main():
              "generatedAt": now.isoformat(timespec="seconds"), "data": {}}
     for kind in DATA_KINDS:
         records = load_json(DATA_DIR / f"{kind}.json", default=[])
-        # rotations.json is one document with two schedules, not a list
-        count = (len(records.get("orbit", {})) + len(records.get("coreHunt", {}))
-                 if isinstance(records, dict) else len(records))
+        if isinstance(records, list):
+            count = len(records)
+        elif kind == "rotations":
+            # one document with two schedules, not a list
+            count = len(records.get("orbit", {})) + len(records.get("coreHunt", {}))
+        elif kind == "upgrade_costs":
+            # one document keyed by rarity, one record per level bracket
+            count = sum(len(brackets) for brackets in records.values())
+        else:
+            # single-document files (icons.json): count the entries
+            count = len(records)
         index["data"][kind] = {"file": f"data/{kind}.json", "count": count}
     index["images"] = {
         "file": "images.zip",
         "meta": "images_meta.json",
         "count": len(file_entries),
         "folders": {"cards": "cards/", "portraits": "portraits/",
-                    "events": "events/"},
+                    "events": "events/", "icons": "icons/"},
     }
     save_json(DIST_DIR / "index.json", index)
     print(f"wrote index.json (version {version}) and "
