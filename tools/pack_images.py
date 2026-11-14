@@ -7,7 +7,10 @@ tools/dist/:
                     apps can fetch one image by URL without unpacking the zip
     images_meta.json  version, date and a size+hash list of every file
     index.json        version, date and record/file counts for everything,
-                      so the app can tell whether an update is available
+                      so the app can tell whether an update is available.
+                      version is a content hash: it changes only when the
+                      published data or images actually change; generatedAt
+                      alone moves on every run
 
 Every memory in dist/data/memories.json must have its iconArt in the pack
 (under cards/) and its portraitArt under portraits/; the script exits with
@@ -34,6 +37,7 @@ DIST_DIR = REPO_ROOT / "tools" / "dist"
 DATA_DIR = DIST_DIR / "data"
 FOLDERS = {"cards": IMAGES_DIR / "cards", "portraits": IMAGES_DIR / "portraits",
            "events": IMAGES_DIR / "events"}
+DATA_KINDS = ("memories", "banners", "achievements", "events", "rotations")
 
 MAX_REPORT = 20
 
@@ -135,9 +139,22 @@ def copy_loose(found):
     print("copied loose images to dist/" + ", dist/".join(found) + "/")
 
 
+def content_version(file_entries):
+    """Version = short hash of everything published: the data files plus
+    the image hashes. It changes only when the content actually changes,
+    so clients re-download on real updates only; generatedAt separately
+    tracks when the pipeline last ran (and proves the schedule works)."""
+    digest = hashlib.sha256()
+    for kind in DATA_KINDS:
+        digest.update((DATA_DIR / f"{kind}.json").read_bytes())
+    for entry in file_entries:
+        digest.update(entry["path"].encode())
+        digest.update(entry["sha256"].encode())
+    return digest.hexdigest()[:12]
+
+
 def main():
     now = datetime.now(timezone.utc)
-    version = now.date().isoformat()
     found = collect_files()
     fill_event_images(found)
 
@@ -171,6 +188,7 @@ def main():
                 "bytes": path.stat().st_size,
                 "sha256": sha256(path),
             })
+    version = content_version(file_entries)
     save_json(DIST_DIR / "images_meta.json", {
         "version": version,
         "generatedAt": now.isoformat(timespec="seconds"),
@@ -179,7 +197,7 @@ def main():
 
     index = {"version": version,
              "generatedAt": now.isoformat(timespec="seconds"), "data": {}}
-    for kind in ("memories", "banners", "achievements", "events", "rotations"):
+    for kind in DATA_KINDS:
         records = load_json(DATA_DIR / f"{kind}.json", default=[])
         # rotations.json is one document with two schedules, not a list
         count = (len(records.get("orbit", {})) + len(records.get("coreHunt", {}))
