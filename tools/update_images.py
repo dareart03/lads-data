@@ -3,7 +3,9 @@
 Cards (from data/generated/memories.json, icon base B = memory['icon'] with
 spaces -> underscores):
     File:{B}_icon.png     the 256x256 square icon  -> images/cards/{B}_icon.webp
-    File:{B}_middle.png   the 248x456 card portrait -> images/portraits/{B}_portrait.webp
+    File:{B}_large.jpg    the card art, up to 1080x1440 -> images/portraits/{B}_portrait.webp
+                          (WebP q75; when the wiki has no _large.jpg the
+                          248x456 File:{B}_middle.png is used instead)
 
 Events (from data/generated/events.json, base = event_banner_base(name)):
     File:{base}_banner.png  the 826x280 banner    -> images/events/{base}_banner.webp
@@ -16,8 +18,9 @@ Item icons (from data/static/icons.json, key -> wiki file name):
     with icons). Originals are downloaded as-is: they are already small.
 
 The wiki renders resized versions on demand (iiurlwidth/iiurlheight), so we
-ask for exactly the size we want; the download is converted to WebP locally.
-Item icons skip the resize and take the original file.
+ask for exactly the size we want; the download is converted to WebP locally
+(portraits q75, cards/banners q90). Item icons skip the resize and take the
+original file.
 
 Existing files are skipped unless --refresh is given. Missing card art and
 missing item icons are fatal (the app cannot live without them); a missing
@@ -51,12 +54,17 @@ PORTRAITS_DIR = REPO_ROOT / "images" / "portraits"
 EVENTS_DIR = REPO_ROOT / "images" / "events"
 ICONS_DIR = REPO_ROOT / "images" / "icons"
 
-# kind -> (wiki file suffix, target size, output dir, output suffix, source)
+# kind -> (wiki file suffix, target size, output dir, output suffix, source,
+#          webp quality, fallback suffix when the wiki file is missing)
 KINDS = {
-    "icon": ("_icon.png", (256, 256), CARDS_DIR, "_icon.webp", "memories"),
-    "portrait": ("_middle.png", (248, 456), PORTRAITS_DIR, "_portrait.webp", "memories"),
-    "event": ("_banner.png", (826, 280), EVENTS_DIR, "_banner.webp", "events"),
+    "icon": ("_icon.png", (256, 256), CARDS_DIR, "_icon.webp", "memories", 90, None),
+    "portrait": ("_large.jpg", (1080, 1440), PORTRAITS_DIR, "_portrait.webp",
+                 "memories", 75, "_middle.png"),
+    "event": ("_banner.png", (826, 280), EVENTS_DIR, "_banner.webp", "events", 90, None),
 }
+
+# size to request for the small card portrait when a memory has no _large.jpg
+PORTRAIT_FALLBACK_SIZE = (248, 456)
 
 BATCH = 50   # titles per imageinfo request
 
@@ -90,7 +98,7 @@ def image_info(session, titles, width=None, height=None):
     return found
 
 
-def save_webp(content, target):
+def save_webp(content, target, quality=90):
     """Convert downloaded image bytes to WebP (alpha is preserved)."""
     target.parent.mkdir(parents=True, exist_ok=True)
     image = Image.open(BytesIO(content))
@@ -98,7 +106,7 @@ def save_webp(content, target):
         image = image.convert("RGBA")
     elif image.mode not in ("RGB", "RGBA", "L"):
         image = image.convert("RGB")
-    image.save(target, "WEBP", quality=90, method=6)
+    image.save(target, "WEBP", quality=quality, method=6)
 
 
 def base_of(source, record):
@@ -110,7 +118,8 @@ def base_of(source, record):
 def wanted_files():
     """{kind: [(wiki title, base name)]} for every image the sources name."""
     wanted = {}
-    for kind, (suffix, _size, _out_dir, _out_suffix, source) in KINDS.items():
+    for kind, (suffix, _size, _out_dir, _out_suffix, source,
+               _quality, _fallback) in KINDS.items():
         source_file = MEMORIES_FILE if source == "memories" else EVENTS_FILE
         records = load_json(source_file, default=[]) or []
         seen, items = set(), []
@@ -171,7 +180,8 @@ def main():
         fatal += icon_fatal
         done += icon_done
 
-        for kind, (suffix, (width, height), out_dir, out_suffix, _src) in KINDS.items():
+        for kind, (suffix, (width, height), out_dir, out_suffix, _src,
+                   quality, fallback) in KINDS.items():
             titles = wanted[kind]
             todo = [(t, b) for t, b in titles
                     if refresh or not (out_dir / f"{b}{out_suffix}").exists()]
@@ -186,6 +196,15 @@ def main():
                 time.sleep(REQUEST_DELAY)
                 for title, base in batch:
                     info = found.get(title)
+                    if info is None and fallback:
+                        fb_title = f"File:{base}{fallback}"
+                        fb = image_info(session, [fb_title],
+                                        *PORTRAIT_FALLBACK_SIZE)
+                        time.sleep(REQUEST_DELAY)
+                        info = fb.get(fb_title)
+                        if info is not None:
+                            print(f"  {base}: no {suffix} on the wiki, "
+                                  f"using {fallback}")
                     if info is None:
                         line = f"{base}: {title} not on the wiki"
                         (soft if kind == "event" else fatal).append(line)
@@ -194,7 +213,8 @@ def main():
                     try:
                         response = session.get(url, headers=HEADERS, timeout=60)
                         response.raise_for_status()
-                        save_webp(response.content, out_dir / f"{base}{out_suffix}")
+                        save_webp(response.content,
+                                  out_dir / f"{base}{out_suffix}", quality)
                         done += 1
                     except Exception as error:  # network or PIL failure
                         (soft if kind == "event" else fatal).append(
