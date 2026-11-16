@@ -3,804 +3,2568 @@
     "description": "[[Rafayel]] spends 3 tokens to gain more attempts in a session.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Absolute Advantage": {
     "description": "Make your opponent's score end with 0 points.",
     "category": "Kitty Cards",
     "hidden": true,
-    "reward": "Diamond|30, Title: Ruthless"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Ruthless (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Advanced: Angy Kitty": {
     "description": "Make your opponent lose 18+ points in a single round.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Bankrupt": {
     "description": "Use Kitty Pow! to discard more than 5 of your opponent's number cards.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Bullied": {
     "description": "Your opponent uses Skip and Freeze on you in a single round.",
     "category": "Kitty Cards",
     "hidden": true,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Demeow-lition": {
     "description": "Demolish your opponent's kitties in a round 2 times.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Expellinumber": {
     "description": "Use Purrceive to discard your opponent's number card 6.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Fall Short": {
     "description": "Use Purrator to turn your opponent's cup into a white one.",
     "category": "Kitty Cards",
     "hidden": true,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Lucky Kitty": {
     "description": "Use Meowster in a single round to get a Cat-ching!",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Many Negatives": {
     "description": "Play 4 Meow This! in a row with your opponent in a single round.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Meowdgment": {
     "description": "Use 5 Meow This! in a single round",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30, Title: Impeccable"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Impeccable (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Advanced: Meowmination": {
     "description": "Stop your opponent from playing cards for a round.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Miscalculated": {
     "description": "Use Purrator to give points to your opponent.",
     "category": "Kitty Cards",
     "hidden": true,
-    "reward": "Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Perfect Risk": {
     "description": "Use Kitty Pow! when you don't have any number cards.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: Surrender": {
     "description": "Use Purrceive to discard your opponent's Meow This!",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Advanced: The More The Merrier": {
     "description": "Use 3 Cat-ching! in a single round.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|50, Title: Wealthy"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Wealthy (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Advanced: Trickster": {
     "description": "Use Meowster in a single round to get two Kitty Plot.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Ain't No Harm Touching": {
     "description": "Pat him 10 times in Interaction Mode",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "All-Night Company": {
     "description": "Spend your Quality Time with [[Sylus]] for 15 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Humming Melody, Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Humming Melody",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Always on My Mind": {
     "description": "Spend your Quality Time with [[Caleb]] for 15 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Order Up, Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Order Up",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Balance: Good Start": {
     "description": "Get 1 plushie in the first round.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Balance: Infinite Resets": {
     "description": "Reset 2 times in a row in a session.",
     "category": "Plushies",
     "hidden": true,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Body Is Weapon": {
     "description": "Work out with [[Sylus]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Can't Wake": {
     "description": "Sleep ofor 10 hours or more with him in a single sleep session.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Casual Riding": {
     "description": "Work out with [[Xavier]] for 60 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Medal: Cycling Star|1, Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Medal: Cycling Star",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Celestial Voice": {
     "description": "Own 10 [[List of BGM Items|BGMs]].",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Colorful Styles": {
     "description": "Collect 50 Outfits",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Me: Looking Around, General: Back Display"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Me: Looking Around",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "General: Back Display",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Come Cuddle": {
     "description": "Interact with him 10 times in Close-up Mode",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Cozy Nights": {
     "description": "Sleep with [[Xavier]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Cringe": {
     "description": "Take a [[Photo Studio|Snapshot]] without getting your Pose right.",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Cup Master": {
     "description": "Secure 6+ cups in a single round.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30, Title: My"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "My (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Daylight Dreams": {
     "description": "Sleep with [[Caleb]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Diligent Spirit": {
     "description": "Create Journal entries for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Tape Box: Graphic, Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Tape Box: Graphic",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Disconnected": {
     "description": "Talk to Rafayel while he's playing on his phone in the [[Destiny Café|café]] 10 times.",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|30, Title: Disconnected"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Disconnected (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Do It At Will / Do As You Wish": {
     "description": "Change your Phone [[List of Avatars|Avatar]] 10 times.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30, Title: Free"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Free (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Easy Outfits": {
     "description": "Collect 25 Outfits",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Me: Side Profile, General: Cuff Check"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Me: Side Profile",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "General: Cuff Check",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Energy Support": {
     "description": "Cheer for [[Sylus]] until the progress bar is full 5 times in a game.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Exercise For Better Sleep": {
     "description": "Work out with [[Xavier]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Fifty-Day Journal": {
     "description": "Create Journal entries for 50 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Sticker Box: Fond, Title: Inspiration Hunter"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sticker Box: Fond",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Inspiration Hunter (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "First Journal": {
     "description": "Create your first Journal.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Title: Fresh"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Fresh (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Flame's Helper": {
     "description": "Cheer for [[Rafayel]] until the progress bar is full 5 times in a game.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Flight in Progress": {
     "description": "Work out with [[Caleb]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Fly That Plushie": {
     "description": "[[Caleb]] launches 2 plushies in a game.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Follow My Lead": {
     "description": "Talk to Caleb while he's using the virtual display in the [[Destiny Café|café]] 10 times.",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|30, Title: Dutiful"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Dutiful (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Fun Wheel: Good Start": {
     "description": "Get 1 plushie in the first round.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Gravity Support": {
     "description": "Cheer for [[Caleb]] until the progress bar is full 5 times in a game.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Great Harvest": {
     "description": "Get 3+ plushies in a session.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30, Title: Hunting"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Hunting (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Guiding Light": {
     "description": "[[Xavier]] uses a skill 2 times in a session.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Hardworking Slacker": {
     "description": "Work or study with [[Rafayel]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Heart of Beauty: Accessory": {
     "description": "Own 8 pieces of [[List of Outfit Items|My Accessories]].",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Heart of Beauty: Outfit": {
     "description": "Own 6 sets of [[Outfits#MC's_Outfits|My Outfits]].",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Heartfelt Pages": {
     "description": "Own 5 Journals.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Decor"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Decor",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "High Efficacy": {
     "description": "[[Zayne]] freezes 2 plushies in a session.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Hobby Pioneer": {
     "description": "Work or study with [[Caleb]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Hundred-Day Journal": {
     "description": "Create Journal entries for 100 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Kitty, Title: Life Explorer"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Kitty",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Life Explorer (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "I Never Miss": {
     "description": "Get a plushie in at least 5 rounds of a game.",
     "category": "Plushies",
     "hidden": true,
-    "reward": "Diamond|50, Title: Skilled"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Skilled (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "It Takes Two": {
     "description": "Get 10 unique [[List of Poses|Couple Poses]].",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "It Was An Accident! / Not On Purpose!": {
     "description": "Accidentally \"touch\" 99 times on the home screen.",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|50, Title: Slippery"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Slippery (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Jinxed Paw": {
     "description": "Get 3 cards in a row that have value less than 4 in 2 rounds.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30, Title: Jinxed Paw"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Jinxed Paw (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Journal Beginner": {
     "description": "Create 3 Journal Entries.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Journal Box: Mellow"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Journal Box: Mellow",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Journal Expert": {
     "description": "Create 5 Journal Entries.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Journal Box: Pop Art, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Journal Box: Pop Art",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Journal Newbie": {
     "description": "Create 2 Journal entries.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Title: Life Editor"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Life Editor (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Kinda Unlucky / Bad Luck": {
     "description": "Miss 5 times in a row in a session.",
     "category": "Plushies",
     "hidden": true,
-    "reward": "Diamond|30, Title: Unlucky"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Unlucky (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Let Me Heal You": {
     "description": "Successfully blow once in Interaction Mode",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Let Me Massage You": {
     "description": "Hold anywhere 10 times in Interaction Mode",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Listen To The Doctor": {
     "description": "Work out with [[Zayne]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Loving Journals": {
     "description": "Own 10 Journals.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Daily, Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Daily",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Lucky Paw": {
     "description": "Get 3 cards in a row with a 4+ value in 2 rounds.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|30, Title: Lucky Paw"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Lucky Paw (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Monthly Journal": {
     "description": "Create Journal entries for 30 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Sticker Box: Expectant, Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sticker Box: Expectant",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Mood Master I": {
     "description": "Take 5 photos with SFX",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect: Dawn Prism (SFX)|1, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect: Dawn Prism (SFX)",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Mood Master II": {
     "description": "Take 10 photos with SFX",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect: White Petal Rain (SFX)|1, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect: White Petal Rain (SFX)",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Mood Master III": {
     "description": "Take 15 photos with SFX",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect: Night Prism (SFX)|1, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect: Night Prism (SFX)",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Mood Master IV": {
     "description": "Take 20 photos with SFX",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect: Azure Petal Rain(SFX)|1, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect: Azure Petal Rain(SFX)",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Mood Master V": {
     "description": "Take 25 photos with SFX",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect: Prismatic Ribbons (SFX)|1, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect: Prismatic Ribbons (SFX)",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "No Escape": {
     "description": "[[Sylus]] gets the marked plushie in a game.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "No Overtime Allowed": {
     "description": "Talk to [[Zayne]] while he's working in the [[Destiny Café|café]] 10 times",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|30, Title: Not-Working"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Not-Working (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Normal: Cute Kitty": {
     "description": "Swap hands with [[Zayne]] in a game once.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Normal: Fair Meowket": {
     "description": "Trade cards with [[Sylus]] in a round 1 time.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Normal: Kitty's Gaze": {
     "description": "Catch [[Rafayel]] swapping cards in a game once.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Normal: Sleight of Hand": {
     "description": "Swap cards without getting caught by [[Xavier]] in a game once.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Normal: Sneaky Meow": {
     "description": "Play tricks without getting caught by [[Caleb]] in a game 1 time.",
     "category": "Kitty Cards",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Ocean Cradle": {
     "description": "Sleep with [[Rafayel]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "One Shot I": {
     "description": "Record 5 videos in Glint Photobooth",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect: Raven Plume (SFX)|1, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect: Raven Plume (SFX)",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "One Shot II": {
     "description": "Record 10 videos in Glint Photobooth",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect: Crimson Petal Rain (SFX)|1, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect: Crimson Petal Rain (SFX)",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "One Shot III": {
     "description": "Record 15 videos in Glint Photobooth",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect: Gentle Rain (SFX)|1, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect: Gentle Rain (SFX)",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Overlapping Heartbeats": {
     "description": "Listen to his heartbeats 3 times for one day.",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Photographer": {
     "description": "Take 100 [[Photo Studio|Snapshots]].",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|50, Title: Beauty Capturer"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Beauty Capturer (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Plushie Fam": {
     "description": "Get 5 plushies.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Powerful Punch": {
     "description": "Work out with [[Sylus]] for 60 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Medal: Decisive Moment|1, Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Medal: Decisive Moment",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Pressure Destroyer": {
     "description": "Work or study with [[Sylus]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Procrastination Crusher": {
     "description": "Work or study with [[Zayne]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Push To The End": {
     "description": "Work out with [[Caleb]] for 60 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Medal: Steadfast Habits|1, Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Medal: Steadfast Habits",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Record Keeper I": {
     "description": "Use 5 materials in Journals in total.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Weekday"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Weekday",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Record Keeper II": {
     "description": "Use 10 materials in Journals in total.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Weather, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Weather",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Record Keeper III": {
     "description": "Use 15 materials in Journals in total.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect Box I, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect Box I",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Run, Run, Run!": {
     "description": "Work out with [[Rafayel]] for 60 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Medal: Joyful Run|1, Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Medal: Joyful Run",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "SWIMM I N G": {
     "description": "Work out with [[Rafayel]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Serene Slumber": {
     "description": "Sleep with [[Sylus]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Shining Deepspace / Shining in Deepspace!": {
     "description": "Change his suit 10 times on [[Destiny Café|home screen]].",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30, Title: Shining"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Shining (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Sleep Battle": {
     "description": "Work or study with [[Xavier]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Sleep Routine": {
     "description": "Sleep with [[Zayne]] for 3 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Snap Around I": {
     "description": "Take 10 Snapshots.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Background Pack: Encounter"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Background Pack: Encounter",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Snap Around II": {
     "description": "Take 25 Snapshots.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Background Pack: Leisure"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Background Pack: Leisure",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Snap Around III": {
     "description": "Take 50 Snapshots.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Background Pack: Holiday"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Background Pack: Holiday",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Snow's Helper": {
     "description": "Cheer for [[Zayne]] until the progress bar is full 5 times in a game.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Stamina Champion": {
     "description": "Work out with [[Zayne]] for 60 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Medal: Power of the Heart|1, Diamond|50"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Medal: Power of the Heart",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 50,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Stamp Hero": {
     "description": "Use 15 seals on the same page.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Pop Art, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Pop Art",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Standard: Good Start": {
     "description": "Get 1 plushie in the first round.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Starlight's Helper": {
     "description": "Cheer for [[Xavier]] until the progress bar is full 5 times in a game.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Starry Nights": {
     "description": "Spend your Quality Time with [[Xavier]] for 15 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Little Wake-up Time, Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Little Wake-up Time",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Starter": {
     "description": "Own general 3 [[Titles]].",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Steadfast": {
     "description": "Create Journal entries for 5 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Effect Box II, Title: Linguistic"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Effect Box II",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Linguistic (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Stick Around": {
     "description": "Use 5 stickers on the same page.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Sticker Box: Mellow"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sticker Box: Mellow",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Sticker Tycoon": {
     "description": "Use 15 stickers on the same page.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Sticker Box: Pop Art, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sticker Box: Pop Art",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Styling Expert": {
     "description": "Collect 80 Outfits",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Me: Crossed Standing, General: Wrist Massage"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Me: Crossed Standing",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "General: Wrist Massage",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Tactical Substitution": {
     "description": "Switch 4 times in a session.",
     "category": "Plushies",
     "hidden": false,
-    "reward": "Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Tape Buddy": {
     "description": "Use 5 pieces of tape on the same page.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Tape Box: Mellow"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Tape Box: Mellow",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Tape Master": {
     "description": "Use 15 pieces of tape on the same page.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Tape Box: Pop Art, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Tape Box: Pop Art",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "The Life Of A Fish": {
     "description": "Spend your Quality Time with [[Rafayel]] for 15 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Fish-Only Option, Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Fish-Only Option",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Three-Day Journal": {
     "description": "Create Journal entries for 3 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Sticker Box: Gazing"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sticker Box: Gazing",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "Top Comments": {
     "description": "Leave 20 [[Moment Posts|Moments]] comments.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30, Title: Interweb Master"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Interweb Master (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Two-Week Journal": {
     "description": "Create Journal entries for 15 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Sticker Box: Happy, Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sticker Box: Happy",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Ultra-long Standby": {
     "description": "Spend Quality Time with [[Caleb]] for 5 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Apple of Wishes, Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Apple of Wishes",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Unwavering": {
     "description": "Create Journal entries for 10 consecutive weeks.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Plushie, Title: Earnest"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Plushie",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Earnest (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Wake Up, Xavier": {
     "description": "Talk to [[Xavier]] while he's sleeping on a table in the [[Destiny Café|café]] 10 times.",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|30, Title: Sleepy"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Sleepy (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Weekend Companion": {
     "description": "Spend Quality Time together on weekends for the first time.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Weekend Workout Plan": {
     "description": "Spend 3 days working out with him on weekends.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Diamond|30"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Weekend Workout Star": {
     "description": "Work out with [[Caleb]] 7 times during weekends.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Folded Sentiments"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Folded Sentiments",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Weekly Journal": {
     "description": "Create Journal entries for 7 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Sticker Box: Sleepy, Diamond|10"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Sticker Box: Sleepy",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 10,
+        "rarity": "SSR"
+      }
+    ]
   },
   "Well Organized": {
     "description": "Use 5 seals on the same page.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Mellow"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Mellow",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "What's On Your Mind": {
     "description": "Talk to Sylus while he's pondering in the [[Destiny Café|café]] 10 times.",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|30, Title: Focused"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Focused (Prefix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Whatever": {
     "description": "Ask what he wants to eat and refuse all his suggestions.",
     "category": "Spare Time",
     "hidden": true,
-    "reward": "Diamond|30, Title: Miss"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Diamond",
+        "amount": 30,
+        "rarity": "SSR"
+      },
+      {
+        "name": "Miss (Suffix)",
+        "amount": 1,
+        "rarity": "SR"
+      }
+    ]
   },
   "Word Wizard": {
     "description": "Use 10 text boxes on the same page.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Stamp Box: Border"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Stamp Box: Border",
+        "amount": 1,
+        "rarity": ""
+      }
+    ]
   },
   "You Know Me": {
     "description": "Spend your Quality Time with [[Zayne]] for 15 days.",
     "category": "Spare Time",
     "hidden": false,
-    "reward": "Deep Learning, Diamond|20"
+    "rewards": [
+      {
+        "name": "Medal",
+        "amount": 1,
+        "rarity": "SR"
+      },
+      {
+        "name": "Deep Learning",
+        "amount": 1,
+        "rarity": ""
+      },
+      {
+        "name": "Diamond",
+        "amount": 20,
+        "rarity": "SSR"
+      }
+    ]
   }
 }
