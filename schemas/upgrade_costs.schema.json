@@ -12,10 +12,24 @@
   },
   "$defs": {
     "rarity": {
-      "type": "array",
-      "minItems": 8,
-      "maxItems": 8,
-      "items": { "$ref": "#/$defs/bracket" }
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["expPerLevel", "brackets"],
+      "properties": {
+        "expPerLevel": {
+          "type": "array",
+          "minItems": 79,
+          "maxItems": 79,
+          "items": { "type": "integer", "minimum": 0 },
+          "description": "EXP to advance from level N to N+1, index N-1 (levels 1..79; level 80 is the cap)"
+        },
+        "brackets": {
+          "type": "array",
+          "minItems": 8,
+          "maxItems": 8,
+          "items": { "$ref": "#/$defs/bracket" }
+        }
+      }
     },
     "bracket": {
       "type": "object",

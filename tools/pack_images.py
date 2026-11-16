@@ -218,8 +218,8 @@ def main():
             # one document with two schedules, not a list
             count = len(records.get("orbit", {})) + len(records.get("coreHunt", {}))
         elif kind == "upgrade_costs":
-            # one document keyed by rarity, one record per level bracket
-            count = sum(len(brackets) for brackets in records.values())
+            # one document keyed by rarity: one record per level bracket
+            count = sum(len(rarity["brackets"]) for rarity in records.values())
         else:
             # single-document files (icons.json): count the entries
             count = len(records)
