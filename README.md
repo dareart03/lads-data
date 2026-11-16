@@ -87,7 +87,10 @@ Actions собирает его с нуля и раздаёт как data API п
   `stellactrum_<цвет>` (6 шт.), `talent_atk/def/hp`, `gold`, `diamond`,
   `stardust`, `lunar_emblem`, `title`, `crystal_<n|r|sr>_<цвет>` (18 шт.),
   `exp_bottle_<n|r|sr|ssr>`, `awakening_heart_sr/ssr`, `memory_rank_0–3`,
-  `memory_pair_1–4/link`. Список файлов для скачивания с вики — в
+  `memory_pair_1–4/link` — плюс иконки наград достижений: `medal`,
+  `empyrean_wish`, `home_coin`, `bgm`, `chest`, `decor_set` (у типов
+  наград Badge/Avatar Frame/Tap Effect/Ring на вики джинерик-иконок нет —
+  только у конкретных предметов). Список файлов для скачивания с вики — в
   `data/static/icons.json`.
 - `images.zip` — все картинки в папках `cards/` (иконки 256×256),
   `portraits/` (арты карт, до 1080×1440, WebP q75), `events/` (баннеры
